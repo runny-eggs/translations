@@ -66,3 +66,4 @@ urllib3==2.2.3
     # via
     #   requests
     #   transifex-client
+slugify==8.0.4
