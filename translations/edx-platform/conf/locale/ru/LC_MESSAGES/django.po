@@ -32,11 +32,11 @@ msgstr ""
 "PO-Revision-Date: 2023-06-13 09:00+0000\n"
 "Last-Translator: \n"
 "Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
-"Language: en\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 "#-#-#-#-#  wiki.po (0.1a)  #-#-#-#-#\n"
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
@@ -44,11 +44,11 @@ msgstr ""
 "PO-Revision-Date: 2023-06-13 09:00+0000\n"
 "Last-Translator: \n"
 "Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
-"Language: en\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 "Generated-By: Babel 2.14.0\n"
 "#-#-#-#-#  edx_proctoring_proctortrack.po (0.1a)  #-#-#-#-#\n"
 "Project-Id-Version: 0.1a\n"
@@ -57,11 +57,11 @@ msgstr ""
 "PO-Revision-Date: 2023-06-13 09:00+0000\n"
 "Last-Translator: \n"
 "Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
-"Language: en\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 "Generated-By: Babel 2.14.0\n"
 "#-#-#-#-#  mako.po (PROJECT VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PROJECT VERSION\n"
@@ -77,137 +77,138 @@ msgstr ""
 
 #: cms/djangoapps/api/v1/serializers/course_runs.py:49
 msgid "Course team user does not exist"
-msgstr ""
+msgstr "Пользователь команды курса не существует"
 
 #: cms/djangoapps/contentstore/admin.py:45
 #, python-brace-format
 msgid ""
 "Number of course outline regenerations successfully requested: {regenerates}"
-msgstr ""
+msgstr "Количество успешно запрошенных регенераций конспектов курсов: {regenerates}"
 
 #: cms/djangoapps/contentstore/admin.py:49
 msgid "Regenerate selected course outlines"
-msgstr ""
+msgstr "Регенерация конспектов выбранных курсов"
 
 #: cms/djangoapps/contentstore/admin.py:57
 msgid "All course outline regenerations successfully requested."
-msgstr ""
+msgstr "Все регенерации конспектов курсов успешно запрошены."
 
 #: cms/djangoapps/contentstore/admin.py:58
 msgid "Regenerate *all* course outlines"
-msgstr ""
+msgstr "Регенерировать *все* конспекты курсов"
 
 #: cms/djangoapps/contentstore/asset_storage_handlers.py:547
 msgid "Upload completed"
-msgstr ""
+msgstr "Загрузка завершена"
 
 #: cms/djangoapps/contentstore/asset_storage_handlers.py:591
 #, python-brace-format
 msgid "File {filename} exceeds maximum size of {maximum_size_in_megabytes} MB."
-msgstr ""
+msgstr "Файл {{filename}} превышает максимальный размер {maximum_size_in_megabytes} МБ."
 
 #: cms/djangoapps/contentstore/course_group_config.py:27
 msgid ""
 "The groups in this configuration can be mapped to cohorts in the Instructor "
 "Dashboard."
-msgstr ""
+msgstr "Группы в этой конфигурации могут быть сопоставлены с когортами "
+"на панели инструкторов."
 
 #: cms/djangoapps/contentstore/course_group_config.py:30
 #: cms/templates/group_configurations.html:96
 msgid "Content Groups"
-msgstr ""
+msgstr "Группы контента"
 
 #: cms/djangoapps/contentstore/course_group_config.py:65
 #: cms/djangoapps/contentstore/views/certificates.py:142
 msgid "invalid JSON"
-msgstr ""
+msgstr "недопустимый JSON"
 
 #: cms/djangoapps/contentstore/course_group_config.py:74
 msgid "must have name of the configuration"
-msgstr ""
+msgstr "должно содержать имя конфигурации"
 
 #: cms/djangoapps/contentstore/course_group_config.py:76
 msgid "must have at least one group"
-msgstr ""
+msgstr "должна быть как минимум одна группа"
 
 #: cms/djangoapps/contentstore/course_group_config.py:114
 msgid "unable to load this type of group configuration"
-msgstr ""
+msgstr "не удается загрузить этот тип конфигурации группы"
 
 #: cms/djangoapps/contentstore/course_info_model.py:75
 #: cms/djangoapps/contentstore/course_info_model.py:161
 msgid "Invalid course update id."
-msgstr ""
+msgstr "Неверный id обновления курса."
 
 #: cms/djangoapps/contentstore/course_info_model.py:128
 msgid "Course update not found."
-msgstr ""
+msgstr "Обновление курса не найдено."
 
 #: cms/djangoapps/contentstore/courseware_index.py:246
 msgid "Could not index item: {}"
-msgstr ""
+msgstr "Не удалось проиндексировать элемент: {}"
 
 #: cms/djangoapps/contentstore/courseware_index.py:268
 msgid "General indexing error occurred"
-msgstr ""
+msgstr "Произошла общая ошибка индексации"
 
 #: cms/djangoapps/contentstore/courseware_index.py:351
 msgid "(Unnamed)"
-msgstr ""
+msgstr "(Без названия)"
 
 #: cms/djangoapps/contentstore/errors.py:6
 msgid "Aborting import because a course with this id: {} already exists."
-msgstr ""
+msgstr "Прерывание импорта, поскольку курс с таким id: {} уже существует."
 
 #: cms/djangoapps/contentstore/errors.py:7
 msgid "Permission denied. You do not have write access to this course."
-msgstr ""
+msgstr "В разрешении отказано. У вас нет доступа к этому курсу."
 
 #: cms/djangoapps/contentstore/errors.py:8
 #, python-brace-format
 msgid "Could not find the {0} file in the package."
-msgstr ""
+msgstr "Не удалось найти файл {0} в пакете."
 
 #: cms/djangoapps/contentstore/errors.py:9
 msgid "Uploaded Tar file not found. Try again."
-msgstr ""
+msgstr "Загруженный Tar файл не найден. Попробуйте еще раз."
 
 #: cms/djangoapps/contentstore/errors.py:10
 msgid "We only support uploading a .tar.gz file."
-msgstr ""
+msgstr "Мы поддерживаем только загрузку файла .tar.gz."
 
 #: cms/djangoapps/contentstore/errors.py:11
 msgid "Aborting import since a library with this id already exists."
-msgstr ""
+msgstr "Прерывание импорта, поскольку библиотека с таким id уже существует."
 
 #: cms/djangoapps/contentstore/errors.py:12
 msgid "Course olx validation failed. Please check your email."
-msgstr ""
+msgstr "Валидация курса olx не прошла. Пожалуйста, проверьте свою электронную почту."
 
 #: cms/djangoapps/contentstore/errors.py:13
 msgid "Permission denied"
-msgstr ""
+msgstr "Разрешение отклонено"
 
 #: cms/djangoapps/contentstore/errors.py:14
 msgid "Unknown error while importing course."
-msgstr ""
+msgstr "Неизвестная ошибка при импорте курса."
 
 #: cms/djangoapps/contentstore/errors.py:15
 msgid "An Unknown error occurred during the unpacking step."
-msgstr ""
+msgstr "На этапе распаковки произошла неизвестная ошибка."
 
 #: cms/djangoapps/contentstore/errors.py:16
 #, python-brace-format
 msgid "Unknown User ID: {0}"
-msgstr ""
+msgstr "Неизвестный ID пользователя: {0}"
 
 #: cms/djangoapps/contentstore/errors.py:17
 msgid "Unsafe archive file. Aborting import."
-msgstr ""
+msgstr "Небезопасный архивный файл. Прерывание импорта."
 
 #: cms/djangoapps/contentstore/errors.py:18
 msgid "User permission denied."
-msgstr ""
+msgstr "Разрешение пользователя отклонено."
 
 #: cms/djangoapps/contentstore/git_export_utils.py:36
 #, python-brace-format
@@ -215,69 +216,77 @@ msgid ""
 "GIT_REPO_EXPORT_DIR not set or path {0} doesn't exist, please create it, or "
 "configure a different path with GIT_REPO_EXPORT_DIR"
 msgstr ""
+"GIT_REPO_EXPORT_DIR не установлен или путь {0} не существует, пожалуйста, создайте его, или "
+"задайте другой путь с помощью GIT_REPO_EXPORT_DIR"
 
 #: cms/djangoapps/contentstore/git_export_utils.py:39
 msgid ""
 "Non writable git url provided. Expecting something like: git@github.com:"
 "openedx/openedx-demo-course.git"
-msgstr ""
+msgstr "Предоставлен не записываемый git url. Ожидается что-то вроде: git@github.com:"
+"openedx/openedx-demo-course.git"
 
 #: cms/djangoapps/contentstore/git_export_utils.py:41
 msgid ""
 "If using http urls, you must provide the username and password in the url. "
 "Similar to https://user:pass@github.com/user/course."
 msgstr ""
+"Если вы используете http-урлы, вы должны указать имя пользователя и пароль в урле. "
+"Аналогично https://user:pass@github.com/user/course."
 
 #: cms/djangoapps/contentstore/git_export_utils.py:44
 msgid "Unable to determine branch, repo in detached HEAD mode"
-msgstr ""
+msgstr "Невозможно определить ветку, репозиторий в режиме отсоединенной HEAD"
 
 #: cms/djangoapps/contentstore/git_export_utils.py:45
 msgid "Unable to update or clone git repository."
-msgstr ""
+msgstr "Невозможно обновить или клонировать git-репозиторий."
 
 #: cms/djangoapps/contentstore/git_export_utils.py:46
 msgid "Unable to export course to xml."
-msgstr ""
+msgstr "Невозможно экспортировать курс в xml."
 
 #: cms/djangoapps/contentstore/git_export_utils.py:47
 msgid "Unable to configure git username and password"
-msgstr ""
+msgstr "Невозможно настроить имя пользователя и пароль git"
 
 #: cms/djangoapps/contentstore/git_export_utils.py:48
 msgid ""
 "Unable to commit changes. This is usually because there are no changes to be "
 "committed"
-msgstr ""
+msgstr "Невозможно зафиксировать изменения. Обычно это происходит потому, что нет изменений, которые нужно "
+"фиксировать"
 
 #: cms/djangoapps/contentstore/git_export_utils.py:50
 msgid ""
 "Unable to push changes.  This is usually because the remote repository "
 "cannot be contacted"
 msgstr ""
+"Невозможно отправить изменения.  Обычно это происходит потому, что c удаленным репозиторием "
+"невозможно связаться"
 
 #: cms/djangoapps/contentstore/git_export_utils.py:52
 msgid "Bad course location provided"
-msgstr ""
+msgstr "Плохое местоположение курса"
 
 #: cms/djangoapps/contentstore/git_export_utils.py:53
 msgid "Missing branch on fresh clone"
-msgstr ""
+msgstr "Отсутствующая ветвь в новом клоне"
 
 #: cms/djangoapps/contentstore/helpers.py:171
 msgid "Vertical"
-msgstr ""
+msgstr "Вертикальный"
 
 #: cms/djangoapps/contentstore/helpers.py:175
 #: cms/templates/course_outline.html:208 lms/templates/ccx/schedule.html:86
 #: lms/templates/seq_block.html:136
 msgid "Section"
-msgstr ""
+msgstr "Раздел"
 
 #: cms/djangoapps/contentstore/helpers.py:177
 #: lms/templates/ccx/schedule.html:90
 msgid "Subsection"
-msgstr ""
+msgstr "Подраздел"
 
 #: cms/djangoapps/contentstore/helpers.py:179
 #: lms/djangoapps/instructor/views/tools.py:241
@@ -285,13 +294,13 @@ msgstr ""
 #: lms/templates/ccx/schedule.html:94 lms/templates/seq_block.html:89
 #: lms/templates/seq_block.html:97
 msgid "Unit"
-msgstr ""
+msgstr "Блок"
 
 #: cms/djangoapps/contentstore/helpers.py:186
 #: cms/djangoapps/contentstore/views/component.py:215
 #: openedx/core/djangoapps/content_libraries/constants.py:15
 msgid "Problem"
-msgstr ""
+msgstr "Задача"
 
 #: cms/djangoapps/contentstore/management/commands/git_export.py:33
 msgid ""
@@ -299,63 +308,66 @@ msgid ""
 ". Course directory must already be a git repository. Usage:  git_export "
 "<course_loc> <git_url>"
 msgstr ""
+"Возьмите указанный курс и попытайтесь экспортировать его в git-репозиторий\n"
+". Директория курса должна уже быть git-репозиторием. Использование: git_export "
+"<расположение_курса> <git_url>"
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/advanced_settings.py:47
 msgid "Marks a field as deprecated."
-msgstr ""
+msgstr "Помечает поле как устаревшее."
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/advanced_settings.py:48
 msgid "User-friendly display name for the field"
-msgstr ""
+msgstr "Удобное для пользователя отображаемое имя поля"
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/advanced_settings.py:49
 msgid "Help text that describes the setting."
-msgstr ""
+msgstr "Справочный текст, описывающий настройки."
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:14
 msgid "Tab type"
-msgstr ""
+msgstr "Тип вкладки"
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:15
 msgid "Default name for the tab displayed to users"
-msgstr ""
+msgstr "Имя по умолчанию для вкладки, отображаемой пользователям"
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:18
 msgid "True if it's possible to hide the tab for a course"
-msgstr ""
+msgstr "Истина, если можно скрыть вкладку для курса"
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:21
 msgid "True the tab is hidden for the course"
-msgstr ""
+msgstr "Истина, что вкладка скрыта для курса"
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:25
 msgid "True if it's possible to reorder the tab in the list of tabs"
-msgstr ""
+msgstr "Истина, если можно изменить порядок вкладок в списке вкладок"
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:29
 msgid "True if this tab should be displayed only for instructors"
-msgstr ""
+msgstr "Истина, если эта вкладка должна отображаться только для инструкторов"
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:33
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:37
 msgid "Name of the tab displayed to users. Overrides title."
-msgstr ""
+msgstr "Название вкладки, отображаемой пользователям. Перезаписывает название."
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:41
 msgid "Additional settings specific to the tab"
-msgstr ""
+msgstr "Дополнительные настройки для вкладки"
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:74
 msgid "ID of tab to update"
-msgstr ""
+msgstr "ID вкладки для обновления"
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:75
 msgid "Location (Usage Key) of tab to update"
-msgstr ""
+msgstr "Расположение (ключ использования) вкладки для обновления"
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:89
 msgid "Need to supply either a valid tab_id or a tab_location."
-msgstr ""
+msgstr "Необходимо указать либо действительный tab_id, либо tab_location."
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:100
 msgid "True to hide the tab, and False to show it."
@@ -363,11 +375,11 @@ msgstr ""
 
 #: cms/djangoapps/contentstore/rest_api/v0/views/tabs.py:117
 msgid "Change the visibility of tabs in a course."
-msgstr ""
+msgstr "True, чтобы скрыть вкладку, и False, чтобы показать ее."
 
 #: cms/djangoapps/contentstore/transcript_storage_handlers.py:116
 msgid "The information you entered is incorrect."
-msgstr ""
+msgstr "Информация, которую вы ввели, неверна."
 
 #: cms/djangoapps/contentstore/transcript_storage_handlers.py:138
 #: cms/djangoapps/contentstore/transcript_storage_handlers.py:228
@@ -375,31 +387,31 @@ msgstr ""
 #: xmodule/video_block/video_handlers.py:459
 #, python-brace-format
 msgid "The following parameters are required: {missing}."
-msgstr ""
+msgstr "Требуются следующие параметры: {missing}."
 
 #: cms/djangoapps/contentstore/transcript_storage_handlers.py:205
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py:243
 #: xmodule/video_block/video_handlers.py:544
 msgid ""
 "There is a problem with this transcript file. Try to upload a different file."
-msgstr ""
+msgstr "Возникла проблема с этим файлом транскрипта. Попробуйте загрузить другой файл."
 
 #: cms/djangoapps/contentstore/transcript_storage_handlers.py:233
 #: xmodule/video_block/video_handlers.py:463
 #, python-brace-format
 msgid "A transcript with the \"{language_code}\" language code already exists."
-msgstr ""
+msgstr "Транскрипт с кодом языка \«{language_code}\» уже существует."
 
 #: cms/djangoapps/contentstore/transcript_storage_handlers.py:237
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py:172
 #: xmodule/video_block/video_handlers.py:467
 msgid "A transcript file is required."
-msgstr ""
+msgstr "Требуется файл с транскриптом."
 
 #: cms/djangoapps/contentstore/utils.py:800
 #: cms/templates/visibility_editor.html:113
 msgid "Deleted Group"
-msgstr ""
+msgstr "Удаленная группа"
 
 #. Translators: This is building up a list of groups. It is marked for
 #. translation because of the
@@ -407,124 +419,124 @@ msgstr ""
 #: cms/djangoapps/contentstore/utils.py:868
 #, python-brace-format
 msgid "{previous_groups}, {current_group}"
-msgstr ""
+msgstr "{previous_groups}, {current_group}"
 
 #: cms/djangoapps/contentstore/utils.py:1031
 #: cms/djangoapps/contentstore/views/block.py:272
 #: cms/djangoapps/contentstore/views/component.py:214 xmodule/html_block.py:59
 msgid "Text"
-msgstr ""
+msgstr "Текст"
 
 #: cms/djangoapps/contentstore/utils.py:1227
 #, python-brace-format
 msgid "Duplicate of {0}"
-msgstr ""
+msgstr "Дубликат {0}"
 
 #: cms/djangoapps/contentstore/utils.py:1229
 #, python-brace-format
 msgid "Duplicate of '{0}'"
-msgstr ""
+msgstr "Дубликат '{0}'"
 
 #: cms/djangoapps/contentstore/utils.py:1285
 msgid "Invalid prerequisite course key"
-msgstr ""
+msgstr "Неверный ключ предпосылочного курса"
 
 #: cms/djangoapps/contentstore/utils.py:1856
 msgid "Set Date"
-msgstr ""
+msgstr "Установить дату"
 
 #. #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
 #. Translators: This is the status of an active video upload
 #: cms/djangoapps/contentstore/video_storage_handlers.py:118
 #: cms/templates/import.html:114
 msgid "Uploading"
-msgstr ""
+msgstr "Загрузка"
 
 #. Translators: This is the status for a video that the servers are currently
 #. processing
 #: cms/djangoapps/contentstore/video_storage_handlers.py:120
 msgid "In Progress"
-msgstr ""
+msgstr "В процессе"
 
 #. Translators: This is the status for a video that the servers have
 #. successfully processed
 #: cms/djangoapps/contentstore/video_storage_handlers.py:122
 #: openedx/core/djangoapps/content_staging/data.py:19
 msgid "Ready"
-msgstr ""
+msgstr "Готово"
 
 #. Translators: This is the status for a video that is uploaded completely
 #: cms/djangoapps/contentstore/video_storage_handlers.py:124
 msgid "Uploaded"
-msgstr ""
+msgstr "Загружено"
 
 #. Translators: This is the status for a video that the servers have failed to
 #. process
 #: cms/djangoapps/contentstore/video_storage_handlers.py:126
 msgid "Failed"
-msgstr ""
+msgstr "Не удалось"
 
 #. Translators: This is the status for a video that is cancelled during upload
 #. by user
 #: cms/djangoapps/contentstore/video_storage_handlers.py:128
 msgid "Cancelled"
-msgstr ""
+msgstr "Отменено"
 
 #. Translators: This is the status for a video which has failed
 #. due to being flagged as a duplicate by an external or internal CMS
 #: cms/djangoapps/contentstore/video_storage_handlers.py:131
 msgid "Failed Duplicate"
-msgstr ""
+msgstr "Не удалось Дубликат"
 
 #. Translators: This is the status for a video which has duplicate token for
 #. youtube
 #: cms/djangoapps/contentstore/video_storage_handlers.py:133
 msgid "YouTube Duplicate"
-msgstr ""
+msgstr "Дубликат YouTube"
 
 #. Translators: This is the status for a video for which an invalid
 #. processing token was provided in the course settings
 #: cms/djangoapps/contentstore/video_storage_handlers.py:136
 msgid "Invalid Token"
-msgstr ""
+msgstr "Неверный токен"
 
 #. Translators: This is the status for a video that was included in a course
 #. import
 #: cms/djangoapps/contentstore/video_storage_handlers.py:138
 msgid "Imported"
-msgstr ""
+msgstr "Импортировано"
 
 #. Translators: This is the status for a video that is in an unknown state
 #: cms/djangoapps/contentstore/video_storage_handlers.py:140
 msgid "Unknown"
-msgstr ""
+msgstr "Неизвестно"
 
 #. Translators: This is the status for a video that is having its
 #. transcription in progress on servers
 #: cms/djangoapps/contentstore/video_storage_handlers.py:142
 msgid "Transcription in Progress"
-msgstr ""
+msgstr "Транскрипция в процессе"
 
 #. Translators: This is the status for a video whose transcription is complete
 #: cms/djangoapps/contentstore/video_storage_handlers.py:144
 msgid "Transcript Ready"
-msgstr ""
+msgstr "Транскрипция готова"
 
 #. Translators: This is the status for a video whose transcription job was
 #. failed for some languages
 #: cms/djangoapps/contentstore/video_storage_handlers.py:146
 msgid "Partial Failure"
-msgstr ""
+msgstr "Частичная неудача"
 
 #. Translators: This is the status for a video whose transcription job has
 #. failed altogether
 #: cms/djangoapps/contentstore/video_storage_handlers.py:148
 msgid "Transcript Failed"
-msgstr ""
+msgstr "Транскрипция не выполнена"
 
 #: cms/djangoapps/contentstore/video_storage_handlers.py:338
 msgid "An image file is required."
-msgstr ""
+msgstr "Требуется файл изображения."
 
 #. Translators: This is the header for a CSV file column
 #. containing URLs for video encodings for the named profile
@@ -532,30 +544,30 @@ msgstr ""
 #: cms/djangoapps/contentstore/video_storage_handlers.py:511
 #, python-brace-format
 msgid "{profile_name} URL"
-msgstr ""
+msgstr "{profile_name} УРЛ"
 
 #: cms/djangoapps/contentstore/video_storage_handlers.py:516
 #: lms/djangoapps/instructor/views/api.py:1445
 #: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html:59
 msgid "Name"
-msgstr ""
+msgstr "Название"
 
 #: cms/djangoapps/contentstore/video_storage_handlers.py:517
 msgid "Duration"
-msgstr ""
+msgstr "Продолжительность"
 
 #: cms/djangoapps/contentstore/video_storage_handlers.py:518
 msgid "Date Added"
-msgstr ""
+msgstr "Дата добавления"
 
 #: cms/djangoapps/contentstore/video_storage_handlers.py:519
 #: xmodule/video_block/video_xfields.py:196
 msgid "Video ID"
-msgstr ""
+msgstr "ID видео"
 
 #: cms/djangoapps/contentstore/video_storage_handlers.py:520
 msgid "Status"
-msgstr ""
+msgstr "Статус"
 
 #. #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
 #. Translators: This is listed as the duration for a video that has not
@@ -564,7 +576,7 @@ msgstr ""
 #: cms/djangoapps/contentstore/video_storage_handlers.py:533
 #: openedx/core/djangoapps/api_admin/models.py:42 cms/templates/index.html:487
 msgid "Pending"
-msgstr ""
+msgstr "В ожидании"
 
 #. Translators: This is the suggested filename when downloading the URL
 #. listing for videos uploaded through Studio
@@ -575,7 +587,7 @@ msgstr ""
 
 #: cms/djangoapps/contentstore/video_storage_handlers.py:948
 msgid "A non zero positive integer is expected"
-msgstr ""
+msgstr "Ожидается ненулевое положительное целое число"
 
 #: cms/djangoapps/contentstore/video_utils.py:42
 msgid "The image must have name, content type, and size information."
@@ -11054,7 +11066,7 @@ msgstr ""
 
 #: xmodule/course_block.py:716
 msgid "Course Number Display String"
-msgstr ""
+msgstr "Строка для отображения номера курса"
 
 #: xmodule/course_block.py:718
 msgid ""
@@ -14182,7 +14194,7 @@ msgstr ""
 #: cms/templates/settings.html:79
 #: lms/templates/courseware/course_about.html:163
 msgid "Course Number"
-msgstr ""
+msgstr "Номер курса"
 
 #. Translators: This is an example for the number used to identify a course,
 #. seen when filling out the form to create a new course. The number here is
@@ -15535,7 +15547,7 @@ msgstr ""
 #: cms/templates/index.html:244 cms/templates/index.html:290
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:88
 msgid "Course Number:"
-msgstr ""
+msgstr "Номер курса:"
 
 #: cms/templates/index.html:248 cms/templates/index.html:294
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:83
@@ -15974,15 +15986,15 @@ msgstr ""
 
 #: cms/templates/settings.html:93
 msgid "Course Summary Page"
-msgstr ""
+msgstr "Страница с кратким содержанием курса"
 
 #: cms/templates/settings.html:93
 msgid "(for student enrollment and access)"
-msgstr ""
+msgstr "(для регистрации и доступа студентов)"
 
 #: cms/templates/settings.html:104
 msgid "Enroll in {course_display_name}"
-msgstr ""
+msgstr "Записаться на {course_display_name}"
 
 #: cms/templates/settings.html:107
 msgid ""
@@ -19676,7 +19688,7 @@ msgstr ""
 #: lms/templates/courseware/course_about.html:99
 #: lms/templates/dashboard/_dashboard_course_resume.html:21
 msgid "View Course"
-msgstr ""
+msgstr "Посмотреть курс"
 
 #: lms/templates/courseware/course_about.html:90
 msgid "Enrollment in this course is by invitation only"
@@ -19684,11 +19696,11 @@ msgstr ""
 
 #: lms/templates/courseware/course_about.html:95
 msgid "Enrollment is Closed"
-msgstr ""
+msgstr "Регистрация закрыта"
 
 #: lms/templates/courseware/course_about.html:114
 msgid "Enroll Now"
-msgstr ""
+msgstr "Записаться сейчас"
 
 #: lms/templates/courseware/course_about.html:146
 msgid "View About Page in studio"
@@ -19696,7 +19708,7 @@ msgstr ""
 
 #: lms/templates/courseware/course_about.html:170
 msgid "Classes Start"
-msgstr ""
+msgstr "Начало занятий"
 
 #: lms/templates/courseware/course_about.html:190
 msgid "Classes End"
@@ -19905,7 +19917,7 @@ msgstr ""
 
 #: lms/templates/courseware/program_marketing.html:140
 msgid "View Courses"
-msgstr ""
+msgstr "Посмотреть курсы"
 
 #: lms/templates/courseware/program_marketing.html:145
 msgid "Meet the Instructors"
@@ -21861,7 +21873,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html:120
 msgid "View Course in Studio"
-msgstr ""
+msgstr "Посмотреть курсы в Studio"
 
 #: lms/templates/instructor/instructor_dashboard_2/invalidate_registration_code_modal.html:5
 #: lms/templates/instructor/instructor_dashboard_2/invalidate_registration_code_modal.html:17

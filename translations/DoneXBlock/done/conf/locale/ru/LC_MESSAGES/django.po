@@ -27,7 +27,7 @@ msgstr "Закончил ли студент?"
 
 #: done.py:47
 msgid "Align left/right/center"
-msgstr "Расположение по левому краю/по центру/по правому краю"
+msgstr "Расположение по левому краю/по правому краю/по центру"
 
 #: done.py:134
 msgid "Display name"
