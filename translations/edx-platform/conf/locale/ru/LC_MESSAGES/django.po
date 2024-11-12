@@ -401,7 +401,7 @@ msgstr ""
 #: xmodule/video_block/video_handlers.py:463
 #, python-brace-format
 msgid "A transcript with the \"{language_code}\" language code already exists."
-msgstr "Транскрипт с кодом языка \«{language_code}\» уже существует."
+msgstr "Транскрипт с кодом языка \"{language_code}\" уже существует."
 
 #: cms/djangoapps/contentstore/transcript_storage_handlers.py:237
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py:172
