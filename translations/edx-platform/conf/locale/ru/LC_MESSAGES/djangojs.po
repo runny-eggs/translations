@@ -12134,3 +12134,7 @@ msgstr "Сейчас сокурсникам разрешён ограничен�
 #: openedx/features/learner_profile/static/learner_profile/templates/section_two.underscore:7
 msgid "This learner is currently sharing a limited profile."
 msgstr "Доступ к профилю этого пользователя ограничен."
+
+#: lms/templates/courseware/course_about.html:190
+msgid "Classes End"
+msgstr "Окончание занятий"
