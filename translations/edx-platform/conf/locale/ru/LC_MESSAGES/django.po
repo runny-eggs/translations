@@ -394,7 +394,8 @@ msgstr "Требуются следующие параметры: {missing}."
 #: xmodule/video_block/video_handlers.py:544
 msgid ""
 "There is a problem with this transcript file. Try to upload a different file."
-msgstr "Возникла проблема с этим файлом транскрипта. Попробуйте загрузить другой файл."
+msgstr ""
+"Возникла проблема с этим файлом транскрипта. Попробуйте загрузить другой файл."
 
 #: cms/djangoapps/contentstore/transcript_storage_handlers.py:233
 #: xmodule/video_block/video_handlers.py:463
@@ -6801,7 +6802,7 @@ msgstr ""
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html:47
 #: themes/stanford-style/lms/templates/index.html:26
 msgid "Search"
-msgstr ""
+msgstr "Искать"
 
 #: lms/templates/wiki/plugins/attachments/index.html:65
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:9
