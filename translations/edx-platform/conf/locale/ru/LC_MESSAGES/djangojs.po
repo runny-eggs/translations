@@ -12138,3 +12138,11 @@ msgstr "Доступ к профилю этого пользователя ог�
 #: lms/templates/courseware/course_about.html:190
 msgid "Classes End"
 msgstr "Окончание занятий"
+
+#: lms/templates/static_templates/404.html:21
+msgid ""
+"The page that you were looking for was not found. Go back to the {link_start}"
+"homepage{link_end} ."
+msgstr ""
+"Запрашиваемая страница не найдена. Вернуться на {link_start}"
+"домашнюю страницу{link_end} ."
