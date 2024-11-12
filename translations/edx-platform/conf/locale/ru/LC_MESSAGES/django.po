@@ -104,7 +104,7 @@ msgstr "Загрузка завершена"
 #: cms/djangoapps/contentstore/asset_storage_handlers.py:591
 #, python-brace-format
 msgid "File {filename} exceeds maximum size of {maximum_size_in_megabytes} MB."
-msgstr "Файл {{filename}} превышает максимальный размер {maximum_size_in_megabytes} МБ."
+msgstr "Файл {filename} превышает максимальный размер {maximum_size_in_megabytes} МБ."
 
 #: cms/djangoapps/contentstore/course_group_config.py:27
 msgid ""
