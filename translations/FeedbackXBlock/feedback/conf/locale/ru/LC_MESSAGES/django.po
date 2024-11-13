@@ -27,7 +27,7 @@ msgstr "Что вы из этого узнали? Чего не хватало?"
 
 #: feedback.py:29
 msgid "How would you rate this as a learning experience?"
-msgstr "Как бы вы оценили это как полезный опыт?"
+msgstr "Как бы вы оценили этот опыт обучения?"
 
 #: feedback.py:31
 msgid ""

@@ -1127,7 +1127,7 @@ msgid ""
 "that are shown on the rightside of the dashboard."
 msgstr ""
 "В этом окне отображается редактор объявлений, позволяющий создавать или изменять объявления, "
-"которые отображаются в правой части дашборда."
+"которые отображаются в правой части панели управления."
 
 
 #: cms/djangoapps/maintenance/views.py:56
@@ -3962,7 +3962,7 @@ msgstr ""
 #: lms/templates/peer_grading/peer_grading.html:41
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html:30
 msgid "Progress"
-msgstr ""
+msgstr "Прогресс"
 
 #: lms/djangoapps/courseware/plugins.py:28
 msgid "Keep learners engaged and on track throughout the course."
@@ -4027,16 +4027,16 @@ msgstr ""
 #: lms/templates/courseware/courseware.html:215
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html:21
 msgid "Course"
-msgstr ""
+msgstr "Курс"
 
 #: lms/djangoapps/courseware/tabs.py:63
 #: lms/templates/courseware/syllabus.html:21
 msgid "Syllabus"
-msgstr ""
+msgstr "Учебная программа"
 
 #: lms/djangoapps/courseware/tabs.py:307
 msgid "Dates"
-msgstr ""
+msgstr "Даты"
 
 #: lms/djangoapps/courseware/views/index.py:231
 #, python-brace-format
@@ -7126,7 +7126,7 @@ msgstr ""
 #: openedx/features/course_bookmarks/templates/course_bookmarks/course-bookmarks.html:43
 #: openedx/features/course_bookmarks/templates/course_bookmarks/course-bookmarks.html:50
 msgid "Bookmarks"
-msgstr ""
+msgstr "Закладки"
 
 #: openedx/core/djangoapps/bookmarks/views.py:39
 msgid "An error has occurred. Please try again."
@@ -7876,7 +7876,7 @@ msgstr ""
 
 #: openedx/core/djangoapps/django_comment_common/models.py:29
 msgid "Student"
-msgstr ""
+msgstr "Студент"
 
 #: openedx/core/djangoapps/embargo/forms.py:46
 msgid "COURSE NOT FOUND.  Please check that the course ID is valid."
@@ -17132,7 +17132,7 @@ msgstr ""
 #: lms/templates/header/user_dropdown.html:48
 #: lms/templates/user_dropdown.html:31 lms/templates/user_dropdown.html:39
 msgid "Account"
-msgstr ""
+msgstr "Учётная запись"
 
 #: cms/templates/widgets/header.html:346 cms/templates/widgets/header.html:361
 msgid "Account Navigation"
@@ -17261,26 +17261,26 @@ msgstr ""
 #: lms/templates/courseware/static_tab.html:25
 #: lms/templates/courseware/tab-view.html:20
 msgid "name"
-msgstr ""
+msgstr "Название"
 
 #: cms/templates/widgets/user_dropdown.html:13
 msgid "Currently signed in as:"
-msgstr ""
+msgstr "В настоящее время зарегистрирован как:"
 
 #: cms/templates/widgets/user_dropdown.html:26
 msgid "Maintenance"
-msgstr ""
+msgstr "Техническое обслуживание"
 
 #: cms/templates/widgets/user_dropdown.html:30
 #: lms/templates/header/user_dropdown.html:52
 #: lms/templates/user_dropdown.html:32 lms/templates/user_dropdown.html:40
 #: lms/templates/user_dropdown.html:59
 msgid "Sign Out"
-msgstr ""
+msgstr "Выйти"
 
 #: common/templates/emails/contact_us_feedback_email_body.txt:2
 msgid "Feedback Form"
-msgstr ""
+msgstr "Форма обратной связи"
 
 #: common/templates/emails/contact_us_feedback_email_body.txt:4
 msgid "Email: {email}"
@@ -17432,13 +17432,13 @@ msgstr ""
 
 #: lms/templates/courses_list.html:22
 msgid "View all Courses"
-msgstr ""
+msgstr "Посмотреть все курсы"
 
 #: lms/templates/dashboard.html:29 lms/templates/header/user_dropdown.html:42
 #: lms/templates/header/user_dropdown.html:44
 #: lms/templates/user_dropdown.html:30 lms/templates/user_dropdown.html:38
 msgid "Dashboard"
-msgstr ""
+msgstr "Панель управления"
 
 #: lms/templates/dashboard.html:230
 msgid "results successfully populated,"
@@ -17737,7 +17737,7 @@ msgstr ""
 
 #: lms/templates/manage_user_standing.html:16
 msgid "Profile:"
-msgstr ""
+msgstr "Профиль"
 
 #: lms/templates/manage_user_standing.html:17
 msgid "Image:"
@@ -17801,20 +17801,20 @@ msgstr ""
 
 #: lms/templates/preview_menu.html:59
 msgid "View this course as:"
-msgstr ""
+msgstr "Просмотреть этот курс как:"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:170
 #: lms/templates/preview_menu.html:61
 msgid "Staff"
-msgstr ""
+msgstr "Сотрудник"
 
 #: lms/templates/preview_menu.html:62
 msgid "Learner"
-msgstr ""
+msgstr "Обучающийся"
 
 #: lms/templates/preview_menu.html:63
 msgid "Specific learner"
-msgstr ""
+msgstr "Конкретный обучающийся"
 
 #: lms/templates/preview_menu.html:68
 msgid "Learner in {content_group}"
@@ -19747,7 +19747,7 @@ msgstr "Посмотреть курс"
 
 #: lms/templates/courseware/course_about.html:90
 msgid "Enrollment in this course is by invitation only"
-msgstr ""
+msgstr "Запись на этот курс осуществляется только по приглашению"
 
 #: lms/templates/courseware/course_about.html:95
 msgid "Enrollment is Closed"
@@ -19791,12 +19791,12 @@ msgstr ""
 #: lms/templates/courseware/course_about.html:279
 msgctxt "self"
 msgid "enroll"
-msgstr ""
+msgstr "Записаться"
 
 #: lms/templates/courseware/course_about_sidebar_header.html:14
 #: themes/stanford-style/lms/templates/courseware/course_about_sidebar_header.html:8
 msgid "Share with friends and family!"
-msgstr ""
+msgstr "Поделитесь с друзьями и близкими!"
 
 #: lms/templates/courseware/course_about_sidebar_header.html:27
 msgid "I just enrolled in {number} {title} through {account} {url}"
@@ -20678,15 +20678,15 @@ msgstr ""
 #: lms/templates/discussion/_filter_dropdown.html:55
 #: lms/templates/discussion/_filter_dropdown.html:56
 msgid "Filter Topics"
-msgstr ""
+msgstr "Фильтр тем"
 
 #: lms/templates/discussion/_filter_dropdown.html:57
 msgid "filter topics"
-msgstr ""
+msgstr "фильтр тем"
 
 #: lms/templates/discussion/_filter_dropdown.html:63
 msgid "All Discussions"
-msgstr ""
+msgstr "Все обсуждения"
 
 #: lms/templates/discussion/_filter_dropdown.html:67
 msgid "Posts I'm Following"
@@ -20695,23 +20695,23 @@ msgstr ""
 #. Translators: This labels a filter menu in forum navigation
 #: lms/templates/discussion/_thread_list_template.html:8
 msgid "Filter:"
-msgstr ""
+msgstr "Фильтр:"
 
 #. Translators: This is a menu option for showing all forum threads unfiltered
 #: lms/templates/discussion/_thread_list_template.html:11
 msgid "Show all posts"
-msgstr ""
+msgstr "Показать все сообщения"
 
 #. Translators: This is a menu option for showing only unread forum threads
 #: lms/templates/discussion/_thread_list_template.html:13
 msgid "Unread posts"
-msgstr ""
+msgstr "Непрочитанные сообщения"
 
 #. Translators: This is a menu option for showing only unanswered forum
 #. question threads
 #: lms/templates/discussion/_thread_list_template.html:16
 msgid "Unanswered posts"
-msgstr ""
+msgstr "Сообщения без ответов"
 
 #. Translators: This is a menu option for showing only forum threads flagged
 #. for abuse
@@ -20731,22 +20731,22 @@ msgstr ""
 #. Translators: This labels a sort menu in forum navigation
 #: lms/templates/discussion/_thread_list_template.html:37
 msgid "Sort:"
-msgstr ""
+msgstr "Сортировка:"
 
 #. Translators: This is a menu option for sorting forum threads
 #: lms/templates/discussion/_thread_list_template.html:40
 msgid "by recent activity"
-msgstr ""
+msgstr "по недавней активности"
 
 #. Translators: This is a menu option for sorting forum threads
 #: lms/templates/discussion/_thread_list_template.html:42
 msgid "by most activity"
-msgstr ""
+msgstr "по наибольшей активности"
 
 #. Translators: This is a menu option for sorting forum threads
 #: lms/templates/discussion/_thread_list_template.html:44
 msgid "by most votes"
-msgstr ""
+msgstr "по количеству голосов"
 
 #: lms/templates/edxnotes/edxnotes.html:13
 msgid "Student Notes"
@@ -22669,7 +22669,7 @@ msgstr ""
 
 #: lms/templates/learner_dashboard/_dashboard_navigation_courses.html:7
 msgid "My Courses"
-msgstr ""
+msgstr "Мои курсы"
 
 #: lms/templates/lti_provider/user-auth-error.html:11
 msgid "There was an error when loading this module!"
