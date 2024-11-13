@@ -408,7 +408,7 @@
   "learning.outline.alert.scheduled-content.heading": "Скоро будет больше контента!",
   "learning.outline.alert.scheduled-content.body": "В будущем для этого курса будет выпущено больше контента. Следите за обновлениями по электронной почте или заходите на этот курс, чтобы быть в курсе обновлений.",
   "learning.outline.alert.scheduled-content.button": "Посмотреть расписание курсов",
-  "progress.ungradedAlert": "Чтобы узнать о прогрессе в неоцениваемых аспектах курса, просмотрите свой {outlineLink} .",
+  "progress.ungradedAlert": "Чтобы узнать о прогрессе в неоцениваемых аспектах курса, просмотрите {outlineLink} .",
   "progress.footnotes.droppableAssignments": "Наименьший {numDroppable, множественное число, one{# {assignmentType} балл is}other{# {assignmentType} баллы}} удален.",
   "calculator.instructions.button.label": "Инструкции для калькулятора",
   "calculator.instructions": "Подробную информацию см. в {expressions_link} .",
