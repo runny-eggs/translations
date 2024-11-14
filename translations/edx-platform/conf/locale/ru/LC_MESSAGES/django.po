@@ -21928,7 +21928,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html:120
 msgid "View Course in Studio"
-msgstr "Посмотреть курсы в Studio"
+msgstr "Посмотреть курс в Studio"
 
 #: lms/templates/instructor/instructor_dashboard_2/invalidate_registration_code_modal.html:5
 #: lms/templates/instructor/instructor_dashboard_2/invalidate_registration_code_modal.html:17
