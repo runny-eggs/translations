@@ -1359,7 +1359,7 @@ msgstr "Бесплатно"
 
 #: common/djangoapps/course_modes/models.py:983
 msgid "The time period before a course ends in which a course mode will expire"
-msgstr "Период времени до окончания курса, в течение которого истекает срок действия режима курса"
+msgstr ""
 
 #: common/djangoapps/course_modes/views.py:205
 #, python-brace-format
