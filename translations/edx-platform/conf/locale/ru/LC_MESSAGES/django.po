@@ -1364,7 +1364,7 @@ msgstr "Период времени до окончания курса, в те�
 #: common/djangoapps/course_modes/views.py:205
 #, python-brace-format
 msgid "Congratulations!  You are now enrolled in {course_name}"
-msgstr "Поздравляем!  Вы зачислены на {название_курса}"
+msgstr "Поздравляем!  Вы зачислены на {course_name}"
 
 #: common/djangoapps/course_modes/views.py:304
 msgid "Enrollment is closed"
@@ -9390,7 +9390,7 @@ msgstr ""
 
 #: openedx/core/djangoapps/user_authn/views/utils.py:43
 msgid "Create Account"
-msgstr ""
+msgstr "Создать учётную запись"
 
 #: openedx/core/djangoapps/util/user_messages.py:104
 #, python-brace-format
@@ -9406,7 +9406,7 @@ msgstr ""
 #: cms/templates/course_outline.html:61 cms/templates/course_outline.html:95
 #: cms/templates/index.html:319
 msgid "Dismiss"
-msgstr ""
+msgstr "Убрать"
 
 #: openedx/core/djangoapps/video_pipeline/models.py:33
 msgid "Oauth client name of VEM service."
