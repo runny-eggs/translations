@@ -4044,46 +4044,48 @@ msgstr ""
 #: cms/templates/textbooks.html:64 cms/templates/textbooks.html:70
 #: cms/templates/widgets/header.html:138
 msgid "Textbooks"
-msgstr ""
+msgstr "Учебные пособия"
 
 #: lms/djangoapps/courseware/plugins.py:75
 msgid ""
 "Create and manage a library of course readings, textbooks, and chapters."
 msgstr ""
+"Создавайте и управляйте библиотекой материалов для чтения, учебников и глав курса."
 
 #: lms/djangoapps/courseware/plugins.py:125
 msgid "Calculator"
-msgstr ""
+msgstr "Калькулятор"
 
 #: lms/djangoapps/courseware/plugins.py:126
 msgid "Provide an in-course calculator for simple and complex calculations."
-msgstr ""
+msgstr "Предоставить внутрикурсовый калькулятор для простых и сложных расчетов."
 
 #: lms/djangoapps/courseware/plugins.py:173
 msgid "Proctoring"
-msgstr ""
+msgstr "Прокторинг"
 
 #: lms/djangoapps/courseware/plugins.py:174
 msgid ""
 "Maintain exam integrity by enabling a proctoring solution for your course"
 msgstr ""
+"Поддерживайте добросовестность экзамена, используя решение для прокторинга в вашем курсе"
 
 #: lms/djangoapps/courseware/plugins.py:219 cms/templates/edit-tabs.html:12
 #: cms/templates/edit-tabs.html:55 cms/templates/edit-tabs.html:177
 msgid "Custom pages"
-msgstr ""
+msgstr "Кастомные страницы"
 
 #: lms/djangoapps/courseware/plugins.py:220
 msgid "Provide additional course content and resources with custom pages"
-msgstr ""
+msgstr "Предоставьте дополнительные материалы и ресурсы курса с помощью кастомных страниц"
 
 #: lms/djangoapps/courseware/plugins.py:271
 msgid "Open Response Assessment Settings"
-msgstr ""
+msgstr "Настройки оценки ответов в свободной форме"
 
 #: lms/djangoapps/courseware/plugins.py:272
 msgid "Course level settings for Open Response Assessment."
-msgstr ""
+msgstr "Настройки уровня курса для ответов в свободной форме."
 
 #: lms/djangoapps/courseware/tabs.py:36
 #: lms/djangoapps/courseware/views/views.py:2161
