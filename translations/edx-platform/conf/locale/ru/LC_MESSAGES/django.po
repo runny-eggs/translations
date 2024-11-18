@@ -5275,45 +5275,48 @@ msgid ""
 "see Pending Tasks below. You will be able to download the report when it is "
 "complete."
 msgstr ""
+"Отчет {report_type} находится в процессе создания. Чтобы просмотреть состояние отчета, "
+"см. раздел Отложенные задания ниже. Вы сможете загрузить отчет, когда он будет "
+"завершен."
 
 #: lms/djangoapps/instructor_task/api_helper.py:359
 msgid "This component cannot be rescored."
-msgstr ""
+msgstr "Этот компонент нельзя пересдать."
 
 #: lms/djangoapps/instructor_task/api_helper.py:374
 msgid "This component does not support score override."
-msgstr ""
+msgstr "Этот компонент не поддерживает переопределение баллов."
 
 #: lms/djangoapps/instructor_task/api_helper.py:378
 msgid "Scores must be between 0 and the value of the problem."
-msgstr ""
+msgstr "Баллы должны находиться в диапазоне от 0 до значения задачи."
 
 #: lms/djangoapps/instructor_task/api_helper.py:393
 msgid "Not all problems in entrance exam support re-scoring."
-msgstr ""
+msgstr "Не все задачи вступительного экзамена поддерживают повторный зачет."
 
 #: lms/djangoapps/instructor_task/models.py:115
 msgid "An error has occurred. Task was not created."
-msgstr ""
+msgstr "Произошла ошибка. Задание не было создано."
 
 #. Translators: This is a past-tense verb that is inserted into task progress
 #. messages as {action}.
 #: lms/djangoapps/instructor_task/tasks.py:78
 msgid "rescored"
-msgstr ""
+msgstr "пересчитано"
 
 #. Translators: This is a past-tense verb that is inserted into task progress
 #. messages as {action}.
 #: lms/djangoapps/instructor_task/tasks.py:92
 #: lms/djangoapps/instructor_task/tasks_helper/module_state.py:67
 msgid "overridden"
-msgstr ""
+msgstr "переопределенно"
 
 #. Translators: This is a past-tense verb that is inserted into task progress
 #. messages as {action}.
 #: lms/djangoapps/instructor_task/tasks.py:116
 msgid "reset"
-msgstr ""
+msgstr "сброс"
 
 #. #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
 #. Translators: This is a past-tense verb that is inserted into task progress
@@ -5326,31 +5329,31 @@ msgstr ""
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:39
 #: wiki/templates/wiki/includes/revision_info.html:15
 msgid "deleted"
-msgstr ""
+msgstr "удалено"
 
 #. Translators: This is a past-tense verb that is inserted into task progress
 #. messages as {action}.
 #: lms/djangoapps/instructor_task/tasks.py:162
 msgid "emailed"
-msgstr ""
+msgstr "По электронной почте"
 
 #. Translators: This is a past-tense verb that is inserted into task progress
 #. messages as {action}.
 #: lms/djangoapps/instructor_task/tasks.py:190
 msgid "graded"
-msgstr ""
+msgstr "градация"
 
 #. Translators: This is a past-tense phrase that is inserted into task
 #. progress messages as {action}.
 #: lms/djangoapps/instructor_task/tasks.py:208
 msgid "problem distribution graded"
-msgstr ""
+msgstr "распределение задач по категориям"
 
 #. Translators: This is a past-tense verb that is inserted into task progress
 #. messages as {action}.
 #: lms/djangoapps/instructor_task/tasks.py:277
 msgid "certificates generated"
-msgstr ""
+msgstr "созданные сертификаты"
 
 #. Translators: This is a past-tense verb that is inserted into task progress
 #. messages as {action}.
@@ -5358,7 +5361,7 @@ msgstr ""
 #. {attempted} so far"
 #: lms/djangoapps/instructor_task/tasks.py:295
 msgid "cohorted"
-msgstr ""
+msgstr "групповой"
 
 #. Translators: This is a past-tense verb that is inserted into task progress
 #. messages as {action}.
@@ -5366,48 +5369,48 @@ msgstr ""
 #. {attempted} so far"
 #: lms/djangoapps/instructor_task/tasks.py:308
 msgid "generate_anonymized_id"
-msgstr ""
+msgstr "generate_anonymized_id"
 
 #: lms/djangoapps/instructor_task/tasks.py:331
 msgid "compressed"
-msgstr ""
+msgstr "сжатый"
 
 #: lms/djangoapps/instructor_task/views.py:106
 #: lms/djangoapps/instructor_task/views.py:111
 msgid "No status information available"
-msgstr ""
+msgstr "Информация о состоянии отсутствует"
 
 #: lms/djangoapps/instructor_task/views.py:110
 #, python-brace-format
 msgid "No task_output information found for instructor_task {0}"
-msgstr ""
+msgstr "Информация о task_output для instructor_task {0} не найдена."
 
 #: lms/djangoapps/instructor_task/views.py:116
 #, python-brace-format
 msgid "No parsable task_output information found for instructor_task {0}: {1}"
-msgstr ""
+msgstr "Для instructor_task {0} не найдено парсируемой информации task_output: {1}"
 
 #: lms/djangoapps/instructor_task/views.py:118
 msgid "No parsable status information available"
-msgstr ""
+msgstr "Разборчивая информация о состоянии отсутствует"
 
 #: lms/djangoapps/instructor_task/views.py:121
 msgid "No message provided"
-msgstr ""
+msgstr "Сообщение не предоставлено"
 
 #: lms/djangoapps/instructor_task/views.py:124
 #, python-brace-format
 msgid "Invalid task_output information found for instructor_task {0}: {1}"
-msgstr ""
+msgstr "Для instructor_task {0} найдена недопустимая информация task_output: {1}"
 
 #: lms/djangoapps/instructor_task/views.py:126
 msgid "No progress status information available"
-msgstr ""
+msgstr "Информация о состоянии выполнения отсутствует"
 
 #: lms/djangoapps/instructor_task/views.py:145
 #, python-brace-format
 msgid "No parsable task_input information found for instructor_task {0}: {1}"
-msgstr ""
+msgstr "Для instructor_task {0} не найдено распознанной информации task_input: {1}"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {attempted} and {succeeded} are counts.  # lint-amnesty, pylint:
@@ -5415,7 +5418,7 @@ msgstr ""
 #: lms/djangoapps/instructor_task/views.py:156
 #, python-brace-format
 msgid "Progress: {action} {succeeded} of {attempted} so far"
-msgstr ""
+msgstr "Прогресс: {action} {succeeded} из {attempted} на данный момент"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {student} is a student identifier.  # lint-amnesty, pylint: disable=line-
@@ -5423,7 +5426,7 @@ msgstr ""
 #: lms/djangoapps/instructor_task/views.py:161
 #, python-brace-format
 msgid "Unable to find submission to be {action} for student '{student}'"
-msgstr ""
+msgstr "Невозможно найти представление {action} для студента '{student}'"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {student} is a student identifier.  # lint-amnesty, pylint: disable=line-
@@ -5431,7 +5434,7 @@ msgstr ""
 #: lms/djangoapps/instructor_task/views.py:164
 #, python-brace-format
 msgid "Problem failed to be {action} for student '{student}'"
-msgstr ""
+msgstr "Не удалось выполнить {action} для студента '{student}'"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {student} is a student identifier.  # lint-amnesty, pylint: disable=line-
@@ -5439,7 +5442,7 @@ msgstr ""
 #: lms/djangoapps/instructor_task/views.py:168
 #, python-brace-format
 msgid "Problem successfully {action} for student '{student}'"
-msgstr ""
+msgstr "Проблема успешно {action} для студента '{student}'"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {student} is a student identifier.
@@ -5449,33 +5452,35 @@ msgid ""
 "Unable to find entrance exam submission to be {action} for student "
 "'{student}'"
 msgstr ""
+"Невозможно найти представление вступительных экзаменов {action} для студента "
+"'{student}'"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {student} is a student identifier.
 #: lms/djangoapps/instructor_task/views.py:179
 #, python-brace-format
 msgid "Entrance exam successfully {action} for student '{student}'"
-msgstr ""
+msgstr "Вступительный экзамен успешно {action} для студента '{student}'"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #: lms/djangoapps/instructor_task/views.py:184
 #, python-brace-format
 msgid "Unable to find any students with submissions to be {action}"
-msgstr ""
+msgstr "Не удалось найти ни одного студента, подавшего заявку на участие в {action}"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {attempted} is a count.
 #: lms/djangoapps/instructor_task/views.py:187
 #, python-brace-format
 msgid "Problem failed to be {action} for any of {attempted} students"
-msgstr ""
+msgstr "Ни один из {attempted} студентов не смог решить {action}"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {attempted} is a count.
 #: lms/djangoapps/instructor_task/views.py:191
 #, python-brace-format
 msgid "Problem successfully {action} for {attempted} students"
-msgstr ""
+msgstr "Проблема успешно {action} для {attempted} студентов"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {succeeded} and {attempted} are counts.  # lint-amnesty, pylint:
@@ -5483,27 +5488,27 @@ msgstr ""
 #: lms/djangoapps/instructor_task/views.py:194
 #, python-brace-format
 msgid "Problem {action} for {succeeded} of {attempted} students"
-msgstr ""
+msgstr "Задача {action} для {succeeded} из {attempted} студентов"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #: lms/djangoapps/instructor_task/views.py:199
 #, python-brace-format
 msgid "Unable to find any recipients to be {action}"
-msgstr ""
+msgstr "Невозможно найти ни одного адресата для {action}"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {attempted} is a count.
 #: lms/djangoapps/instructor_task/views.py:202
 #, python-brace-format
 msgid "Message failed to be {action} for any of {attempted} recipients "
-msgstr ""
+msgstr "Сообщение не удалось {action} ни для одного из {attempted} получателей "
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {attempted} is a count.
 #: lms/djangoapps/instructor_task/views.py:206
 #, python-brace-format
 msgid "Message successfully {action} for {attempted} recipients"
-msgstr ""
+msgstr "Сообщение успешно {action} для {attempted} получателей"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {succeeded} and {attempted} are counts.  # lint-amnesty, pylint:
@@ -5511,7 +5516,7 @@ msgstr ""
 #: lms/djangoapps/instructor_task/views.py:209
 #, python-brace-format
 msgid "Message {action} for {succeeded} of {attempted} recipients"
-msgstr ""
+msgstr "Сообщение {action} для {succeeded} из {attempted} получателей"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {succeeded} and {attempted} are counts.  # lint-amnesty, pylint:
@@ -5519,21 +5524,21 @@ msgstr ""
 #: lms/djangoapps/instructor_task/views.py:213
 #, python-brace-format
 msgid "Status: {action} {succeeded} of {attempted}"
-msgstr ""
+msgstr "Статус: {action} {succeeded} из {attempted}"
 
 #. Translators: {skipped} is a count.  This message is appended to task
 #. progress status messages.
 #: lms/djangoapps/instructor_task/views.py:217
 #, python-brace-format
 msgid " (skipping {skipped})"
-msgstr ""
+msgstr " (пропуская {skipped})"
 
 #. Translators: {total} is a count.  This message is appended to task progress
 #. status messages.
 #: lms/djangoapps/instructor_task/views.py:221
 #, python-brace-format
 msgid " (out of {total})"
-msgstr ""
+msgstr " (из {total})"
 
 #: lms/djangoapps/learner_dashboard/programs.py:99
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html:103
@@ -5542,40 +5547,44 @@ msgstr ""
 #: lms/templates/navigation/bootstrap/navbar-authenticated.html:45
 #: lms/templates/navigation/navbar-authenticated.html:28
 msgid "Programs"
-msgstr ""
+msgstr "Программы"
 
 #: lms/djangoapps/learner_dashboard/programs.py:185
 #: lms/templates/learner_dashboard/program_details.html:11
 msgid "Program Details"
-msgstr ""
+msgstr "Подробности программы"
 
 #: lms/djangoapps/lms_xblock/mixin.py:23
 msgid ""
 "This component's access settings refer to deleted or invalid group "
 "configurations."
 msgstr ""
+"Параметры доступа этого компонента относятся к удаленной или недействительной группе "
+"конфигурации."
 
 #: lms/djangoapps/lms_xblock/mixin.py:26
 msgid ""
 "This unit's access settings refer to deleted or invalid group configurations."
 msgstr ""
+"Настройки доступа этого устройства относятся к удаленным или недействительным групповым конфигурациям."
 
 #: lms/djangoapps/lms_xblock/mixin.py:29
 msgid "This component's access settings refer to deleted or invalid groups."
-msgstr ""
+msgstr "Параметры доступа этого компонента относятся к удаленным или недействительным группам."
 
 #: lms/djangoapps/lms_xblock/mixin.py:31
 msgid "This unit's access settings refer to deleted or invalid groups."
-msgstr ""
+msgstr "Настройки доступа данного устройства относятся к удаленным или недействительным группам."
 
 #: lms/djangoapps/lms_xblock/mixin.py:32
 msgid ""
 "This component's access settings contradict its parent's access settings."
 msgstr ""
+"Параметры доступа этого компонента противоречат параметрам доступа его родителя."
 
 #: lms/djangoapps/lms_xblock/mixin.py:56
 msgid "Whether to display this block in the table of contents"
-msgstr ""
+msgstr "Отображать ли этот блок в оглавлении"
 
 #. Translators: "TOC" stands for "Table of Contents"
 #: lms/djangoapps/lms_xblock/mixin.py:62
@@ -5583,6 +5592,8 @@ msgid ""
 "What format this block is in (used for deciding which grader to apply, and "
 "what to show in the TOC)"
 msgstr ""
+"В каком формате представлен этот блок (используется для принятия решения о том, какой грейдер применить, и "
+"что показывать в TOC)"
 
 #: lms/djangoapps/lms_xblock/mixin.py:67
 msgid "Course Chrome"
@@ -5599,16 +5610,24 @@ msgid ""
 "\"accordion\" -- to use the accordion only; or \n"
 "\"tabs,accordion\" -- to use tabs and the accordion."
 msgstr ""
+"Введите хром или инструменты навигации, которые будут использоваться для XBlock в LMS. "
+"Допустимые значения: \n"
+"\"chromeless\" -- не использовать табулатуры или аккордеон;\n"
+"\"tabs\" -- использовать только табы; \n"
+"\"accordion\" -- использовать только аккордеон; или \n»"
+"\"tabs,accordion\" -- использовать вкладки и аккордеон.»"
 
 #: lms/djangoapps/lms_xblock/mixin.py:79
 msgid "Default Tab"
-msgstr ""
+msgstr "Вкладка по умолчанию"
 
 #: lms/djangoapps/lms_xblock/mixin.py:80
 msgid ""
 "Enter the tab that is selected in the XBlock. If not set, the Course tab is "
 "selected."
 msgstr ""
+"Введите вкладку, выбранную в XBlock. Если не задано, вкладка «Курс» будет "
+"выбранный."
 
 #: lms/djangoapps/lms_xblock/mixin.py:85
 msgid "LaTeX Source File Name"
@@ -5616,11 +5635,11 @@ msgstr ""
 
 #: lms/djangoapps/lms_xblock/mixin.py:86
 msgid "Enter the source file name for LaTeX."
-msgstr ""
+msgstr "Имя исходного файла LaTeX"
 
 #: lms/djangoapps/lms_xblock/mixin.py:91 xmodule/modulestore/inheritance.py:58
 msgid "If true, can be seen only by course staff, regardless of start date."
-msgstr ""
+msgstr "Если значение равно, то его могут видеть только сотрудники курса, независимо от даты начала."
 
 #: lms/djangoapps/lms_xblock/mixin.py:97
 msgid ""
@@ -5630,12 +5649,19 @@ msgid ""
 "the block is considered visible to all. Note that this field is ignored if "
 "the block is visible_to_staff_only."
 msgstr ""
+"Словарь, в котором указывается, каким группам может быть показан данный блок. Ключами являются "
+"идентификаторы конфигурации группы, а значения - список идентификаторов групп. Если есть "
+"нет ключа для конфигурации группы или если набор идентификаторов групп пуст, то "
+"блок считается видимым для всех. Обратите внимание, что это поле игнорируется, если "
+"блок visible_to_staff_only."
 
 #: lms/djangoapps/lms_xblock/mixin.py:146 xmodule/split_test_block.py:90
 msgid ""
 "The list of group configurations for partitioning students in content "
 "experiments."
 msgstr ""
+"Список конфигураций групп для разделения студентов по содержанию "
+"экспериментов."
 
 #: lms/djangoapps/lti_provider/models.py:39
 msgid ""
@@ -5644,138 +5670,141 @@ msgid ""
 "with the LTI consumer. See the Open edX LTI Provider documentation for more "
 "details."
 msgstr ""
+"Если флажок установлен, содержимое LTI будет загружаться только для тех учащихся, у которых есть "
+"учетной записи в данном случае. Это необходимо только для привязки учетных записей учеников "
+"с потребителем LTI. Более подробную информацию см. в документации Open edX LTI Provider."
 
 #: lms/djangoapps/program_enrollments/models.py:57
 msgid "One of user or external_user_key must not be null."
-msgstr ""
+msgstr "Одно из значений user или external_user_key не должно быть null."
 
 #: lms/djangoapps/support/views/index.py:16
 msgid "View and regenerate certificates."
-msgstr ""
+msgstr "Просмотр и обновление сертификатов."
 
 #: lms/djangoapps/support/views/index.py:20
 #: lms/templates/ccx/coach_dashboard.html:60
 #: lms/templates/ccx/enrollment.html:8 lms/templates/support/enrollment.html:22
 msgid "Enrollment"
-msgstr ""
+msgstr "Зачисление"
 
 #: lms/djangoapps/support/views/index.py:21
 msgid "View and update learner enrollments."
-msgstr ""
+msgstr "Просмотр и обновление данных о зачисленных учениках."
 
 #: lms/djangoapps/support/views/index.py:25
 #: lms/templates/support/manage_user.html:23
 msgid "Manage User"
-msgstr ""
+msgstr "Управление пользователем"
 
 #: lms/djangoapps/support/views/index.py:26
 msgid "Disable User Account"
-msgstr ""
+msgstr "Отключить учетную запись пользователя"
 
 #: lms/djangoapps/support/views/index.py:30
 #: lms/templates/support/entitlement.html:19
 msgid "Entitlements"
-msgstr ""
+msgstr "Пособия"
 
 #: lms/djangoapps/support/views/index.py:31
 msgid "View, create, and reissue learner entitlements"
-msgstr ""
+msgstr "Просмотр, создание и повторная выдача прав учащегося"
 
 #: lms/djangoapps/support/views/index.py:35
 #: lms/templates/support/feature_based_enrollments.html:11
 msgid "Feature Based Enrollments"
-msgstr ""
+msgstr "Зачисления на основе характеристик"
 
 #: lms/djangoapps/support/views/index.py:36
 msgid "View feature based enrollment settings"
-msgstr ""
+msgstr "Просмотр настроек регистрации на основе функций"
 
 #: lms/djangoapps/support/views/index.py:40
 #: lms/templates/support/link_program_enrollments.html:19
 msgid "Link Program Enrollments"
-msgstr ""
+msgstr "Запись на программу Link"
 
 #: lms/djangoapps/support/views/index.py:41
 msgid "Link LMS users to program enrollments"
-msgstr ""
+msgstr "Связывать пользователей LMS с зачислениями на программы"
 
 #: lms/djangoapps/support/views/index.py:45
 msgid "Program Enrollments Inspector Tool"
-msgstr ""
+msgstr "Инструмент инспектора зачислений в программы"
 
 #: lms/djangoapps/support/views/index.py:46
 msgid "Find information related to a learner's program enrollments"
-msgstr ""
+msgstr "Поиск информации о зачислении учащегося на программу"
 
 #: lms/djangoapps/support/views/manage_user.py:34
 #: lms/templates/tracking_log.html:6
 msgid "username"
-msgstr ""
+msgstr "имя пользователя"
 
 #: lms/djangoapps/support/views/manage_user.py:35
 msgid "user_support_url"
-msgstr ""
+msgstr "user_support_url"
 
 #: lms/djangoapps/support/views/manage_user.py:36
 msgid "user_detail_url"
-msgstr ""
+msgstr "user_detail_url"
 
 #: lms/djangoapps/support/views/manage_user.py:61
 #: lms/djangoapps/support/views/manage_user.py:87
 msgid "Usable"
-msgstr ""
+msgstr "Используемые"
 
 #: lms/djangoapps/support/views/manage_user.py:61
 #: lms/djangoapps/support/views/manage_user.py:90
 msgid "Unusable"
-msgstr ""
+msgstr "Неиспользуемые"
 
 #: lms/djangoapps/support/views/manage_user.py:88
 msgid "User Enabled Successfully"
-msgstr ""
+msgstr "Пользователь успешно включен"
 
 #: lms/djangoapps/support/views/manage_user.py:91
 msgid "User Disabled Successfully"
-msgstr ""
+msgstr "Пользователь успешно отключен"
 
 #: lms/djangoapps/survey/utils.py:20
 msgid "You must complete a survey"
-msgstr ""
+msgstr "Вы должны заполнить анкету"
 
 #: lms/djangoapps/teams/models.py:141
 msgid "Optional language the team uses as ISO 639-1 code."
-msgstr ""
+msgstr "Необязательный язык, используемый командой в виде ISO 639-1 code."
 
 #: lms/djangoapps/teams/plugins.py:29 lms/djangoapps/teams/plugins.py:53
 #: lms/djangoapps/teams/templates/teams/teams.html:16
 msgid "Teams"
-msgstr ""
+msgstr "Команды"
 
 #: lms/djangoapps/teams/plugins.py:54
 msgid "Leverage teams to allow learners to connect by topic of interest."
-msgstr ""
+msgstr "Используйте команды, чтобы позволить учащимся объединяться по интересующим их темам."
 
 #: lms/djangoapps/teams/views.py:417
 msgid "course_id must be provided"
-msgstr ""
+msgstr "необходимо указать course_id"
 
 #: lms/djangoapps/teams/views.py:427 lms/djangoapps/teams/views.py:1007
 #, python-brace-format
 msgid "The supplied course id {course_id} is not valid."
-msgstr ""
+msgstr "указанный идентификатор курса {course_id} недействителен."
 
 #: lms/djangoapps/teams/views.py:443
 msgid "text_search and order_by cannot be provided together"
-msgstr ""
+msgstr "text_search и order_by не могут быть предоставлены вместе"
 
 #: lms/djangoapps/teams/views.py:454
 #, python-brace-format
 msgid "The supplied topic id {topic_id} is not valid"
-msgstr ""
+msgstr "Указанный идентификатор темы {topic_id} не является действительным"
 
 #: lms/djangoapps/teams/views.py:474
 msgid "Error connecting to elasticsearch"
-msgstr ""
+msgstr "Ошибка при подключении к elasticsearch"
 
 #. Translators: 'ordering' is a string describing a way
 #. of ordering a list. For example, {ordering} may be
@@ -5784,171 +5813,176 @@ msgstr ""
 #: lms/djangoapps/teams/views.py:536 lms/djangoapps/teams/views.py:1034
 #, python-brace-format
 msgid "The ordering {ordering} is not supported"
-msgstr ""
+msgstr "Упорядочивание {ordering} не поддерживается"
 
 #: lms/djangoapps/teams/views.py:563
 #, python-brace-format
 msgid "The supplied course_id {course_id} is not valid."
-msgstr ""
+msgstr "Указанный course_id {course_id} не является действительным."
 
 #: lms/djangoapps/teams/views.py:573
 msgid "topic_id is required"
-msgstr ""
+msgstr "topic_id является обязательным"
 
 #: lms/djangoapps/teams/views.py:592
 msgid "You can't create a team in an instructor managed topic."
-msgstr ""
+msgstr "Вы не можете создать команду в теме, управляемой преподавателем."
 
 #: lms/djangoapps/teams/views.py:604
 msgid "You are already in a team in this teamset."
-msgstr ""
+msgstr "Вы уже состоите в команде в этом наборе команд."
 
 #: lms/djangoapps/teams/views.py:1350
 msgid "teamset_id and team_id are mutually exclusive options."
-msgstr ""
+msgstr "teamset_id и team_id — взаимоисключающие параметры."
 
 #: lms/djangoapps/teams/views.py:1370
 msgid "teamset_id requires course_id to also be provided."
-msgstr ""
+msgstr "teamset_id также требует предоставления course_id."
 
 #: lms/djangoapps/teams/views.py:1386 lms/djangoapps/teams/views.py:1399
 msgid "No teamset found in given course with given id"
-msgstr ""
+msgstr "В данном курсе не найден набор команд с данным идентификатором."
 
 #: lms/djangoapps/teams/views.py:1420
 msgid "username or (team_id or teamset_id) must be specified."
-msgstr ""
+msgstr "необходимо указать имя пользователя или (team_id или teamset_id)."
 
 #: lms/djangoapps/teams/views.py:1441
 msgid "Username is required."
-msgstr ""
+msgstr "Требуется имя пользователя."
 
 #: lms/djangoapps/teams/views.py:1444
 msgid "Team id is required."
-msgstr ""
+msgstr "Требуется id команды."
 
 #: lms/djangoapps/teams/views.py:1473
 msgid "This team is already full."
-msgstr ""
+msgstr "Эта команда уже заполнена."
 
 #: lms/djangoapps/teams/views.py:1479
 msgid "You can't join an instructor managed team."
-msgstr ""
+msgstr "Вы не можете присоединиться к команде, управляемой инструктором."
 
 #: lms/djangoapps/teams/views.py:1497
 #, python-brace-format
 msgid "The user {username} is already a member of a team in this teamset."
-msgstr ""
+msgstr "Пользователь {username} уже является членом команды в этом наборе групп."
 
 #: lms/djangoapps/teams/views.py:1505
 #, python-brace-format
 msgid ""
 "The user {username} is not enrolled in the course associated with this team."
 msgstr ""
+"Пользователь {username} не зачислен на курс, связанный с этой командой."
 
 #: lms/djangoapps/teams/views.py:1631
 msgid "You can't leave an instructor managed team."
-msgstr ""
+msgstr "Вы не можете покинуть команду, управляемую инструктором."
 
 #: lms/djangoapps/user_tours/models.py:19
 msgid "Show existing user tour"
-msgstr ""
+msgstr "Показать существующий обзор пользователя"
 
 #: lms/djangoapps/user_tours/models.py:20
 msgid "Show new user tour"
-msgstr ""
+msgstr "Показать новый обзор пользователя"
 
 #: lms/djangoapps/user_tours/models.py:21
 msgid "Do not show user tour"
-msgstr ""
+msgstr "Не показывать обзор пользователя"
 
 #: lms/djangoapps/verify_student/models.py:1089
 msgid "The course for which this deadline applies"
-msgstr ""
+msgstr "Курс, к которому применяется этот срок"
 
 #: lms/djangoapps/verify_student/models.py:1094
 msgid ""
 "The datetime after which users are no longer allowed to submit photos for "
 "verification."
 msgstr ""
+"Дата и время, после которой пользователям больше не разрешается отправлять фотографии для "
+"проверки."
 
 #: lms/djangoapps/verify_student/services.py:185
 #, python-brace-format
 msgid "Your {platform_name} verification has expired."
-msgstr ""
+msgstr "Срок действия вашей проверки {platform_name} истек."
 
 #: lms/djangoapps/verify_student/views.py:142
 msgid "Intro"
-msgstr ""
+msgstr "Введение"
 
 #: lms/djangoapps/verify_student/views.py:143
 msgid "Make payment"
-msgstr ""
+msgstr "Произвести оплату"
 
 #: lms/djangoapps/verify_student/views.py:144
 msgid "Take photo"
-msgstr ""
+msgstr "Сфотографироваться"
 
 #: lms/djangoapps/verify_student/views.py:145
 msgid "Take a photo of your ID"
-msgstr ""
+msgstr "Сфотографируйте свое удостоверение личности"
 
 #: lms/djangoapps/verify_student/views.py:146
 msgid "Review your info"
-msgstr ""
+msgstr "Проверьте свою информацию"
 
 #: lms/djangoapps/verify_student/views.py:147
 msgid "Enrollment confirmation"
-msgstr ""
+msgstr "Подтверждение регистрации"
 
 #: lms/djangoapps/verify_student/views.py:763
 msgid "Selected price is not valid number."
-msgstr ""
+msgstr "Выбранная цена не является действительным числом."
 
 #: lms/djangoapps/verify_student/views.py:786
 msgid "This course doesn't support paid certificates"
-msgstr ""
+msgstr "Этот курс не поддерживает платные сертификаты."
 
 #: lms/djangoapps/verify_student/views.py:792
 msgid "No selected price or selected price is below minimum."
-msgstr ""
+msgstr "Ни одна выбранная цена или выбранная цена не ниже минимальной."
 
 #: lms/djangoapps/verify_student/views.py:911
 msgid ""
 "Photo ID image is required if the user does not have an initial verification "
 "attempt."
 msgstr ""
+"Изображение удостоверения личности с фотографией требуется, если у пользователя нет первоначальной "
+"проверки."
 
 #: lms/djangoapps/verify_student/views.py:916
 msgid "Missing required parameter face_image"
-msgstr ""
+msgstr "Отсутствует обязательный параметр face_image"
 
 #: lms/djangoapps/verify_student/views.py:939
 msgid "Image data is in an unsupported format."
-msgstr ""
+msgstr "Данные изображения имеют неподдерживаемый формат."
 
 #: lms/djangoapps/verify_student/views.py:967
 msgid "Image data is not valid."
-msgstr ""
+msgstr "Данные изображения недействительны."
 
 #: lms/djangoapps/verify_student/views.py:1124
 #, python-brace-format
 msgid "Your {platform_name} ID verification was approved!"
-msgstr ""
+msgstr "Проверка вашего идентификатора {platform_name} одобрена!"
 
 #: lms/djangoapps/verify_student/views.py:1150
 #, python-brace-format
 msgid "Your {platform_name} Verification Has Been Denied"
-msgstr ""
+msgstr "Ваша проверка {platform_name} отклонена"
 
 #: lms/templates/admin/user_api/accounts/cancel_retirement_action.html:13
 msgid "Please correct the errors below."
-msgstr ""
+msgstr "Пожалуйста, исправьте ошибки ниже."
 
 #: lms/templates/admin/user_api/accounts/cancel_retirement_action.html:19
 #, python-format
 msgid "Are you sure you want to cancel retirement for user \"%(username)s\"? "
-msgstr ""
+msgstr "Вы уверены, что хотите отменить отставку для пользователя \"%(username)s\"?"
 
 #: lms/templates/admin/user_api/accounts/cancel_retirement_action.html:38
 #: xmodule/capa_block.py:1001 cms/templates/index.html:219
@@ -5963,7 +5997,7 @@ msgstr ""
 #: openedx/core/djangoapps/theming/templates/theming/theming-admin-fragment.html:40
 #: themes/stanford-style/lms/templates/register-shib.html:190
 msgid "Submit"
-msgstr ""
+msgstr "Отправить"
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.html:18
 #, python-format
@@ -5972,6 +6006,9 @@ msgid ""
 "            This email was automatically sent from %(platform_name)s.\n"
 "          "
 msgstr ""
+"\n"
+"             Это письмо было автоматически отправлено с %(platform_name)s.\n"
+"          "
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.html:24
 #, python-format
@@ -5981,6 +6018,10 @@ msgid ""
 "are enrolled in\n"
 "          "
 msgstr ""
+"\n"
+"            Вы получаете это письмо на адрес %(email)s, потому что вы »
+"зачислены в\n"
+"          "
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.html:30
 msgid ""
@@ -5989,19 +6030,23 @@ msgid ""
 "settings\n"
 "          "
 msgstr ""
+"\n"
+"            Чтобы перестать получать подобные письма, обновите электронную почту курса "
+«settings\n"
+"          "
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.html:33
 msgid "here"
-msgstr ""
+msgstr "здесь"
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.html:34
 msgid "unsubscribe"
-msgstr ""
+msgstr "отписаться"
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.txt:7
 #, python-format
 msgid "This email was automatically sent from %(platform_name)s."
-msgstr ""
+msgstr "Это письмо было автоматически отправлено с %(platform_name)s."
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.txt:8
 #, python-format
@@ -6009,6 +6054,8 @@ msgid ""
 "You are receiving this email at address %(email)s because you are enrolled "
 "in %(course_title)s."
 msgstr ""
+"Вы получили это письмо на адрес %(email)s, потому что вы зарегистрированы"
+"на %(course_title)s"
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.txt:9
 #, python-format
@@ -6016,53 +6063,55 @@ msgid ""
 "To stop receiving email like this, update your course email settings here "
 "%(email_settings_url)s"
 msgstr ""
+"Чтобы больше не получать подобные электронные письма, обновите настройки электронной почты курса здесь "
+"%(email_settings_url)s"
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.txt:10
 #, python-format
 msgid "To unsubscribe click here %(unsubscribe_link)s"
-msgstr ""
+msgstr "Чтобы отказаться от подписки, нажмите здесь %(unsubscribe_link)s"
 
 #: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/body.html:12
 #: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/body.txt:1
 #, python-format
 msgid "Welcome to %(course_name)s"
-msgstr ""
+msgstr "Добро пожаловать в %(course_name)s"
 
 #: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/body.html:18
 #, python-format
 msgid "To get started, please visit https://%(site_name)s."
-msgstr ""
+msgstr "Чтобы начать, посетите https://%(site_name)s."
 
 #: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/body.html:25
 msgid "The login information for your account follows:"
-msgstr ""
+msgstr "Информация для входа в вашу учетную запись следующая:"
 
 #: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/body.html:29
 #: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/body.txt:5
 #, python-format
 msgid "email: %(email_address)s"
-msgstr ""
+msgstr "электронная почта: %(email_address)s"
 
 #: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/body.html:33
 #: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/body.txt:6
 #, python-format
 msgid "password: %(password)s"
-msgstr ""
+msgstr "пароль: %(password)s"
 
 #: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/body.html:40
 #: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/body.txt:9
 msgid "It is recommended that you change your password."
-msgstr ""
+msgstr "Рекомендуется сменить пароль."
 
 #: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/body.html:48
 msgid "You may access your course."
-msgstr ""
+msgstr "Вы можете получить доступ к своему курсу."
 
 #: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/body.html:56
 #: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/body.txt:13
 #, python-format
 msgid "Sincerely yours, The %(course_name)s Team"
-msgstr ""
+msgstr "С уважением, команда %(course_name)s"
 
 #: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/body.txt:3
 #, python-format
@@ -6070,17 +6119,19 @@ msgid ""
 "To get started, please visit https://%(site_name)s. The login information "
 "for your account follows."
 msgstr ""
+"Чтобы начать, посетите https://%(site_name)s. Информация для входа"
+"for your account follows."
 
 #: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/body.txt:11
 #, python-format
 msgid "You may access your course at: %(course_url)s."
-msgstr ""
+msgstr "Вы можете получить доступ к своему курсу по адресу: %(course_url)s."
 
 #: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/subject.txt:3
 #: lms/templates/instructor/edx_ace/enrollenrolled/email/subject.txt:3
 #, python-format
 msgid "You have been enrolled in %(course_name)s"
-msgstr ""
+msgstr "Вы зачислены на %(course_name)s"
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html:12
 #, python-format
@@ -6090,24 +6141,28 @@ msgid ""
 "%(course_name)s at %(site_name)s\n"
 "                "
 msgstr ""
+"\n"
+"                    Вас пригласили стать бета-тестером "
+"%(course_name)s на %(site_name)s\n"
+"                "       
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html:20
 msgid "The invitation has been sent by a member of the course staff."
-msgstr ""
+msgstr "Приглашение было отправлено сотрудником курса."
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html:28
 msgid "To start accessing course materials, please visit:"
-msgstr ""
+msgstr "Чтобы получить доступ к материалам курса, посетите:"
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html:37
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html:49
 msgid "To enroll in this course and begin the beta test:"
-msgstr ""
+msgstr "Чтобы записаться на этот курс и начать бета-тестирование:"
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html:42
 #, python-format
 msgid "Visit %(course_name)s"
-msgstr ""
+msgstr "Посетите %(course_name)s"
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html:54
 #, python-format
@@ -6115,6 +6170,8 @@ msgid ""
 "Visit %(site_name)s\n"
 "                "
 msgstr ""
+"Посетите %(site_name)s\n"
+"                "
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html:63
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.txt:12
@@ -6128,6 +6185,7 @@ msgstr ""
 msgid ""
 "This email was automatically sent from %(site_name)s to %(email_address)s"
 msgstr ""
+"Это письмо было автоматически отправлено с %(site_name)s на %(email_address)s."
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.txt:1
 #: lms/templates/instructor/edx_ace/enrolledunenroll/email/body.txt:1
@@ -6135,7 +6193,7 @@ msgstr ""
 #: lms/templates/instructor/edx_ace/removebetatester/email/body.txt:1
 #, python-format
 msgid "Dear %(full_name)s"
-msgstr ""
+msgstr "Дорогой %(full_name)s"
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.txt:3
 #, python-format
@@ -6143,33 +6201,35 @@ msgid ""
 "You have been invited to be a beta tester for %(course_name)s at "
 "%(site_name)s by a member of the course staff."
 msgstr ""
+"Вас пригласили стать бета-тестером %(course_name)s на "
+"%(site_name)s сотрудником курса."
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.txt:5
 #: lms/templates/instructor/edx_ace/enrollenrolled/email/body.txt:5
 #, python-format
 msgid "To start accessing course materials, please visit %(course_url)s"
-msgstr ""
+msgstr "Чтобы получить доступ к материалам курса, посетите %(course_url)s"
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.txt:7
 #, python-format
 msgid ""
 "Visit %(course_about_url)s to enroll in this course and begin the beta test."
-msgstr ""
+msgstr "Посетите %(course_about_url)s, чтобы записаться на этот курс и начать бета-тестирование."
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.txt:9
 #, python-format
 msgid "Visit %(site_name)s to enroll in this course and begin the beta test."
-msgstr ""
+msgstr "Посетите %(site_name)s, чтобы записаться на этот курс и начать бета-тестирование."
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/subject.txt:3
 #, python-format
 msgid "You have been invited to a beta test for %(course_name)s"
-msgstr ""
+msgstr "Вас пригласили на бета-тестирование %(course_name)s."
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.html:12
 #, python-format
 msgid "You have been invited to %(course_name)s"
-msgstr ""
+msgstr "Вас пригласили на %(course_name)s"
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.html:19
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.txt:3
@@ -6178,14 +6238,16 @@ msgid ""
 "You have been invited to join %(course_name)s at %(site_name)s by a member "
 "of the course staff."
 msgstr ""
+"Участник пригласил вас присоединиться к %(course_name)s на %(site_name)s "
+"от одного из сотрудников курса."
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.html:28
 msgid "To access this course click on the button below and login:"
-msgstr ""
+msgstr "Чтобы получить доступ к этому курсу, нажмите на кнопку ниже и войдите в систему:"
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.html:37
 msgid "To access this course visit it and register:"
-msgstr ""
+msgstr "Чтобы получить доступ к этому курсу, посетите его и зарегистрируйтесь:"
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.html:47
 #, python-format
@@ -6193,10 +6255,12 @@ msgid ""
 "Please finish your registration and fill out the registration form making "
 "sure to use %(email_address)s in the Email field:"
 msgstr ""
+"Пожалуйста, завершите регистрацию и заполните регистрационную форму, "
+"обязательно используя %(email_address)s в поле Email:"
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.html:52
 msgid "Finish Your Registration"
-msgstr ""
+msgstr "Завершите регистрацию"
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.html:59
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.txt:9
@@ -6205,27 +6269,31 @@ msgid ""
 "Once you have registered and activated your account, you will see "
 "%(course_name)s listed on your dashboard."
 msgstr ""
+"После регистрации и активации учетной записи вы увидите "
+"%(course_name)s  списке на приборной панели."
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.html:63
 msgid ""
 "Once you have registered and activated your account, you will be able to "
 "access this course:"
 msgstr ""
+"После регистрации и активации учетной записи вы сможете "
+"получить доступ к этому курсу:"
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.html:69
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.txt:11
 #, python-format
 msgid "You can then enroll in %(course_name)s."
-msgstr ""
+msgstr "После этого вы можете записаться на %(course_name)s."
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.txt:1
 msgid "Dear student,"
-msgstr ""
+msgstr "Дорогой студент,"
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.txt:4
 #, python-format
 msgid "To access this course visit %(course_url)s and login."
-msgstr ""
+msgstr "Чтобы получить доступ к этому курсу, посетите сайт %(course_url)s и войдите в систему."
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.txt:6
 #, python-format
@@ -6233,6 +6301,8 @@ msgid ""
 "To access this course visit %(course_about_url)s and register for this "
 "course."
 msgstr ""
+"Чтобы получить доступ к этому курсу, посетите сайт %(course_about_url)s и зарегистрируйтесь "
+"на нем."
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.txt:8
 #, python-format
@@ -6241,6 +6311,9 @@ msgid ""
 "the registration form making sure to use %(email_address)s in the Email "
 "field."
 msgstr ""
+"Чтобы завершить регистрацию, посетите сайт %(registration_url)s и заполните "
+"регистрационную форму, обязательно указав %(email_address)s "
+"в поле Email."
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.txt:10
 #, python-format
@@ -6248,18 +6321,20 @@ msgid ""
 "Once you have registered and activated your account, visit "
 "%(course_about_url)s to join this course."
 msgstr ""
+"После регистрации и активации учетной записи посетите "
+"%(курс_об_урле)s, чтобы присоединиться к этому курсу."
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/subject.txt:3
 #, python-format
 msgid "You have been invited to register for %(course_name)s"
-msgstr ""
+msgstr "Вы получили приглашение зарегистрироваться на %(course_name)"
 
 #: lms/templates/instructor/edx_ace/allowedunenroll/email/body.html:12
 #: lms/templates/instructor/edx_ace/allowedunenroll/email/subject.txt:3
 #: lms/templates/instructor/edx_ace/enrolledunenroll/email/subject.txt:3
 #, python-format
 msgid "You have been unenrolled from %(course_name)s"
-msgstr ""
+msgstr "Вы были отчислены из %(course_name)"
 
 #: lms/templates/instructor/edx_ace/allowedunenroll/email/body.html:19
 #: lms/templates/instructor/edx_ace/allowedunenroll/email/body.txt:3
@@ -6268,10 +6343,12 @@ msgid ""
 "You have been unenrolled from the course %(course_name)s by a member of the "
 "course staff. Please disregard the invitation previously sent."
 msgstr ""
+"Вы были отчислены из курса %(course_name)s"
+"сотрудником курса. Пожалуйста, не принимайте во внимание ранее отправленное приглашение."
 
 #: lms/templates/instructor/edx_ace/allowedunenroll/email/body.txt:1
 msgid "Dear Student,"
-msgstr ""
+msgstr "Дорогой студент,"
 
 #: lms/templates/instructor/edx_ace/enrolledunenroll/email/body.html:12
 #, python-format
@@ -6280,6 +6357,9 @@ msgid ""
 "                    You have been unenrolled from %(course_name)s\n"
 "                "
 msgstr ""
+"\n"
+"                     Вы были отчислены из %(course_name)s\n"
+"                "
 
 #: lms/templates/instructor/edx_ace/enrolledunenroll/email/body.html:21
 #: lms/templates/instructor/edx_ace/enrolledunenroll/email/body.txt:3
@@ -6289,13 +6369,16 @@ msgid ""
 "of the course staff. This course will no longer appear on your %(site_name)s "
 "dashboard."
 msgstr ""
+"Вы были отчислены из %(course_name)на %(site_name)членом "
+"персонала курса. Этот курс больше не будет отображаться на вашей панели "
+"%(site_name)s"
 
 #: lms/templates/instructor/edx_ace/enrolledunenroll/email/body.html:28
 #: lms/templates/instructor/edx_ace/enrolledunenroll/email/body.txt:5
 #: lms/templates/instructor/edx_ace/removebetatester/email/body.html:33
-#: lms/templates/instructor/edx_ace/removebetatester/email/body.txt:5
+#: lms/templates/instructor/edx_ace/removebetatester/email/body.txt:5This email was automatically sent from %(site_name)s to %(full_name)s
 msgid "Your other courses have not been affected."
-msgstr ""
+msgstr "Другие ваши курсы не пострадали."
 
 #: lms/templates/instructor/edx_ace/enrolledunenroll/email/body.html:35
 #: lms/templates/instructor/edx_ace/enrolledunenroll/email/body.txt:8
@@ -6303,7 +6386,7 @@ msgstr ""
 #: lms/templates/instructor/edx_ace/enrollenrolled/email/body.txt:8
 #, python-format
 msgid "This email was automatically sent from %(site_name)s to %(full_name)s"
-msgstr ""
+msgstr "Это письмо было автоматически отправлено с %(site_name)s на %(full_name)s."
 
 #: lms/templates/instructor/edx_ace/enrollenrolled/email/body.html:12
 #, python-format
@@ -6312,6 +6395,10 @@ msgid ""
 "                    You have been enrolled in %(course_name)s\n"
 "                "
 msgstr ""
+"\n"
+"                    Вы зачислены на %(course_name)s\n"
+"                "
+
 
 #: lms/templates/instructor/edx_ace/enrollenrolled/email/body.html:21
 #: lms/templates/instructor/edx_ace/enrollenrolled/email/body.txt:3
@@ -6321,16 +6408,19 @@ msgid ""
 "the course staff. This course will now appear on your %(site_name)s "
 "dashboard."
 msgstr ""
+"Вы были зачислены на %(course_name)s в %(site_name)s одним из "
+"сотрудников курса. Этот курс теперь появится на вашей информационной "
+"панели %(site_name)s."
 
 #: lms/templates/instructor/edx_ace/enrollenrolled/email/body.html:27
 msgid "Access the Course Materials Now"
-msgstr ""
+msgstr "Получите доступ к материалам курса прямо сейчас"
 
 #: lms/templates/instructor/edx_ace/removebetatester/email/body.html:12
 #, python-format
 msgid ""
 "You have been removed as a beta tester for %(course_name)s at %(site_name)s"
-msgstr ""
+msgstr "Вас удалили из числа бета-тестеров %(course_name)s на сайте %(site_name)s."
 
 #: lms/templates/instructor/edx_ace/removebetatester/email/body.html:19
 #, python-format
@@ -6338,12 +6428,16 @@ msgid ""
 "You have been removed as a beta tester for %(course_name)s at %(site_name)s "
 "by a member of the course staff."
 msgstr ""
+"Сотрудник курса удалил вас из числа бета-тестеров "
+"%(course_name)s на %(site_name)s."
 
 #: lms/templates/instructor/edx_ace/removebetatester/email/body.html:26
 msgid ""
 "This course will remain on your dashboard, but you will no longer be part of "
 "the beta testing group."
 msgstr ""
+"Этот курс останется на вашей панели управления, но вы больше не будете частью "
+"группы бета-тестирования."
 
 #: lms/templates/instructor/edx_ace/removebetatester/email/body.txt:3
 #, python-format
@@ -6352,11 +6446,14 @@ msgid ""
 "by a member of the course staff. This course will remain on your dashboard, "
 "but you will no longer be part of the beta testing group."
 msgstr ""
+"Сотрудник курса удалил вас из числа бета-тестеров %(course_name)s "
+"на %(site_name)s. Этот курс останется на вашей панели управления, "
+"о вы больше не будете частью группы бета-тестирования."
 
 #: lms/templates/instructor/edx_ace/removebetatester/email/subject.txt:3
 #, python-format
 msgid "You have been removed from a beta test for %(course_name)s"
-msgstr ""
+msgstr "Вас удалили из бета-тестирования %(course_name)s."
 
 #: lms/templates/logout.html:5
 msgid "Signed Out"
@@ -6372,6 +6469,8 @@ msgid ""
 "{start_anchor}%(tpa_logout_url)s{middle_anchor}Click here{end_anchor} to "
 "delete your single signed on (SSO) session."
 msgstr ""
+"{start_anchor}%(tpa_logout_url)s{middle_anchor}Нажмите здесь{end_anchor}, чтобы"
+"удалите сеанс с единым входом (SSO)."
 
 #: lms/templates/logout.html:26
 msgid "We are signing you in."
@@ -6396,6 +6495,9 @@ msgid ""
 "{start_anchor}%(target)s{middle_anchor}click here to go to the home "
 "page{end_anchor}."
 msgstr ""
+"Если вы не будете перенаправлены в течение 5 секунд,"
+"{start_anchor}%(target)s{middle_anchor}нажмите здесь, чтобы перейти на домашнюю "
+" старницу {end_anchor}."
 
 #: lms/templates/main_django.html:50 cms/templates/base.html:102
 #: lms/templates/main.html:203
