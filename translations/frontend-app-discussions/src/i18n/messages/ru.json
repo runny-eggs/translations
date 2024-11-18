@@ -159,7 +159,7 @@
   "discussions.post.unfollow.description": "ты не подписан на этот пост",
   "discussions.app.title": "Обсуждения",
   "discussions.posts.actionBar.searchAllPosts": "Поиск по всем темам",
-  "discussions.posts.actionBar.search": "{page, select, Topics {Поиск тем} сообщения {Искать все сообщения} учащиеся {Поиск учащихся} myPosts {Искать все сообщения} другие { {page} } }",
+  "discussions.posts.actionBar.search": "{page, select, topics {Search topics} сообщения {Search all posts} учащиеся {Search learners} Мои сообщения {Search all posts} другое {{page}} }",
   "discussions.actionBar.searchInfo": "Показаны результаты {count} для &quot; {text} &quot;",
   "discussions.actionBar.searchRewriteInfo": "По запросу &quot; {searchString} &quot; результатов не найдено. Показаны результаты {count} для &quot; {textSearchRewrite} &quot;.",
   "discussions.actionBar.searchInfoSearching": "Поиск...",
