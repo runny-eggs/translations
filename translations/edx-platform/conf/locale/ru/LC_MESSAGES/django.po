@@ -5614,8 +5614,8 @@ msgstr ""
 "Допустимые значения: \n"
 "\"chromeless\" -- не использовать табулатуры или аккордеон;\n"
 "\"tabs\" -- использовать только табы; \n"
-"\"accordion\" -- использовать только аккордеон; или \n»"
-"\"tabs,accordion\" -- использовать вкладки и аккордеон.»"
+"\"accordion\" -- использовать только аккордеон; или \n"
+"\"tabs,accordion\" -- использовать вкладки и аккордеон."
 
 #: lms/djangoapps/lms_xblock/mixin.py:79
 msgid "Default Tab"
@@ -5626,7 +5626,7 @@ msgid ""
 "Enter the tab that is selected in the XBlock. If not set, the Course tab is "
 "selected."
 msgstr ""
-"Введите вкладку, выбранную в XBlock. Если не задано, вкладка «Курс» будет "
+"Введите вкладку, выбранную в XBlock. Если не задано, вкладка Курс будет "
 "выбранный."
 
 #: lms/djangoapps/lms_xblock/mixin.py:85
@@ -6530,9 +6530,9 @@ msgid ""
 "application. Otherwise, to withhold these permissions, please click the "
 "'Cancel' button."
 msgstr ""
-"Нажмите кнопку «Разрешить», чтобы предоставить эти разрешения вышеуказанному "
+"Нажмите кнопку 'Разрешить', чтобы предоставить эти разрешения вышеуказанному "
 "приложению. В противном случае, чтобы запретить эти разрешения, нажмите "
-"кнопку «Отмена»."
+"кнопку 'Отмена'."
 
 #: lms/templates/oauth2_provider/authorize.html:48
 #: openedx/core/djangoapps/user_api/admin.py:111
@@ -6847,7 +6847,7 @@ msgid ""
 "can change to a particular revision or merge an old revision with the "
 "current one."
 msgstr ""
-"Щелкните каждую редакцию, чтобы просмотреть список отредактированных строк. Нажмите кнопку «Предварительный просмотр», "
+"Щелкните каждую редакцию, чтобы просмотреть список отредактированных строк. Нажмите кнопку 'Предварительный просмотр', "
 "чтобы увидеть, как статья выглядела на этом этапе. Внизу этой страницы вы "
 "можете перейти к определенной версии или объединить старую версию "
 "с текущей."
@@ -7531,7 +7531,7 @@ msgid ""
 "should be formatted as 'org+course' (i.e. MITx+6.002x, HarvardX+CS50)."
 msgstr ""
 "Настройте значения для всех запусков курса, связанных с этим курсом. Его "
-"следует отформатировать как «орг+курс» (т. е. MITx+6.002x, HarvardX+CS50)."
+"следует отформатировать как 'орг+курс' (т. е. MITx+6.002x, HarvardX+CS50)."
 
 #: openedx/core/djangoapps/config_model_utils/models.py:102
 #: cms/templates/course-create-rerun.html:104 cms/templates/index.html:114
@@ -7636,7 +7636,7 @@ msgstr "Только чтение"
 
 #: openedx/core/djangoapps/content_libraries/models.py:231
 msgid "One and only one of 'user' and 'group' must be set."
-msgstr "Должно быть установлено одно и только одно из значений «пользователь» и «группа»."
+msgstr "Должно быть установлено одно и только одно из значений 'пользователь' и 'группа'."
 
 #: openedx/core/djangoapps/content_libraries/models.py:257
 msgid "Task was created, but not queued to run."
@@ -9088,7 +9088,7 @@ msgstr ""
 #: openedx/core/djangoapps/user_api/accounts/api.py:196
 #, python-brace-format
 msgid "The '{field_name}' field cannot be edited."
-msgstr "Поле «{field_name}» нельзя редактировать."
+msgstr "Поле '{field_name}' нельзя редактировать."
 
 #: openedx/core/djangoapps/user_api/accounts/api.py:426
 msgid "Full name can't be longer than 255 symbols"
@@ -9272,7 +9272,7 @@ msgstr ""
 #: openedx/core/djangoapps/user_api/preferences/api.py:253
 #, python-brace-format
 msgid "Delete failed for user preference '{preference_key}'."
-msgstr "Не удалось удалить настройку пользователя «{preference_key}»."
+msgstr "Не удалось удалить настройку пользователя '{preference_key}'."
 
 #: openedx/core/djangoapps/user_api/preferences/api.py:402
 #, python-brace-format
@@ -9299,18 +9299,18 @@ msgid ""
 "Value '{preference_value}' not valid for preference '{preference_key}': Not "
 "in timezone set."
 msgstr ""
-"Значение «{preference_value}» недопустимо для предпочтения «{preference_key}»: "
+"Значение '{preference_value}' недопустимо для предпочтения '{preference_key}': "
 "часовой пояс не установлен."
 
 #: openedx/core/djangoapps/user_api/preferences/api.py:434
 #, python-brace-format
 msgid "Value '{preference_value}' is not a valid time zone selection."
-msgstr "Значение «{preference_value}» не является допустимым выбором часового пояса."
+msgstr "Значение '{preference_value}' не является допустимым выбором часового пояса."
 
 #: openedx/core/djangoapps/user_api/preferences/api.py:451
 #, python-brace-format
 msgid "Save failed for user preference '{key}' with value '{value}'."
-msgstr "Не удалось сохранить настройку пользователя «{key}» со значением «{value}»."
+msgstr "Не удалось сохранить настройку пользователя '{key}' со значением '{value}'."
 
 #: openedx/core/djangoapps/user_api/preferences/views.py:118
 msgid "No data provided for user preference update"
@@ -9853,7 +9853,7 @@ msgstr "Этот контент доступен только для зарег�
 #: openedx/core/lib/api/view_utils.py:159
 #, python-brace-format
 msgid "The about me field must be at most {BIO_MAX_LENGTH} characters long."
-msgstr "Поле «Обо мне» должно содержать не более {BIO_MAX_LENGTH} символов."
+msgstr "Поле Обо мне должно содержать не более {BIO_MAX_LENGTH} символов."
 
 #: openedx/core/lib/api/view_utils.py:161
 msgid "This value is invalid."
@@ -10122,16 +10122,20 @@ msgid ""
 "{s_sr}Original price: {s_op}{original_price}{e_p}, discount price: {e_sr}"
 "{formatted_discount_price}"
 msgstr ""
+"{s_sr}Первоначальная цена: {s_op}{original_price}{e_p}, цена со скидкой:  {e_sr}"
+"{formatted_discount_price}"
 
 #: openedx/features/enterprise_support/admin/forms.py:13
 msgid "CSV File"
-msgstr ""
+msgstr "CSV-файл"
 
 #: openedx/features/enterprise_support/admin/forms.py:14
 msgid ""
 "CSV file should have 3 columns having names lms_user_id, course_id, "
 "opportunity_id"
 msgstr ""
+"CSV-файл должен содержать 3 столбца с именами lms_user_id, course_id, "
+"opportunity_id"
 
 #: openedx/features/enterprise_support/admin/views.py:66
 #, python-brace-format
@@ -10139,6 +10143,8 @@ msgid ""
 "Enrollment attributes were not updated for records at following line numbers "
 "in csv because no enrollment found for these records: {error_line_numbers}"
 msgstr ""
+"Атрибуты регистрации не были обновлены для записей со следующими номерами строк "
+"в CSV, поскольку для этих записей не обнаружено регистрации: {error_line_numbers}"
 
 #: openedx/features/enterprise_support/api.py:898
 #, python-brace-format
@@ -10147,11 +10153,14 @@ msgid ""
 "access the courses available to you through {enterprise_name}, {link_start}"
 "visit the {enterprise_name} dashboard{link_end}."
 msgstr ""
+"У вас есть доступ к панели управления {bold_start}{enterprise_name}{bold_end}. Чтобы "
+"получить доступ к курсам, доступным вам через {enterprise_name}, {link_start}"
+"посетите панель управления {enterprise_name}{link_end}."
 
 #: openedx/features/enterprise_support/api.py:999
 #, python-brace-format
 msgid "Enrollment in {course_title} was not complete."
-msgstr ""
+msgstr "Регистрация на курс {course_title} не завершена."
 
 #: openedx/features/enterprise_support/api.py:1003
 #, python-brace-format
@@ -10159,22 +10168,24 @@ msgid ""
 "If you have concerns about sharing your data, please contact your "
 "administrator at {enterprise_customer_name}."
 msgstr ""
+"Если у вас есть опасения по поводу передачи ваших данных, обратитесь к своему "
+"администратору в {enterprise_customer_name}."
 
 #: openedx/features/enterprise_support/templates/enterprise_support/admin/enrollment_attributes_override.html:15
 msgid "Home"
-msgstr ""
+msgstr "Дом"
 
 #: openedx/features/enterprise_support/templates/enterprise_support/admin/enrollment_attributes_override.html:17
 msgid "Enterprise Course Enrollments"
-msgstr ""
+msgstr "Запись на корпоративные курсы"
 
 #: openedx/features/enterprise_support/templates/enterprise_support/admin/enrollment_attributes_override.html:18
 msgid "Override Enrollment Attributes"
-msgstr ""
+msgstr "Переопределить атрибуты регистрации"
 
 #: openedx/features/enterprise_support/templates/enterprise_support/admin/enrollment_attributes_override.html:25
 msgid "Upload CSV to override enrollment attributes for learners"
-msgstr ""
+msgstr "Загрузите CSV, чтобы переопределить атрибуты регистрации для учащихся."
 
 #: openedx/features/enterprise_support/utils.py:178
 #, python-brace-format
@@ -10184,6 +10195,10 @@ msgid ""
 "access {platform_name}.{line_break}{line_break}Error Details:{line_break}"
 "{error_message}"
 msgstr ""
+"К сожалению, у вас нет прав на доступ к платформе "{platform_name}" через этот "
+"канал. Чтобы получить доступ к {platform_name}, обратитесь к администратору или менеджеру вашего "
+"обучения.{line_break}{line_break}Сведения об ошибке:{line_break}"
+"{error_message}"
 
 #: openedx/features/enterprise_support/utils.py:200
 #, python-brace-format
@@ -10191,22 +10206,26 @@ msgid ""
 "Thank you for joining {platform_name}. Just a couple steps before you start "
 "learning!"
 msgstr ""
+"Спасибо, что присоединились к {platform_name}. Всего пара шагов, прежде чем начать "
+"учиться!"
 
 #: openedx/features/enterprise_support/utils.py:205
 #: lms/templates/course_modes/track_selection.html:156
 #: lms/templates/peer_grading/peer_grading_problem.html:68
 msgid "Continue"
-msgstr ""
+msgstr "Продолжать"
 
 #: openedx/features/personalized_learner_schedules/call_to_action.py:119
 msgid "Shift due dates"
-msgstr ""
+msgstr "Сдвинуть сроки сдачи"
 
 #: openedx/features/personalized_learner_schedules/call_to_action.py:126
 msgid ""
 "It looks like you missed some important deadlines based on our suggested "
 "schedule."
 msgstr ""
+"Судя по предложенному нами графику, вы пропустили некоторые важные  "
+"сроки."
 
 #: openedx/features/personalized_learner_schedules/call_to_action.py:127
 msgid ""
@@ -10214,40 +10233,43 @@ msgid ""
 "due assignments into the future. Don’t worry—you won’t lose any of the "
 "progress you’ve made when you shift your due dates."
 msgstr ""
+"Чтобы не сбиться с пути, вы можете обновить этот график и перенести просроченные  "
+"задания на будущее. Не волнуйтесь: при переносе сроков "
+"выполнения вы не потеряете достигнутый прогресс."
 
 #: openedx/features/personalized_learner_schedules/call_to_action.py:137
 #, python-brace-format
 msgid "Try again ({attempts} attempt remaining)"
 msgid_plural "Try again ({attempts} attempts remaining)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Повторите попытку (осталось {attempts} попыток)"
+msgstr[1] "Попробуйте еще раз (осталось попыток: {attempts})"
 
 #: openedx/features/personalized_learner_schedules/call_to_action.py:142
 #, python-brace-format
 msgid "You have used {attempts} of {max_attempts} attempts for this problem."
-msgstr ""
+msgstr "Вы использовали {attempts} из {max_attempts} попыток для решения этой задачи."
 
 #: openedx/features/personalized_learner_schedules/call_to_action.py:147
 msgid "Try again (unlimited attempts)"
-msgstr ""
+msgstr "Попробуйте еще раз (неограниченное количество попыток)"
 
 #: openedx/features/personalized_learner_schedules/call_to_action.py:148
 #, python-brace-format
 msgid "You have used {attempts} of unlimited attempts for this problem."
-msgstr ""
+msgstr "Вы использовали {attempts} из неограниченного количества попыток для решения этой задачи."
 
 #: themes/red-theme/lms/templates/ace_common/edx_ace/common/base_body.html:70
 #: cms/templates/widgets/header.html:374
 msgid "Sign In"
-msgstr ""
+msgstr "Войти"
 
 #: themes/red-theme/lms/templates/ace_common/edx_ace/common/base_body.html:176
 msgid "Our mailing address is"
-msgstr ""
+msgstr "Наш почтовый адрес"
 
 #: xmodule/annotatable_block.py:44
 msgid "XML data for the annotation"
-msgstr ""
+msgstr "XML-данные для аннотации"
 
 #: xmodule/annotatable_block.py:66 xmodule/capa_block.py:178
 #: xmodule/conditional_block.py:89 xmodule/discussion_block.py:48
@@ -10257,269 +10279,275 @@ msgstr ""
 #: xmodule/video_block/video_xfields.py:20 xmodule/word_cloud_block.py:58
 #: xmodule/x_module.py:227
 msgid "The display name for this component."
-msgstr ""
+msgstr "Отображаемое имя этого компонента."
 
 #: xmodule/annotatable_block.py:68
 msgid "Annotation"
-msgstr ""
+msgstr "Аннотация"
 
 #: xmodule/capa/capa_problem.py:511
 msgid "Cannot rescore problems with possible file submissions"
-msgstr ""
+msgstr "Невозможно повторно оценить проблемы с возможной отправкой файлов."
 
 #: xmodule/capa/capa_problem.py:610
 msgid "Question {}"
-msgstr ""
+msgstr "Вопрос {}"
 
 #: xmodule/capa/capa_problem.py:745 xmodule/capa_block.py:1375
 msgid "Incorrect"
-msgstr ""
+msgstr "Неправильный"
 
 #: xmodule/capa/capa_problem.py:750 xmodule/capa_block.py:1384
 msgid "Correct"
-msgstr ""
+msgstr "Правильный"
 
 #: xmodule/capa/inputtypes.py:91
 msgid "correct"
-msgstr ""
+msgstr "правильный"
 
 #: xmodule/capa/inputtypes.py:92
 msgid "incorrect"
-msgstr ""
+msgstr "неправильный"
 
 #: xmodule/capa/inputtypes.py:93
 msgid "partially correct"
-msgstr ""
+msgstr "частично верно"
 
 #: xmodule/capa/inputtypes.py:94
 msgid "incomplete"
-msgstr ""
+msgstr "неполный"
 
 #: xmodule/capa/inputtypes.py:95 xmodule/capa/inputtypes.py:96
 msgid "unanswered"
-msgstr ""
+msgstr "оставшийся без ответа"
 
 #: xmodule/capa/inputtypes.py:97
 msgid "submitted"
-msgstr ""
+msgstr "поданный"
 
 #: xmodule/capa/inputtypes.py:98
 msgid "processing"
-msgstr ""
+msgstr "обработка"
 
 #. Translators: these are tooltips that indicate the state of an assessment
 #. question
 #: xmodule/capa/inputtypes.py:102
 msgid "This answer is correct."
-msgstr ""
+msgstr "Этот ответ правильный."
 
 #: xmodule/capa/inputtypes.py:103
 msgid "This answer is incorrect."
-msgstr ""
+msgstr "Этот ответ неверен."
 
 #: xmodule/capa/inputtypes.py:104
 msgid "This answer is partially correct."
-msgstr ""
+msgstr "Этот ответ частично верен."
 
 #: xmodule/capa/inputtypes.py:105
 msgid "This answer is being processed."
-msgstr ""
+msgstr "Этот ответ обрабатывается."
 
 #: xmodule/capa/inputtypes.py:109
 msgid "Not yet answered."
-msgstr ""
+msgstr "Еще не ответил."
 
 #: xmodule/capa/inputtypes.py:455 wiki/forms.py:162
 msgid "Select an option"
-msgstr ""
+msgstr "Выберите вариант"
 
 #. Translators: 'ChoiceGroup' is an input type and should not be translated.
 #: xmodule/capa/inputtypes.py:504
 #, python-brace-format
 msgid "ChoiceGroup: unexpected tag {tag_name}"
-msgstr ""
+msgstr "ChoiceGroup: неожиданный тег {tag_name}"
 
 #: xmodule/capa/inputtypes.py:516 xmodule/capa/inputtypes.py:1699
 msgid "Answer received."
-msgstr ""
+msgstr "Ответ получен."
 
 #. Translators: '<choice>' and '<compoundhint>' are tag names and should not
 #. be translated.
 #: xmodule/capa/inputtypes.py:552
 #, python-brace-format
 msgid "Expected a <choice> or <compoundhint> tag; got {given_tag} instead"
-msgstr ""
+msgstr "Ожидается тег <choice> или <compoundhint>; вместо него получен {given_tag}"
 
 #: xmodule/capa/inputtypes.py:736
 msgid ""
 "Your files have been submitted. As soon as your submission is graded, this "
 "message will be replaced with the grader's feedback."
 msgstr ""
+"Ваши файлы отправлены. Как только ваша работа будет оценена, это "
+"сообщение будет заменено отзывом оценщика."
 
 #: xmodule/capa/inputtypes.py:808
 msgid ""
 "Your answer has been submitted. As soon as your submission is graded, this "
 "message will be replaced with the grader's feedback."
 msgstr ""
+"Ваш ответ отправлен. Как только ваша работа будет оценена, это "
+"сообщение будет заменено отзывом оценщика."
 
 #: xmodule/capa/inputtypes.py:821
 #, python-brace-format
 msgid "{programming_language} editor"
-msgstr ""
+msgstr "редактор {programming_language}"
 
 #: xmodule/capa/inputtypes.py:824
 msgid "Press ESC then TAB or click outside of the code editor to exit"
-msgstr ""
+msgstr "Нажмите ESC, затем TAB или щелкните за пределами редактора кода, чтобы выйти."
 
 #: xmodule/capa/inputtypes.py:850
 msgid ""
 "Submitted. As soon as a response is returned, this message will be replaced "
 "by that feedback."
 msgstr ""
+"Отправлено. Как только будет получен ответ, данное сообщение будет заменено "
+"этим отзывом."
 
 #: xmodule/capa/inputtypes.py:877
 #, python-brace-format
 msgid "No response from Xqueue within {xqueue_timeout} seconds. Aborted."
-msgstr ""
+msgstr "Нет ответа от Xqueue в течение {xqueue_timeout} секунд. Прервано."
 
 #: xmodule/capa/inputtypes.py:942
 msgid "Error running code."
-msgstr ""
+msgstr "Ошибка при выполнении кода."
 
 #: xmodule/capa/inputtypes.py:983
 msgid "Cannot connect to the queue"
-msgstr ""
+msgstr "Невозможно подключиться к очереди"
 
 #: xmodule/capa/inputtypes.py:1213 xmodule/capa/inputtypes.py:1298
 msgid "No formula specified."
-msgstr ""
+msgstr "Формула не указана."
 
 #: xmodule/capa/inputtypes.py:1219
 #, python-brace-format
 msgid "Couldn't parse formula: {error_msg}"
-msgstr ""
+msgstr "Не удалось разобрать формулу: {error_msg}"
 
 #: xmodule/capa/inputtypes.py:1224 xmodule/capa/inputtypes.py:1316
 msgid "Error while rendering preview"
-msgstr ""
+msgstr "Ошибка при рендеринге предварительного просмотра"
 
 #: xmodule/capa/inputtypes.py:1309
 msgid "Sorry, couldn't parse formula"
-msgstr ""
+msgstr "Извините, не смог разобрать формулу"
 
 #: xmodule/capa/inputtypes.py:1677
 #, python-brace-format
 msgid "{input_type}: unexpected tag {tag_name}"
-msgstr ""
+msgstr "{input_type}: неожиданный тег {tag_name}"
 
 #. Translators: a "tag" is an XML element, such as "<b>" in HTML
 #: xmodule/capa/inputtypes.py:1762
 #, python-brace-format
 msgid "Expected a {expected_tag} tag; got {given_tag} instead"
-msgstr ""
+msgstr "Ожидался тег {expected_tag}; вместо него получен {given_tag}"
 
 #. Translators: index here could be 1,2,3 and so on
 #: xmodule/capa/responsetypes.py:258
 #, python-brace-format
 msgid "Question {index}"
-msgstr ""
+msgstr "Вопрос {index}"
 
 #: xmodule/capa/responsetypes.py:361
 msgid "Correct:"
-msgstr ""
+msgstr "Правильно:"
 
 #: xmodule/capa/responsetypes.py:363
 msgid "Incorrect:"
-msgstr ""
+msgstr "Неверно:"
 
 #: xmodule/capa/responsetypes.py:407 xmodule/capa_block.py:778
 #: xmodule/capa_block.py:794
 msgid "Answer"
-msgstr ""
+msgstr "Ответить"
 
 #: xmodule/capa/responsetypes.py:489
 #, python-brace-format
 msgid "Error {err} in evaluating hint function {hintfn}."
-msgstr ""
+msgstr "Ошибка {err} при вычислении функции подсказки {hintfn}."
 
 #: xmodule/capa/responsetypes.py:490
 msgid "(Source code line unavailable)"
-msgstr ""
+msgstr "(Строка исходного кода недоступна)"
 
 #: xmodule/capa/responsetypes.py:491
 #, python-brace-format
 msgid "See XML source line {sourcenum}."
-msgstr ""
+msgstr "См. строку источника XML {sourcenum}."
 
 #: xmodule/capa/responsetypes.py:661 cms/templates/widgets/problem-edit.html:34
 #: cms/templates/widgets/problem-edit.html:38
 #: cms/templates/widgets/problem-edit.html:109
 msgid "Checkboxes"
-msgstr ""
+msgstr "Флажки"
 
 #: xmodule/capa/responsetypes.py:985 cms/templates/widgets/problem-edit.html:26
 #: cms/templates/widgets/problem-edit.html:30
 #: cms/templates/widgets/problem-edit.html:98
 msgid "Multiple Choice"
-msgstr ""
+msgstr "Множественный выбор"
 
 #. Translators: 'shuffle' and 'answer-pool' are attribute names and should not
 #. be translated.
 #: xmodule/capa/responsetypes.py:1216
 msgid "Do not use shuffle and answer-pool at the same time"
-msgstr ""
+msgstr "Не используйте перемешивание и пул ответов одновременно."
 
 #. Translators: 'answer-pool' is an attribute name and should not be
 #. translated.
 #: xmodule/capa/responsetypes.py:1299
 msgid "answer-pool value should be an integer"
-msgstr ""
+msgstr "значение пула ответов должно быть целым числом"
 
 #. Translators: 'Choicegroup' is an input type and should not be translated.
 #: xmodule/capa/responsetypes.py:1366
 msgid "Choicegroup must include at least 1 correct and 1 incorrect choice"
-msgstr ""
+msgstr "Группа выбора должна включать как минимум 1 правильный и 1 неправильный выбор."
 
 #: xmodule/capa/responsetypes.py:1390
 msgid "True/False Choice"
-msgstr ""
+msgstr "Верный/неверный выбор"
 
 #: xmodule/capa/responsetypes.py:1424
 #: cms/templates/widgets/problem-edit.html:58
 #: cms/templates/widgets/problem-edit.html:62
 #: cms/templates/widgets/problem-edit.html:141
 msgid "Dropdown"
-msgstr ""
+msgstr "Выпадающий"
 
 #: xmodule/capa/responsetypes.py:1498
 #: cms/templates/widgets/problem-edit.html:50
 #: cms/templates/widgets/problem-edit.html:54
 #: cms/templates/widgets/problem-edit.html:131
 msgid "Numerical Input"
-msgstr ""
+msgstr "Числовой ввод"
 
 #: xmodule/capa/responsetypes.py:1536 xmodule/capa/responsetypes.py:1568
 msgid "There was a problem with the staff answer to this problem."
-msgstr ""
+msgstr "Возникла проблема с ответом персонала на эту проблему."
 
 #: xmodule/capa/responsetypes.py:1592
 #, python-brace-format
 msgid "Could not interpret '{student_answer}' as a number."
-msgstr ""
+msgstr "Не удалось интерпретировать '{student_answer}' как число."
 
 #: xmodule/capa/responsetypes.py:1614
 #, python-brace-format
 msgid "Factorial function evaluated outside its domain:'{student_answer}'"
-msgstr ""
+msgstr "Функция факториала, вычисляемая за пределами своей области: '{student_answer}'"
 
 #: xmodule/capa/responsetypes.py:1621
 #, python-brace-format
 msgid "Invalid math syntax: '{student_answer}'"
-msgstr ""
+msgstr "Неверный математический синтаксис: '{student_answer}'"
 
 #: xmodule/capa/responsetypes.py:1652
 msgid "You may not use complex numbers in range tolerance problems"
-msgstr ""
+msgstr "Вы не можете использовать комплексные числа в задачах на допустимость диапазона"
 
 #. Translators: This is an error message for a math problem. If the instructor
 #. provided a
@@ -10529,6 +10557,7 @@ msgstr ""
 msgid ""
 "There was a problem with the staff answer to this problem: complex boundary."
 msgstr ""
+"Возникла проблема с ответом сотрудников на эту задачу: сложная граница."
 
 #. Translators: This is an error message for a math problem. If the instructor
 #. did not
@@ -10537,6 +10566,7 @@ msgstr ""
 msgid ""
 "There was a problem with the staff answer to this problem: empty boundary."
 msgstr ""
+"Возникла проблема с ответом персонала на эту проблему: пустая граница."
 
 #. #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
 #. Translators: Separator used in NumericalResponse to display multiple
@@ -10551,58 +10581,58 @@ msgstr ""
 #: lms/templates/course_modes/choose.html:198
 #: themes/stanford-style/lms/templates/register-form.html:45
 msgid "or"
-msgstr ""
+msgstr "или"
 
 #: xmodule/capa/responsetypes.py:1859
 #: cms/templates/widgets/problem-edit.html:42
 #: cms/templates/widgets/problem-edit.html:46
 #: cms/templates/widgets/problem-edit.html:120
 msgid "Text Input"
-msgstr ""
+msgstr "Ввод текста"
 
 #: xmodule/capa/responsetypes.py:2040
 msgid "error"
-msgstr ""
+msgstr "ошибка"
 
 #: xmodule/capa/responsetypes.py:2082
 msgid "Custom Evaluated Script"
-msgstr ""
+msgstr "Индивидуальная оценка сценария"
 
 #: xmodule/capa/responsetypes.py:2184
 #, python-brace-format
 msgid "error getting student answer from {student_answers}"
-msgstr ""
+msgstr "ошибка получения ответа студента из {student_answers}"
 
 #: xmodule/capa/responsetypes.py:2208
 msgid "No answer entered!"
-msgstr ""
+msgstr "Ответ не получен!"
 
 #: xmodule/capa/responsetypes.py:2432
 msgid "CustomResponse: check function returned an invalid dictionary!"
-msgstr ""
+msgstr "CustomResponse: функция проверки вернула неверный словарь!"
 
 #: xmodule/capa/responsetypes.py:2525
 msgid "Symbolic Math Input"
-msgstr ""
+msgstr "Символьный математический ввод"
 
 #. Translators: 'SymbolicResponse' is a problem type and should not be
 #. translated.
 #: xmodule/capa/responsetypes.py:2556
 #, python-brace-format
 msgid "An error occurred with SymbolicResponse. The error was: {error_msg}"
-msgstr ""
+msgstr "Произошла ошибка при работе с SymbolicResponse. Ошибка была: {error_msg}"
 
 #: xmodule/capa/responsetypes.py:2594
 msgid "Code Input"
-msgstr ""
+msgstr "Ввод кода"
 
 #: xmodule/capa/responsetypes.py:2652
 msgid "No answer provided."
-msgstr ""
+msgstr "Ответ не предоставлен."
 
 #: xmodule/capa/responsetypes.py:2671
 msgid "Error: No grader has been set up for this problem."
-msgstr ""
+msgstr "Ошибка: Для этой задачи не был установлен грейдер."
 
 #: xmodule/capa/responsetypes.py:2732
 #, python-brace-format
@@ -10610,19 +10640,21 @@ msgid ""
 "Unable to deliver your submission to grader (Reason: {error_msg}). Please "
 "try again later."
 msgstr ""
+"Невозможно доставить вашу работу оценщику (Причина: {error_msg}). Пожалуйста, "
+"повторите попытку позже."
 
 #. Translators: 'grader' refers to the edX automatic code grader.
 #: xmodule/capa/responsetypes.py:2755
 msgid "Invalid grader reply. Please contact the course staff."
-msgstr ""
+msgstr "Неверный ответ оценщика. Пожалуйста, свяжитесь с сотрудниками курса."
 
 #: xmodule/capa/responsetypes.py:2868
 msgid "External Grader"
-msgstr ""
+msgstr "Внешний грейдер"
 
 #: xmodule/capa/responsetypes.py:3026
 msgid "Math Expression Input"
-msgstr ""
+msgstr "Ввод математического выражения"
 
 #: xmodule/capa/responsetypes.py:3125
 #, python-brace-format
@@ -10630,316 +10662,337 @@ msgid ""
 "Factorial function not permitted in answer for this problem. Provided answer "
 "was: {bad_input}"
 msgstr ""
+"Функция факториала не разрешена для решения этой проблемы. Предоставленный "
+"ответ: {bad_input}"
 
 #: xmodule/capa/responsetypes.py:3132
 #, python-brace-format
 msgid "Invalid input: Could not parse '{bad_input}' as a formula."
-msgstr ""
+msgstr "Неверный ввод: не удалось проанализировать '{bad_input}' как формулу."
 
 #: xmodule/capa/responsetypes.py:3140
 #, python-brace-format
 msgid "Invalid input: Could not parse '{bad_input}' as a formula"
-msgstr ""
+msgstr "Неверный ввод: не удалось проанализировать '{bad_input}' как формулу."
 
 #: xmodule/capa/responsetypes.py:3247
 msgid "Circuit Schematic Builder"
-msgstr ""
+msgstr "Конструктор схем"
 
 #. Translators: 'SchematicResponse' is a problem type and should not be
 #. translated.
 #: xmodule/capa/responsetypes.py:3284
 #, python-brace-format
 msgid "Error in evaluating SchematicResponse. The error was: {error_msg}"
-msgstr ""
+msgstr "Ошибка при оценке SchematicResponse. Ошибка была: {error_msg}"
 
 #: xmodule/capa/responsetypes.py:3325
 msgid "Image Mapped Input"
-msgstr ""
+msgstr "Изображение, отображаемое на входе"
 
 #: xmodule/capa/responsetypes.py:3350
 #, python-brace-format
 msgid "error grading {image_input_id} (input={user_input})"
-msgstr ""
+msgstr "ошибка градации {image_input_id} (input={user_input})"
 
 #. Translators: {sr_coords} are the coordinates of a rectangle
 #: xmodule/capa/responsetypes.py:3371
 #, python-brace-format
 msgid "Error in problem specification! Cannot parse rectangle in {sr_coords}"
-msgstr ""
+msgstr "Ошибка в описании задачи! Невозможно проанализировать прямоугольник в {sr_coords}."
 
 #: xmodule/capa/responsetypes.py:3444
 msgid "Annotation Input"
-msgstr ""
+msgstr "Ввод аннотации"
 
 #: xmodule/capa/responsetypes.py:3571
 msgid "Checkboxes With Text Input"
-msgstr ""
+msgstr "Флажки с вводом текста"
 
 #: xmodule/capa/responsetypes.py:3624
 #, python-brace-format
 msgid "Answer not provided for {input_type}"
-msgstr ""
+msgstr "Ответ не предоставлен для {input_type}"
 
 #: xmodule/capa/responsetypes.py:3870
 msgid "The Staff answer could not be interpreted as a number."
-msgstr ""
+msgstr "Ответ персонала не может быть интерпретирован как число."
 
 #: xmodule/capa/responsetypes.py:3884
 #, python-brace-format
 msgid "Could not interpret '{given_answer}' as a number."
-msgstr ""
+msgstr "Не удалось интерпретировать '{given_answer}' как число."
 
 #: xmodule/capa/safe_exec/remote_exec.py:83
 msgid "Codejail API Service is unavailable. Please try again in a few minutes."
-msgstr ""
+msgstr "Служба API Codejail недоступна. Пожалуйста, повторите попытку через несколько минут."
 
 #: xmodule/capa/safe_exec/remote_exec.py:90
 msgid "Codejail API Service invalid response."
-msgstr ""
+msgstr "Неверный ответ службы API Codejail."
 
 #: xmodule/capa/safe_exec/remote_exec.py:96
 msgid "Invalid JSON response received from codejail api service."
-msgstr ""
+msgstr "От службы API codejail получен неверный ответ JSON."
 
 #: xmodule/capa_block.py:185
 msgid "Number of attempts taken by the student on this problem"
-msgstr ""
+msgstr "Количество попыток, предпринятых учеником для решения этой задачи"
 
 #: xmodule/capa_block.py:190 xmodule/modulestore/inheritance.py:146
 msgid "Maximum Attempts"
-msgstr ""
+msgstr "Максимальное количество попыток"
 
 #: xmodule/capa_block.py:191
 msgid ""
 "Defines the number of times a student can try to answer this problem. If the "
 "value is not set, infinite attempts are allowed."
 msgstr ""
+"Определяет, сколько раз учащийся может попытаться ответить на эту задачу. Если "
+"значение не установлено, разрешено бесконечное количество попыток."
 
 #: xmodule/capa_block.py:196
 msgid "Grading Method"
-msgstr ""
+msgstr "Метод оценки"
 
 #: xmodule/capa_block.py:198
 msgid ""
 "Define the grading method for this problem. By default, it's the score of "
 "the last submission made by the student."
 msgstr ""
+"Определите метод оценки этой задачи. По умолчанию это оценка "
+"последней работы, отправленной учащимся."
 
 #: xmodule/capa_block.py:204 xmodule/capa_block.py:501
 msgid "Last Score"
-msgstr ""
+msgstr "Последний счет"
 
 #: xmodule/capa_block.py:205 xmodule/capa_block.py:502
 msgid "First Score"
-msgstr ""
+msgstr "Первый балл"
 
 #: xmodule/capa_block.py:206 xmodule/capa_block.py:503
 msgid "Highest Score"
-msgstr ""
+msgstr "Наивысший балл"
 
 #: xmodule/capa_block.py:207 xmodule/capa_block.py:504
 msgid "Average Score"
-msgstr ""
+msgstr "Средний балл"
 
 #: xmodule/capa_block.py:210
 msgid "Date that this problem is due by"
-msgstr ""
+msgstr "Дата возникновения этой проблемы"
 
 #: xmodule/capa_block.py:212
 msgid "Amount of time after the due date that submissions will be accepted"
-msgstr ""
+msgstr "Количество времени после установленной даты, в течение которого материалы будут приняты"
 
 #: xmodule/capa_block.py:216 xmodule/modulestore/inheritance.py:103
 msgid "Show Results"
-msgstr ""
+msgstr "Показать результаты"
 
 #: xmodule/capa_block.py:217
 msgid ""
 "Defines when to show whether a learner's answer to the problem is correct. "
 "Configured on the subsection."
 msgstr ""
+"Определяет, когда следует показать, правильный ли ответ учащегося на задачу. "
+"Настраивается на подраздел."
 
 #: xmodule/capa_block.py:222 xmodule/capa_block.py:234
 #: xmodule/capa_block.py:278
 msgid "Always"
-msgstr ""
+msgstr "Всегда"
 
 #: xmodule/capa_block.py:224 xmodule/capa_block.py:240
 msgid "Past Due"
-msgstr ""
+msgstr "Просроченный платеж"
 
 #: xmodule/capa_block.py:228 xmodule/modulestore/inheritance.py:89
 msgid "Show Answer"
-msgstr ""
+msgstr "Показать ответ"
 
 #: xmodule/capa_block.py:229
 msgid ""
 "Defines when to show the answer to the problem. A default value can be set "
 "in Advanced Settings."
 msgstr ""
+"Определяет, когда показывать ответ на задачу. Значение по умолчанию можно установить "
+"в дополнительных настройках."
 
 #: xmodule/capa_block.py:235
 msgid "Answered"
-msgstr ""
+msgstr "Ответить"
 
 #: xmodule/capa_block.py:236
 msgid "Attempted or Past Due"
-msgstr ""
+msgstr "Попытка или просрочка"
 
 #: xmodule/capa_block.py:237
 msgid "Closed"
-msgstr ""
+msgstr "Закрытый"
 
 #: xmodule/capa_block.py:238
 msgid "Finished"
-msgstr ""
+msgstr "Готово"
 
 #: xmodule/capa_block.py:239
 msgid "Correct or Past Due"
-msgstr ""
+msgstr "Исправленные или просроченные"
 
 #: xmodule/capa_block.py:242
 msgid "After Some Number of Attempts"
-msgstr ""
+msgstr "После некоторого количества попыток"
 
 #: xmodule/capa_block.py:243
 msgid "After All Attempts"
-msgstr ""
+msgstr "После всех попыток"
 
 #: xmodule/capa_block.py:244
 msgid "After All Attempts or Correct"
-msgstr ""
+msgstr "После всех попыток или исправлений"
 
 #: xmodule/capa_block.py:245
 msgid "Attempted"
-msgstr ""
+msgstr "Попытка"
 
 #: xmodule/capa_block.py:249
 msgid "Show Answer: Number of Attempts"
-msgstr ""
+msgstr "Показать ответ: Количество попыток"
 
 #: xmodule/capa_block.py:251
 msgid ""
 "Number of times the student must attempt to answer the question before the "
 "Show Answer button appears."
 msgstr ""
+"Количество попыток ученика ответить на вопрос, прежде "
+"чем появится кнопка Показать ответ"
 
 #: xmodule/capa_block.py:258
 msgid "Whether to force the save button to appear on the page"
-msgstr ""
+msgstr "Нужно ли принудительно отображать кнопку сохранения на странице"
 
 #: xmodule/capa_block.py:263 xmodule/library_content_block.py:170
 msgid "Show Reset Button"
-msgstr ""
+msgstr "Показать кнопку сброса"
 
 #: xmodule/capa_block.py:264
 msgid ""
 "Determines whether a 'Reset' button is shown so the user may reset their "
 "answer. A default value can be set in Advanced Settings."
 msgstr ""
+"Определяет, отображается ли кнопка «Сброс», позволяющая пользователю сбросить свой ответ. "
+"Значение по умолчанию можно установить в дополнительных настройках."
 
 #: xmodule/capa_block.py:270 xmodule/modulestore/inheritance.py:115
 msgid "Randomization"
-msgstr ""
+msgstr "Рандомизация"
 
 #: xmodule/capa_block.py:272
 msgid ""
 "Defines when to randomize the variables specified in the associated Python "
 "script. For problems that do not randomize values, specify \"Never\". "
 msgstr ""
+"Определяет, когда рандомизировать переменные, указанные в связанном Python-скрипте. "
+"Для задач, в которых значения не рандомизируются, укажите \«Never\»."
 
 #: xmodule/capa_block.py:279
 msgid "On Reset"
-msgstr ""
+msgstr "При сбросе"
 
 #: xmodule/capa_block.py:281
 msgid "Per Student"
-msgstr ""
+msgstr "На одного студента"
 
 #: xmodule/capa_block.py:285
 msgid "XML data for the problem"
-msgstr ""
+msgstr "XML-данные для решения задачи"
 
 #: xmodule/capa_block.py:290
 msgid "Dictionary with the correctness of current student answers"
-msgstr ""
+msgstr "Словарь с правильными ответами учащихся"
 
 #: xmodule/capa_block.py:293
 msgid "List of correctness maps for each attempt"
-msgstr ""
+msgstr "Список карт правильности для каждой попытки"
 
 #: xmodule/capa_block.py:295
 msgid "Dictionary for maintaining the state of inputtypes"
-msgstr ""
+msgstr "Словарь для поддержания состояния типов ввода"
 
 #: xmodule/capa_block.py:296
 msgid "Dictionary with the current student responses"
-msgstr ""
+msgstr "Словарь с текущими ответами учащихся"
 
 #: xmodule/capa_block.py:298
 msgid "List of student answers for each attempt"
-msgstr ""
+msgstr "Список ответов учащихся для каждой попытки"
 
 #: xmodule/capa_block.py:302
 msgid "Dictionary with the current student score"
-msgstr ""
+msgstr "Словарь с текущей оценкой студента"
 
 #: xmodule/capa_block.py:304
 msgid "List of scores for each attempt"
-msgstr ""
+msgstr "Список баллов за каждую попытку"
 
 #: xmodule/capa_block.py:306
 msgid "Whether or not the answers have been saved since last submit"
-msgstr ""
+msgstr "Сохранились ли ответы с момента последней отправки"
 
 #: xmodule/capa_block.py:308
 msgid "Whether the student has answered the problem"
-msgstr ""
+msgstr "Ответил ли студент на поставленный вопрос"
 
 #: xmodule/capa_block.py:309
 msgid "Random seed for this student"
-msgstr ""
+msgstr "Случайное зерно для этого студента"
 
 #: xmodule/capa_block.py:310
 msgid "Last submission time"
-msgstr ""
+msgstr "Время последней отправки"
 
 #: xmodule/capa_block.py:312
 msgid "Timer Between Attempts"
-msgstr ""
+msgstr "Время между попытками"
 
 #: xmodule/capa_block.py:313
 msgid ""
 "Seconds a student must wait between submissions for a problem with multiple "
 "attempts."
 msgstr ""
+"Секунды, которые студент должен ждать между отправками для задачи с несколькими "
+"попытками."
 
 #: xmodule/capa_block.py:317
 msgid "Problem Weight"
-msgstr ""
+msgstr "Вес задачи"
 
 #: xmodule/capa_block.py:318
 msgid ""
 "Defines the number of points each problem is worth. If the value is not set, "
 "each response field in the problem is worth one point."
 msgstr ""
+"Определяет количество баллов, которое стоит каждая задача. Если значение не "
+"установлено, то каждое поле ответа в задаче стоит один балл."
 
 #: xmodule/capa_block.py:323
 msgid "Markdown source of this module"
-msgstr ""
+msgstr "Исходный код Markdown этого модуля"
 
 #: xmodule/capa_block.py:325
 msgid ""
 "Source code for LaTeX and Word problems. This feature is not well-supported."
 msgstr ""
+"Исходный код для задач LaTeX и Word. Эта функция не имеет хорошей поддержки."
 
 #: xmodule/capa_block.py:329 xmodule/html_block.py:67
 msgid "Enable LaTeX templates?"
-msgstr ""
+msgstr "Включить шаблоны LaTeX?"
 
 #: xmodule/capa_block.py:334 xmodule/modulestore/inheritance.py:151
 msgid "Matlab API key"
-msgstr ""
+msgstr "Ключ API Matlab"
 
 #: xmodule/capa_block.py:335
 msgid ""
@@ -10950,12 +11003,20 @@ msgid ""
 "compromised. To obtain a key for your course, or to report an issue, please "
 "contact moocsupport@mathworks.com"
 msgstr ""
+"Введите ключ API, предоставленный MathWorks для доступа к службе MATLAB Hosted. "
+"Этот ключ предоставляется для исключительного использования в этом курсе на "
+"указанный срок. Пожалуйста, не делитесь ключом API с другими курсами и "
+"немедленно уведомите MathWorks, если вы считаете, что ключ был раскрыт или "
+"скомпрометирован. Чтобы получить ключ для вашего курса или сообщить о проблеме, "
+"пожалуйста, свяжитесь с moocsupport@mathworks.com"
 
 #: xmodule/capa_block.py:429
 msgid ""
 "We're sorry, there was an error with processing your request. Please try "
 "reloading your page and trying again."
 msgstr ""
+"Извините, произошла ошибка при обработке вашего запроса. Пожалуйста, попробуйте "
+"перезагрузить страницу и повторить попытку."
 
 #: xmodule/capa_block.py:434
 msgid ""
