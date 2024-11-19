@@ -9484,11 +9484,11 @@ msgstr ""
 #: lms/templates/navigation/navbar-not-authenticated.html:38
 #: themes/stanford-style/lms/templates/register-form.html:272
 msgid "Register"
-msgstr ""
+msgstr "Зарегистрироваться"
 
 #: openedx/core/djangoapps/user_authn/views/login.py:134
 msgid "There was an error receiving your login information. Please email us."
-msgstr ""
+msgstr "Произошла ошибка при получении ваших данных для входа. Пожалуйста, напишите нам."
 
 #: openedx/core/djangoapps/user_authn/views/login.py:166
 #, python-brace-format
@@ -9497,10 +9497,13 @@ msgid ""
 "{locked_out_period} minutes.{li_start}To be on the safe side, you can reset "
 "your password {link_start}here{link_end} before you try again."
 msgstr ""
+"В целях защиты вашей учетной записи она временно заблокирована. Повторите попытку через "
+"{locked_out_ period} минут.{li_start}На всякий случай вы можете сбросить пароль "
+"{link_start}здесь{link_end}, прежде чем повторять попытку."
 
 #: openedx/core/djangoapps/user_authn/views/login.py:230
 msgid "Too many failed login attempts. Try again later."
-msgstr ""
+msgstr "Слишком много неудачных попыток входа в систему. Повторите попытку позже."
 
 #: openedx/core/djangoapps/user_authn/views/login.py:273
 #, python-brace-format
@@ -9510,6 +9513,10 @@ msgid ""
 "If you've forgotten your password, click {link_start}here{link_end} to reset."
 "{li_end}"
 msgstr ""
+"Неправильный адрес электронной почты или пароль.{li_start}У вас есть еще {remaining_attempts} "
+"попыток входа, прежде чем ваша учетная запись будет временно заблокирована.{li_end}{li_start} "
+"Если вы забыли свой пароль, нажмите {link_start}здесь{link_end}, чтобы сбросить его."
+"{li_end}"
 
 #: openedx/core/djangoapps/user_authn/views/login.py:375
 #, python-brace-format
@@ -9517,6 +9524,8 @@ msgid ""
 "As {allowed_domain} user, You must login with your {allowed_domain} "
 "{link_start}{provider} account{link_end}."
 msgstr ""
+"Как пользователь {allowed_domain}, вы должны войти в систему со своей учетной записью {allowed_domain} "
+"{link_start}{provider}{link_end}."
 
 #. Translators: These instructions appear on the login form, immediately
 #. below a field meant to hold the user's email address.
@@ -9527,44 +9536,49 @@ msgstr ""
 #: openedx/core/djangoapps/user_authn/views/password_reset.py:98
 #, python-brace-format
 msgid "The email address you used to register with {platform_name}"
-msgstr ""
+msgstr "Адрес электронной почты, который вы использовали при регистрации на {platform_name}."
 
 #. Translators: This example email address is used as a placeholder in
 #. a field on the password reset form meant to hold the user's email address.
 #: openedx/core/djangoapps/user_authn/views/password_reset.py:93
 msgid "username@domain.com"
-msgstr ""
+msgstr "username@domain.com"
 
 #: openedx/core/djangoapps/user_authn/views/password_reset.py:182
 msgid ""
 "That e-mail address doesn't have an associated user account. Are you sure "
 "you've registered?"
 msgstr ""
+"Этот адрес электронной почты не имеет связанной учетной записи пользователя. Вы уверены, "
+"что зарегистрировались?"
 
 #: openedx/core/djangoapps/user_authn/views/password_reset.py:184
 msgid ""
 "The user account associated with this e-mail address cannot reset the "
 "password."
 msgstr ""
+"Учетная запись пользователя, связанная с этим адресом электронной почты, не может сбросить "
+"пароль."
 
 #: openedx/core/djangoapps/user_authn/views/password_reset.py:299
 #: openedx/core/djangoapps/user_authn/views/password_reset.py:615
 msgid ""
 "Your previous request is in progress, please try again in a few moments."
 msgstr ""
+"Ваш предыдущий запрос находится в обработке. Повторите попытку через несколько минут."
 
 #: openedx/core/djangoapps/user_authn/views/password_reset.py:406
 #: openedx/core/djangoapps/user_authn/views/password_reset.py:421
 msgid "Password reset unsuccessful"
-msgstr ""
+msgstr "Сброс пароля не удался"
 
 #: openedx/core/djangoapps/user_authn/views/password_reset.py:407
 msgid "Error in resetting your password."
-msgstr ""
+msgstr "Ошибка при сбросе пароля."
 
 #: openedx/core/djangoapps/user_authn/views/password_reset.py:437
 msgid "Error in resetting your password. Please try again."
-msgstr ""
+msgstr "Ошибка при сбросе пароля. Пожалуйста, попробуйте еще раз."
 
 #: openedx/core/djangoapps/user_authn/views/password_reset.py:462
 #, python-brace-format
@@ -9572,98 +9586,102 @@ msgid ""
 "{html_start}Password Creation Complete{html_end}Your password has been "
 "created. {bold_start}{email}{bold_end} is now your primary login email."
 msgstr ""
+"{html_start}Создание пароля завершено{html_end}Ваш пароль "
+"создан. {bold_start}{email}{bold_end} теперь является вашим основным адресом электронной почты для входа."
 
 #: openedx/core/djangoapps/user_authn/views/password_reset.py:649
 msgid "Some error occurred during password change. Please try again"
-msgstr ""
+msgstr "Во время смены пароля произошла ошибка. Пожалуйста, попробуйте еще раз"
 
 #: openedx/core/djangoapps/user_authn/views/password_reset.py:653
 msgid "No email address provided."
-msgstr ""
+msgstr "Адрес электронной почты не указан."
 
 #: openedx/core/djangoapps/user_authn/views/password_reset.py:731
 msgid ""
 "An error has occurred. Try refreshing the page, or check your internet "
 "connection."
 msgstr ""
+"Произошла ошибка. Попробуйте обновить страницу или проверьте подключение к "
+"Интернету."
 
 #: openedx/core/djangoapps/user_authn/views/register.py:182
 #, python-brace-format
 msgid "Registration using {provider} has timed out."
-msgstr ""
+msgstr "Время регистрации с помощью {provider} истекло."
 
 #: openedx/core/djangoapps/user_authn/views/register.py:324
 msgid "An access_token is required when passing value ({}) for provider."
-msgstr ""
+msgstr "Access_token требуется при передаче значения ({}) для поставщика."
 
 #: openedx/core/djangoapps/user_authn/views/register.py:337
 msgid "The provided access_token is already associated with another user."
-msgstr ""
+msgstr "Предоставленный access_token уже связан с другим пользователем."
 
 #: openedx/core/djangoapps/user_authn/views/register.py:340
 msgid "The provided access_token is not valid."
-msgstr ""
+msgstr "Предоставленный access_token недействителен."
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:108
 msgid "Full Name cannot contain the following characters: < >"
-msgstr ""
+msgstr "Полное имя не может содержать следующие символы: < >"
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:148
 msgid "A properly formatted e-mail is required"
-msgstr ""
+msgstr "Требуется правильно отформатированный адрес электронной почты."
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:149
 msgid "Your legal name must be a minimum of one character long"
-msgstr ""
+msgstr "Ваше официальное имя должно состоять минимум из одного символа."
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:161
 #, python-format
 msgid "Email cannot be more than %(limit_value)s characters long"
-msgstr ""
+msgstr "Длина электронного письма не может превышать %(limit_value)s символов."
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:191
 msgid "You must accept the terms of service."
-msgstr ""
+msgstr "Вы должны принять условия обслуживания."
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:195
 msgid "A level of education is required"
-msgstr ""
+msgstr "Требуется уровень образования"
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:196
 msgid "Your gender is required"
-msgstr ""
+msgstr "Укажите ваш пол"
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:197
 msgid "Your year of birth is required"
-msgstr ""
+msgstr "Укажите год вашего рождения"
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:198
 msgid "Your mailing address is required"
-msgstr ""
+msgstr "Требуется ваш почтовый адрес"
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:199
 msgid "A description of your goals is required"
-msgstr ""
+msgstr "Требуется описание ваших целей"
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:200
 msgid "A city is required"
-msgstr ""
+msgstr "Требуется город"
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:201
 msgid "A country is required"
-msgstr ""
+msgstr "Укажите страну"
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:209
 msgid "To enroll, you must follow the honor code."
-msgstr ""
+msgstr "Чтобы записаться, вы должны следовать кодексу чести."
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:217
 msgid "You are missing one or more required fields"
-msgstr ""
+msgstr "У вас отсутствует одно или несколько обязательных полей"
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:269
 msgid "Unauthorized email address."
-msgstr ""
+msgstr "Неавторизованный адрес электронной почты."
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:273
 #, python-brace-format
@@ -9671,20 +9689,22 @@ msgid ""
 "It looks like {email} belongs to an existing account. Try again with a "
 "different email address."
 msgstr ""
+"Похоже, {email} принадлежит существующей учетной записи. Попробуйте еще раз с "
+"другим адресом электронной почты."
 
 #. Translators: These instructions appear on the registration form,
 #. immediately
 #. below a field meant to hold the user's email address.
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:496
 msgid "This is what you will use to login."
-msgstr ""
+msgstr "Это то, что вы будете использовать для входа."
 
 #. Translators: These instructions appear on the registration form,
 #. immediately
 #. below a field meant to hold the user's full name.
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:546
 msgid "This name will be used on any certificates that you earn."
-msgstr ""
+msgstr "Это имя будет использоваться во всех полученных вами сертификатах."
 
 #. #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
 #. Translators: This label appears above a field on the registration form
@@ -9694,7 +9714,7 @@ msgstr ""
 #: themes/stanford-style/lms/templates/register-form.html:93
 #: themes/stanford-style/lms/templates/register-shib.html:126
 msgid "Public Username"
-msgstr ""
+msgstr "Общедоступное имя пользователя"
 
 #. Translators: These instructions appear on the registration form,
 #. immediately
@@ -9703,30 +9723,31 @@ msgstr ""
 msgid ""
 "The name that will identify you in your courses. It cannot be changed later."
 msgstr ""
+"Имя, которое будет идентифицировать вас на ваших курсах. Это не может быть изменено позже."
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:688
 #, python-brace-format
 msgid "I agree that {platform_name} may send me marketing messages."
-msgstr ""
+msgstr "Я согласен с тем, что {platform_name} может отправлять мне маркетинговые сообщения."
 
 #. Translators: This label appears above a dropdown menu on the registration
 #. form used to select the country in which the user lives.
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:953
 msgid "Country or Region of Residence"
-msgstr ""
+msgstr "Страна или регион проживания"
 
 #. Translators: These instructions appear on the registration form,
 #. immediately
 #. below a field meant to hold the user's country.
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:964
 msgid "The country or region where you live."
-msgstr ""
+msgstr "Страна или регион, в котором вы живете."
 
 #. Translators: This is a legal document users must agree to
 #. in order to register a new account.
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:1003
 msgid "Terms of Service and Honor Code"
-msgstr ""
+msgstr "Условия обслуживания и Кодекс чести"
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:1009
 #, python-brace-format
@@ -9734,6 +9755,8 @@ msgid ""
 "I agree to the {platform_name} {terms_of_service_link_start}"
 "{terms_of_service}{terms_of_service_link_end}"
 msgstr ""
+"Я согласен с {platform_name} {terms_of_service_link_start} "
+"{terms_of_service}{terms_of_service_link_end}"
 
 #. Translators: "Terms of Service" is a legal document users must agree to
 #. in order to register a new account.
@@ -9743,7 +9766,7 @@ msgstr ""
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:1085
 #, python-brace-format
 msgid "You must agree to the {platform_name} {terms_of_service}"
-msgstr ""
+msgstr "Вы должны согласиться с {platform_name} {terms_of_service}"
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:1032
 #, python-brace-format
@@ -9755,6 +9778,12 @@ msgid ""
 "accordance                   with the {privacy_policy_link_start}Privacy "
 "Policy{privacy_policy_link_end}."
 msgstr ""
+"{terms_of_service_link_start}{terms_of_service}"
+"{terms_of_service_link_end} и вы принимаете, что "
+"{platform_name} и каждый участник обрабатывают ваши персональные данные в "
+"соответствии с " {privacy_policy_link_start}Политикой "
+"конфиденциальности{privacy_policy_link_end}."
+
 
 #. Translators: "Terms of service" is a legal document users must agree to
 #. in order to register a new account.
@@ -9764,6 +9793,8 @@ msgid ""
 "I agree to the {platform_name} {tos_link_start}{terms_of_service}"
 "{tos_link_end}"
 msgstr ""
+"Я согласен с {platform_name} {tos_link_start}{terms_of_service}"
+"{tos_link_end}"
 
 #: openedx/core/djangoapps/user_authn/views/utils.py:43
 msgid "Create Account"
@@ -9772,12 +9803,12 @@ msgstr "Создать учётную запись"
 #: openedx/core/djangoapps/util/user_messages.py:104
 #, python-brace-format
 msgid "{header_open}{title}{header_close}{body}"
-msgstr ""
+msgstr "{header_open}{title}{header_close}{body}"
 
 #: openedx/core/djangoapps/util/user_messages.py:241
 #, python-brace-format
 msgid "{header_open}{title}{header_close}"
-msgstr ""
+msgstr "{header_open}{title}{header_close}"
 
 #: openedx/core/djangoapps/util/user_messages.py:256
 #: cms/templates/course_outline.html:61 cms/templates/course_outline.html:95
@@ -9787,15 +9818,15 @@ msgstr "Убрать"
 
 #: openedx/core/djangoapps/video_pipeline/models.py:33
 msgid "Oauth client name of VEM service."
-msgstr ""
+msgstr "Имя клиента Oauth службы VEM."
 
 #: openedx/core/djangoapps/video_pipeline/models.py:38
 msgid "video encode manager API URL."
-msgstr ""
+msgstr "URL-адрес API менеджера кодирования видео."
 
 #: openedx/core/djangoapps/video_pipeline/models.py:46
 msgid "Username created for VEM Integration, e.g. vem_service_user."
-msgstr ""
+msgstr "Имя пользователя, созданное для интеграции с VEM, например vem_service_user."
 
 #: openedx/core/djangoapps/waffle_utils/models.py:28
 #: openedx/core/djangoapps/waffle_utils/models.py:91
@@ -9805,80 +9836,83 @@ msgstr ""
 #: openedx/core/djangoapps/waffle_utils/models.py:28
 #: openedx/core/djangoapps/waffle_utils/models.py:91
 msgid "Force Off"
-msgstr ""
+msgstr "Сила включена"
 
 #: openedx/core/djangoapps/xblock/runtime/mixin.py:65
 msgid ""
 "This content is only accessible to registered learners. Sign in or register "
 "to view it."
 msgstr ""
+"Этот контент доступен только зарегистрированным учащимся. Войдите или зарегистрируйтесь, "
+"чтобы просмотреть его."
 
 #: openedx/core/djangoapps/xblock/runtime/mixin.py:69
 msgid "This content is only accessible to enrolled learners. "
-msgstr ""
+msgstr "Этот контент доступен только для зарегистрированных учеников. "
 
 #: openedx/core/lib/api/view_utils.py:159
 #, python-brace-format
 msgid "The about me field must be at most {BIO_MAX_LENGTH} characters long."
-msgstr ""
+msgstr "Поле «Обо мне» должно содержать не более {BIO_MAX_LENGTH} символов."
 
 #: openedx/core/lib/api/view_utils.py:161
 msgid "This value is invalid."
-msgstr ""
+msgstr "Это значение недопустимо."
 
 #: openedx/core/lib/api/view_utils.py:214
 msgid "This field is not editable"
-msgstr ""
+msgstr "Это поле не редактируется"
 
 #: openedx/core/lib/gating/api.py:71
 #, python-format
 msgid "%(min_score)s is not a valid grade percentage"
-msgstr ""
+msgstr "%(min_score)s не является допустимым процентом оценки"
 
 #: openedx/core/lib/gating/api.py:186
 #, python-brace-format
 msgid "Gating milestone for {usage_key}"
-msgstr ""
+msgstr "Ключевой этап для {usage_key}"
 
 #: openedx/core/lib/license/mixin.py:26
 msgid "License"
-msgstr ""
+msgstr "Лицензия"
 
 #: openedx/core/lib/license/mixin.py:27
 msgid ""
 "A license defines how the contents of this block can be shared and reused."
 msgstr ""
+"Лицензия определяет, как содержимое этого блока может быть передано и повторно использовано."
 
 #: openedx/core/lib/teams_config.py:386
 #, python-brace-format
 msgid "Team Group: {team_set_name}"
-msgstr ""
+msgstr "Группа команд: {team_set_name}"
 
 #: openedx/core/lib/teams_config.py:387
 msgid "Partition for segmenting users by team-set"
-msgstr ""
+msgstr "Раздел для сегментации пользователей по набору команд"
 
 #: openedx/features/calendar_sync/ics.py:36
 #, python-brace-format
 msgid "{assignment} is due for {course}."
-msgstr ""
+msgstr "{assignment} сдается за {course}."
 
 #: openedx/features/calendar_sync/plugins.py:21
 msgid "Calendar Sync"
-msgstr ""
+msgstr "Синхронизация календаря"
 
 #: openedx/features/calendar_sync/plugins.py:42
 msgid "Unsubscribe from calendar updates"
-msgstr ""
+msgstr "Отписаться от обновлений календаря"
 
 #: openedx/features/calendar_sync/plugins.py:45
 msgid "Subscribe to calendar updates"
-msgstr ""
+msgstr "Подпишитесь на обновления календаря"
 
 #: openedx/features/calendar_sync/utils.py:16
 #, python-brace-format
 msgid "Sync {course} to your calendar"
-msgstr ""
+msgstr "Синхронизируйте {course} со своим календарем"
 
 #: openedx/features/calendar_sync/utils.py:17
 #, python-brace-format
@@ -9887,6 +9921,9 @@ msgid ""
 "complete your self-paced course. This schedule for {course} will help you "
 "stay on track!"
 msgstr ""
+"Соблюдение графика — лучший способ обеспечить успешное "
+"прохождение курса в самостоятельном темпе. Это расписание {курса} поможет вам "
+"не сбиться с пути!"
 
 #: openedx/features/calendar_sync/utils.py:20
 msgid ""
@@ -9894,24 +9931,29 @@ msgid ""
 "course from your instructor will be automatically reflected. You can remove "
 "the course from your calendar at any time."
 msgstr ""
+"Как только вы синхронизируете расписание курса с календарем, любые обновления "
+"курса от вашего преподавателя будут автоматически отражаться. Вы можете удалить "
+"курс из своего календаря в любое время."
 
 #: openedx/features/calendar_sync/utils.py:33
 #, python-brace-format
 msgid "{course} dates have been updated on your calendar"
-msgstr ""
+msgstr "Даты {course} обновлены в вашем календаре"
 
 #: openedx/features/calendar_sync/utils.py:34
 msgid ""
 "You have successfully shifted your course schedule and your calendar is up "
 "to date."
 msgstr ""
+"Вы успешно изменили расписание курсов, и ваш календарь "
+"обновлен."
 
 #: openedx/features/content_type_gating/models.py:27
 #: openedx/features/course_duration_limits/models.py:36
 #: lms/templates/support/feature_based_enrollments.html:40
 #: lms/templates/support/feature_based_enrollments.html:43
 msgid "Enabled As Of"
-msgstr ""
+msgstr "Включено с"
 
 #: openedx/features/content_type_gating/models.py:30
 #: openedx/features/course_duration_limits/models.py:39
@@ -9919,63 +9961,69 @@ msgid ""
 "If the configuration is Enabled, then all enrollments created after this "
 "date and time (user local time) will be affected."
 msgstr ""
+"Если конфигурация включена, это повлияет на все регистрации, созданные после этой "
+"даты и времени (местное время пользователя)."
 
 #: openedx/features/content_type_gating/models.py:36
 msgid "Studio Override Enabled"
-msgstr ""
+msgstr "Переопределение Studio включено"
 
 #: openedx/features/content_type_gating/models.py:39
 msgid ""
 "Allow Feature Based Enrollment visibility to be overriden on a per-component "
 "basis in Studio."
 msgstr ""
+"Разрешить переопределение видимости регистрации на основе функций для каждого компонента "
+"в Studio."
 
 #: openedx/features/content_type_gating/models.py:91
 #: openedx/features/course_duration_limits/models.py:91
 msgid "enabled_as_of must be set when enabled is True"
-msgstr ""
+msgstr "Enabled_as_of должен быть установлен, если значение Enabled равно True."
 
 #: openedx/features/content_type_gating/partitions.py:70
 msgid "Partition for segmenting users by access to gated content types"
-msgstr ""
+msgstr "Раздел для сегментации пользователей по доступу к закрытым типам контента"
 
 #: openedx/features/content_type_gating/partitions.py:117
 #: openedx/features/content_type_gating/templates/content_type_gating/access_denied_message.html:10
 msgid "Graded assessments are available to Verified Track learners."
-msgstr ""
+msgstr "Оценочные оценки доступны учащимся программы Verified Track."
 
 #: openedx/features/content_type_gating/partitions.py:119
 msgid ""
 "Graded assessments are available to Verified Track learners. Upgrade to "
 "Unlock."
 msgstr ""
+"Оценки доступны для учащихся Verified Track. Обновление до "
+"разблокировки."
 
 #: openedx/features/content_type_gating/templates/content_type_gating/access_denied_message.html:3
 msgid "Content available only to verified track learners"
-msgstr ""
+msgstr "Содержание доступно только подтвержденным учащимся"
 
 #: openedx/features/content_type_gating/templates/content_type_gating/access_denied_message.html:7
 msgid "Verified Track Access"
-msgstr ""
+msgstr "Подтвержденный доступ к треку"
 
 #: openedx/features/content_type_gating/templates/content_type_gating/access_denied_message.html:15
 msgid "Upgrade to unlock"
-msgstr ""
+msgstr "Обновить, чтобы разблокировать"
 
 #: openedx/features/course_duration_limits/access.py:32
 #, python-brace-format
 msgid "Access expired on {expiration_date}"
-msgstr ""
+msgstr "Доступ истек в {expiration_date}"
 
 #: openedx/features/course_duration_limits/access.py:35
 #, python-brace-format
 msgid "Access to {course_name} expired on {expiration_date}"
-msgstr ""
+msgstr "Доступ к {course_name} истек {expiration_date}"
 
 #: openedx/features/course_duration_limits/access.py:40
 #, python-brace-format
 msgid "Access to the course you were looking for expired on {expiration_date}"
-msgstr ""
+msgstr "Доступ к искомому курсу истек в {expiration_date}"
 
 #: openedx/features/course_duration_limits/access.py:158
 #, python-brace-format
@@ -9983,14 +10031,19 @@ msgid ""
 "This learner does not have access to this course. Their access expired on "
 "{expiration_date}."
 msgstr ""
+"У этого ученика нет доступа к этому курсу. Срок действия его доступа истек "
+"{expiration_date}."
 
 #: openedx/features/course_duration_limits/access.py:164
 #, python-brace-format
 msgid ""
-"{strong_open}Audit Access Expires {expiration_date}{strong_close}{line_break}"
+"{strong_open}Истекает срок действия доступа к аудиту {expiration_date}{strong_close}{line_break}"
 "You lose all access to this course, including your progress, on "
 "{expiration_date}."
 msgstr ""
+"{strong_open}Audit Access Expires {expiration_date}{strong_close}{line_break}"
+"Вы теряете весь доступ к этому курсу, включая ваш прогресс "
+"{expiration_date}."
 
 #: openedx/features/course_duration_limits/access.py:167
 #, python-brace-format
@@ -10000,24 +10053,29 @@ msgid ""
 "now{sronly_span_open} to retain access past {expiration_date}{span_close}"
 "{a_close}"
 msgstr ""
+"{line_break}Обновите курс до {upgrade_deadline}, чтобы получить неограниченный доступ "
+"к курсу, пока он существует на сайте. {a_open}Обновите "
+"курс сейчас{sronly_span_open}, чтобы сохранить доступ после {дата_истечения}{span_close} "
+"{a_close}"
 
 #: openedx/features/course_experience/api/v1/views.py:64
 msgid "'course_key' is required."
-msgstr ""
+msgstr "требуется 'course_key'."
 
 #: openedx/features/course_experience/api/v1/views.py:98
 #: openedx/features/course_experience/api/v1/views.py:101
 msgid "View all dates"
-msgstr ""
+msgstr "Посмотреть все даты"
 
 #: openedx/features/course_experience/api/v1/views.py:99
 msgid ""
 "Your due dates have been successfully shifted to help you stay on track."
 msgstr ""
+"Сроки сдачи были успешно сдвинуты, чтобы помочь вам не сбиться с пути."
 
 #: openedx/features/course_experience/api/v1/views.py:102
 msgid "Deadlines successfully reset."
-msgstr ""
+msgstr "Сроки успешно сброшены."
 
 #: openedx/features/course_experience/plugins.py:34
 #: cms/templates/widgets/header.html:108 cms/templates/widgets/header.html:113
@@ -10025,7 +10083,7 @@ msgstr ""
 #: openedx/features/course_experience/templates/course_experience/course-updates-fragment.html:18
 #: openedx/features/course_experience/templates/course_experience/course-updates-fragment.html:25
 msgid "Updates"
-msgstr ""
+msgstr "Обновления"
 
 #: openedx/features/discounts/admin.py:22
 msgid ""
@@ -10037,6 +10095,12 @@ msgid ""
 "specifically, and for the org that the course is in, then the more specific "
 "context overrides the more general context."
 msgstr ""
+"Они определяют контекст для отключения скидок, контролируемых lms. Если значения не "
+"заданы, конфигурация применяется глобально. Если установлено одно значение, "
+"конфигурация применяется ко всем курсам в этом контексте. "
+"Одновременно можно установить не более одного значения.<br>Если к курсу применимо несколько "
+"контекстов (например, если конфигурация указана конкретно для курса "
+"и для организации, в которой находится курс), то более конкретный контекст переопределяет более общий контекст."
 
 #: openedx/features/discounts/admin.py:54
 msgid ""
@@ -10046,6 +10110,11 @@ msgid ""
 "the course is in, then the more specific context overrides the more general "
 "context."
 msgstr ""
+"Они определяют контекст для настройки процента скидки на первую "
+"покупку. Если к курсу применяется несколько контекстов (например, если "
+"конфигурация указана конкретно для курса и для организации, в которой находится курс,"
+"то более конкретный контекст переопределяет более общий "
+"контекст."
 
 #: openedx/features/discounts/utils.py:129
 #, python-brace-format
