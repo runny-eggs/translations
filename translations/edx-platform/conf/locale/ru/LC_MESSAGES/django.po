@@ -36,7 +36,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=2; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 "#-#-#-#-#  wiki.po (0.1a)  #-#-#-#-#\n"
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
@@ -310,7 +310,7 @@ msgid ""
 msgstr ""
 "Возьмите указанный курс и попытайтесь экспортировать его в git-репозиторий\n"
 ". Директория курса должна уже быть git-репозиторием. Использование: git_export "
-"<расположение_курса> <git_url>"
+"<course_loc> <git_url>"
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/advanced_settings.py:47
 msgid "Marks a field as deprecated."
@@ -6019,7 +6019,7 @@ msgid ""
 "          "
 msgstr ""
 "\n"
-"            Вы получаете это письмо на адрес %(email)s, потому что вы »
+"            Вы получаете это письмо на адрес %(email)s, потому что вы "
 "зачислены в\n"
 "          "
 
@@ -6032,7 +6032,7 @@ msgid ""
 msgstr ""
 "\n"
 "            Чтобы перестать получать подобные письма, обновите электронную почту курса "
-«settings\n"
+"settings\n"
 "          "
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.html:33
@@ -6322,19 +6322,19 @@ msgid ""
 "%(course_about_url)s to join this course."
 msgstr ""
 "После регистрации и активации учетной записи посетите "
-"%(курс_об_урле)s, чтобы присоединиться к этому курсу."
+"%(course_about_url)s, чтобы присоединиться к этому курсу."
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/subject.txt:3
 #, python-format
 msgid "You have been invited to register for %(course_name)s"
-msgstr "Вы получили приглашение зарегистрироваться на %(course_name)"
+msgstr "Вы получили приглашение зарегистрироваться на %(course_name)s"
 
 #: lms/templates/instructor/edx_ace/allowedunenroll/email/body.html:12
 #: lms/templates/instructor/edx_ace/allowedunenroll/email/subject.txt:3
 #: lms/templates/instructor/edx_ace/enrolledunenroll/email/subject.txt:3
 #, python-format
 msgid "You have been unenrolled from %(course_name)s"
-msgstr "Вы были отчислены из %(course_name)"
+msgstr "Вы были отчислены из %(course_name)s"
 
 #: lms/templates/instructor/edx_ace/allowedunenroll/email/body.html:19
 #: lms/templates/instructor/edx_ace/allowedunenroll/email/body.txt:3
@@ -6369,7 +6369,7 @@ msgid ""
 "of the course staff. This course will no longer appear on your %(site_name)s "
 "dashboard."
 msgstr ""
-"Вы были отчислены из %(course_name)на %(site_name)членом "
+"Вы были отчислены из %(course_name)s на %(site_name)s членом "
 "персонала курса. Этот курс больше не будет отображаться на вашей панели "
 "%(site_name)s"
 
@@ -6606,7 +6606,7 @@ msgstr "Проверка личности одобрена"
 #: lms/templates/verify_student/edx_ace/verificationapproved/email/body.txt:3
 #, python-format
 msgid "Your %(platform_name)s ID verification photos have been approved."
-msgstr "Ваши фотографии для подтверждения личности %(platform_name) одобрены."
+msgstr "Ваши фотографии подтверждения личности на %(platform_name)s были одобрены."
 
 #: lms/templates/verify_student/edx_ace/verificationapproved/email/body.html:23
 #: lms/templates/verify_student/edx_ace/verificationapproved/email/body.txt:4
@@ -6688,7 +6688,7 @@ msgid ""
 "%(platform_name)s. "
 msgstr ""
 "Благодарим вас за отправку фотографий для проверки личности с помощью"
-"(platform_name)s."
+"%(platform_name)s. "
 
 #: lms/templates/verify_student/edx_ace/verificationsubmitted/email/body.html:24
 #: lms/templates/verify_student/edx_ace/verificationsubmitted/email/body.txt:4
@@ -6946,9 +6946,9 @@ msgid ""
 "several useful guides online. See any of the links below for in-depth "
 "details:"
 msgstr ""
-"В этой вики для стилизации используется {start_strong}Markdown{end_strong} Интернете есть  "
-"несколько полезных руководств. Более подробную информацию можно найти по любой из ссылок "
-"ниже:"markdown: Basics
+"Эта вики использует {start_strong}Markdown{end_strong} для стилизации. В интернете есть "
+"В сети есть несколько полезных руководств. Для получения подробной информации смотрите любую "
+"из ссылок ниже:"
 
 #: lms/templates/wiki/includes/cheatsheet.html:18
 msgid "Markdown: Basics"
@@ -8371,7 +8371,7 @@ msgstr ""
 msgid ""
 "<{p}><Your response has been endorsed <{strong}>{post_title}</{strong}></{p}>"
 msgstr ""
-"<{p}><Ваш ответ одобрен <{strong}>{post_title}</{strong}></{p}>"
+"<{p}><Your response has been endorsed <{strong}>{post_title}</{strong}></{p}>"
 
 #: openedx/core/djangoapps/notifications/base_notification.py:181
 #, python-brace-format
@@ -8498,11 +8498,11 @@ msgid ""
 "does not meet these requirements. To reset your password, go to to "
 "{anchor_tag_open}Account Settings{anchor_tag_close}."
 msgstr ""
-"{strong tag open}Требуемое действие: обновите свой "
-"пароль {strong_tag_close}{break_line_tag}С {deadline} {platform_name} "
-"потребует от всех учащихся использования сложных паролей. Ваш текущий пароль "
-"не соответствует этим требованиям. Чтобы сбросить пароль, перейдите в "
-"{anchor_tag_open}Настройки аккаунта{anchor_tag_close}."
+"{strong_tag_open}Необходимые действия: Пожалуйста, обновите свой "
+"пароль{strong_tag_close}{break_line_tag}К {deadline}, {platform_name} "
+"потребует от всех учащихся сложных паролей. Ваш текущий пароль "
+"не соответствует требованиям. Чтобы сбросить пароль, перейдите в "
+"{anchor_tag_open}Настройки учетной записи{anchor_tag_close}."
 
 #: openedx/core/djangoapps/profile_images/images.py:98
 #, python-brace-format
@@ -22809,7 +22809,7 @@ msgstr "Просмотр оценок и успеваемости конкрет
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:66
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:140
 msgid "Learner's {platform_name} email address or username"
-msgstr "Адрес электронной почты или имя пользователя учащегося {имя_платформы}"
+msgstr "Адрес электронной почты или имя пользователя учащегося {platform_name}"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:55
 msgid "View Progress Page"
