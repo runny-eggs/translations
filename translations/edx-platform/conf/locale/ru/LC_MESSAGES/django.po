@@ -11023,26 +11023,28 @@ msgid ""
 "The state of this problem has changed since you loaded this page. Please "
 "refresh your page."
 msgstr ""
+"Состояние этой задачи изменилось с тех пор, как вы загрузили эту страницу. "
+"Пожалуйста, обновите страницу."
 
 #: xmodule/capa_block.py:776 xmodule/capa_block.py:792
 msgid "Answer ID"
-msgstr ""
+msgstr "ID ответа"
 
 #: xmodule/capa_block.py:777 xmodule/capa_block.py:793
 msgid "Question"
-msgstr ""
+msgstr "Вопрос"
 
 #: xmodule/capa_block.py:781
 msgid "Correct Answer"
-msgstr ""
+msgstr "Правильный ответ"
 
 #: xmodule/capa_block.py:1014
 msgid "Submitting"
-msgstr ""
+msgstr "Отправка"
 
 #: xmodule/capa_block.py:1144
 msgid "Warning: The problem has been reset to its initial state!"
-msgstr ""
+msgstr "Предупреждение: задача была сброшена в исходное состояние!"
 
 #. Translators: Following this message, there will be a bulleted list of
 #. items.
@@ -11051,10 +11053,12 @@ msgid ""
 "The problem's state was corrupted by an invalid submission. The submission "
 "consisted of:"
 msgstr ""
+"Состояние задачи было повреждено из-за недействительной отправки. Отправка "
+"состояла из:"
 
 #: xmodule/capa_block.py:1155
 msgid "If this error persists, please contact the course staff."
-msgstr ""
+msgstr "Если эта ошибка повторяется, пожалуйста, свяжитесь с преподавателями курса."
 
 #. Translators: {previous_hints} is the HTML of hints that have already been
 #. generated, {hint_number_prefix}
@@ -11064,7 +11068,7 @@ msgstr ""
 #: xmodule/capa_block.py:1210
 #, python-brace-format
 msgid "{previous_hints}{list_start_tag}{strong_text}{hint_text}</li>"
-msgstr ""
+msgstr "{previous_hints}{list_start_tag}{strong_text}{hint_text}</li>"
 
 #. Translators: e.g. "Hint 1 of 3: " meaning we are showing the first of three
 #. hints.
@@ -11072,57 +11076,58 @@ msgstr ""
 #: xmodule/capa_block.py:1216
 #, python-brace-format
 msgid "Hint ({hint_num} of {hints_count}): "
-msgstr ""
+msgstr "Подсказка ({hint_num} из {hints_count}): "
 
 #: xmodule/capa_block.py:1295
 #, python-brace-format
 msgid ""
 "Your answers were previously saved. Click '{button_name}' to grade them."
 msgstr ""
+"Ваши ответы были сохранены ранее. Нажмите '{button_name}', чтобы оценить их."
 
 #: xmodule/capa_block.py:1370
 #, python-brace-format
 msgid "Incorrect ({progress} point)"
 msgid_plural "Incorrect ({progress} points)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Неправильно ({progress} балл)"
+msgstr[1] "Неправильно ({progress} балла)"
 
 #: xmodule/capa_block.py:1379
 #, python-brace-format
 msgid "Correct ({progress} point)"
 msgid_plural "Correct ({progress} points)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Правильно ({progress} балл)"
+msgstr[1] "Правильно ({progress} балла)"
 
 #: xmodule/capa_block.py:1388
 #, python-brace-format
 msgid "Partially correct ({progress} point)"
 msgid_plural "Partially correct ({progress} points)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Частично правильно ({progress} балл)"
+msgstr[1] "Частично правильно ({progress} балла)"
 
 #: xmodule/capa_block.py:1393
 msgid "Partially Correct"
-msgstr ""
+msgstr "Частично правильно"
 
 #: xmodule/capa_block.py:1395
 msgid "Answer submitted."
-msgstr ""
+msgstr "Ответ отправлен."
 
 #. Translators: 'closed' means the problem's due date has passed. You may no
 #. longer attempt to solve the problem.
 #: xmodule/capa_block.py:1779 xmodule/capa_block.py:2107
 msgid "Problem is closed."
-msgstr ""
+msgstr "Задача закрыта."
 
 #: xmodule/capa_block.py:1785
 msgid "Problem must be reset before it can be submitted again."
-msgstr ""
+msgstr "Задачу необходимо сбросить, прежде чем ее можно будет отправить снова."
 
 #: xmodule/capa_block.py:1795
 #, python-brace-format
 msgid "You must wait at least {wait} seconds between submissions."
-msgstr ""
+msgstr "Вы должны подождать как минимум {wait} секунд между отправками."
 
 #: xmodule/capa_block.py:1804
 #, python-brace-format
@@ -11130,35 +11135,37 @@ msgid ""
 "You must wait at least {wait_secs} between submissions. {remaining_secs} "
 "remaining."
 msgstr ""
+"Вы должны подождать как минимум {wait_secs} секунд между отправками. Осталось {remaining_secs} "
+"секунд."
 
 #: xmodule/capa_block.py:1987
 #, python-brace-format
 msgid "{num_hour} hour"
 msgid_plural "{num_hour} hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{num_hour} час"
+msgstr[1] "{num_hour} часов"
 
 #: xmodule/capa_block.py:1992
 #, python-brace-format
 msgid "{num_minute} minute"
 msgid_plural "{num_minute} minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{num_minute} минута"
+msgstr[1] "{num_minute} минут"
 
 #: xmodule/capa_block.py:1998
 #, python-brace-format
 msgid "{num_second} second"
 msgid_plural "{num_second} seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{num_second} секунда"
+msgstr[1] "{num_second} секунд"
 
 #: xmodule/capa_block.py:2118
 msgid "Problem needs to be reset prior to save."
-msgstr ""
+msgstr "Задачу необходимо сбросить перед сохранением."
 
 #: xmodule/capa_block.py:2128
 msgid "Your answers have been saved."
-msgstr ""
+msgstr "Ваши ответы были сохранены."
 
 #: xmodule/capa_block.py:2131
 #, python-brace-format
@@ -11166,38 +11173,39 @@ msgid ""
 "Your answers have been saved but not graded. Click '{button_name}' to grade "
 "them."
 msgstr ""
+"Ваши ответы были сохранены, но не оценены. Нажмите '{button_name}', чтобы их оценить."
 
 #. Translators: 'closed' means the problem's due date has passed. You may no
 #. longer attempt to solve the problem.
 #: xmodule/capa_block.py:2163
 msgid "You cannot select Reset for a problem that is closed."
-msgstr ""
+msgstr "Вы не можете выбрать сброс для задачи, срок которой истек."
 
 #: xmodule/capa_block.py:2172
 msgid "You must submit an answer before you can select Reset."
-msgstr ""
+msgstr "Вы должны отправить ответ, прежде чем сможете выбрать сброс."
 
 #. Translators: 'rescoring' refers to the act of re-submitting a student's
 #. solution so it can get a new score.
 #: xmodule/capa_block.py:2227
 msgid "Problem's definition does not support rescoring."
-msgstr ""
+msgstr "Определение задачи не поддерживает повторную оценку."
 
 #: xmodule/capa_block.py:2233
 msgid "Problem must be answered before it can be graded again."
-msgstr ""
+msgstr "Задача должна быть решена, прежде чем ее можно будет оценить снова."
 
 #: xmodule/conditional_block.py:91
 msgid "Conditional"
-msgstr ""
+msgstr "Условный"
 
 #: xmodule/conditional_block.py:95
 msgid "List of urls of children that are references to external modules"
-msgstr ""
+msgstr "Список URL-адресов дочерних элементов, которые являются ссылками на внешние модули"
 
 #: xmodule/conditional_block.py:100
 msgid "Source Components"
-msgstr ""
+msgstr "Исходные компоненты"
 
 #: xmodule/conditional_block.py:101
 msgid ""
@@ -11206,30 +11214,38 @@ msgid ""
 "Copy the component location ID of a component from its Settings dialog in "
 "Studio."
 msgstr ""
+"Идентификаторы расположения компонентов всех исходных компонентов, которые "
+"используются для определения, будет ли показано содержание этого условного блока. "
+"Скопируйте идентификатор расположения компонента из его диалогового окна настроек в "
+"Studio."
 
 #: xmodule/conditional_block.py:108
 msgid "Conditional Attribute"
-msgstr ""
+msgstr "Условный атрибут"
 
 #: xmodule/conditional_block.py:109
 msgid ""
 "The attribute of the source components that determines whether a learner is "
 "shown the content of this conditional block."
 msgstr ""
+"Атрибут исходных компонентов, который определяет, будет ли показано содержание "
+"этого условного блока."
 
 #: xmodule/conditional_block.py:118
 msgid "Conditional Value"
-msgstr ""
+msgstr "Условное значение"
 
 #: xmodule/conditional_block.py:119
 msgid ""
 "The value that the conditional attribute of the source components must match "
 "before a learner is shown the content of this conditional block."
 msgstr ""
+"Значение, которому должен соответствовать условный атрибут исходных компонентов, "
+"прежде чем содержание этого условного блока будет показано обучающемуся."
 
 #: xmodule/conditional_block.py:126
 msgid "Blocked Content Message"
-msgstr ""
+msgstr "Сообщение о заблокированном содержании"
 
 #: xmodule/conditional_block.py:127
 #, python-brace-format
@@ -11239,183 +11255,206 @@ msgid ""
 "your message to give learners a direct link to required units. For example, "
 "'You must complete {link} before you can access this unit'."
 msgstr ""
+"Сообщение, которое показывается обучающимся, когда не все условия выполнены для "
+"показа содержания этого условного блока. Включите {link} в текст вашего сообщения, "
+"чтобы предоставить обучающимся прямую ссылку на необходимые единицы. Например, "
+"'Вы должны завершить {link}, прежде чем сможете получить доступ к этому модулю'."
 
 #: xmodule/conditional_block.py:131
 #, python-brace-format
 msgid "You must complete {link} before you can access this unit."
-msgstr ""
+msgstr "Вы должны завершить {link}, прежде чем сможете получить доступ к этому модулю."
 
 #: xmodule/conditional_block.py:376
 msgid "This component has no source components configured yet."
-msgstr ""
+msgstr "Этот компонент еще не имеет настроенных исходных компонентов."
 
 #: xmodule/conditional_block.py:378
 msgid "Configure list of sources"
-msgstr ""
+msgstr "Настроить список источников"
 
 #: xmodule/course_block.py:323
 msgid "LTI Passports"
-msgstr ""
+msgstr "LTI-паспорта"
 
 #: xmodule/course_block.py:324
 msgid ""
-"Enter the passports for course LTI tools in the following format: \"id:"
-"client_key:client_secret\"."
+"Enter the passports for course LTI tools in the following format: "id:"
+"client_key:client_secret"."
 msgstr ""
+"Введите паспорта для инструментов LTI курса в следующем формате: "id:"
+"client_key:client_secret"."
 
 #: xmodule/course_block.py:328
 msgid ""
 "List of Textbook objects with (title, url) for textbooks used in this course"
-msgstr ""
+msgstr "Список объектов учебников с (название, URL) для учебников, используемых в этом курсе."
 
 #: xmodule/course_block.py:333
 msgid "Slug that points to the wiki for this course"
-msgstr ""
+msgstr "Часть URL, указывающая на вики для этого курса."
 
 #: xmodule/course_block.py:335
 msgid "Date that enrollment for this class is opened"
-msgstr ""
+msgstr "Дата открытия регистрации на этот класс."
 
 #: xmodule/course_block.py:339
 msgid "Date that enrollment for this class is closed"
-msgstr ""
+msgstr "Дата закрытия регистрации на этот класс."
 
 #: xmodule/course_block.py:341
 msgid "Start time when this block is visible"
-msgstr ""
+msgstr "Время начала, когда этот блок видим."
 
 #: xmodule/course_block.py:345
 msgid "Date that this class ends"
-msgstr ""
+msgstr "Дата окончания этого класса."
 
 #: xmodule/course_block.py:347
 msgid "Date that certificates become available to learners"
-msgstr ""
+msgstr "Дата, когда сертификаты становятся доступными для обучающихся."
 
 #: xmodule/course_block.py:351
 msgid "Cosmetic Course Display Price"
-msgstr ""
+msgstr "Цена отображения курса (косметическая)."
 
 #: xmodule/course_block.py:353
 msgid ""
 "The cost displayed to students for enrolling in the course. If a paid course "
 "registration price is set by an administrator in the database, that price "
 "will be displayed instead of this one."
-msgstr ""
+msgstr "Стоимость, отображаемая студентам для регистрации на курс. Если цена регистрации на платный курс установлена администратором в базе данных, эта цена будет отображаться вместо этой."
 
 #: xmodule/course_block.py:360
 msgid "Course Advertised Start"
-msgstr ""
+msgstr "Рекламируемое начало курса"
 
 #: xmodule/course_block.py:362
 msgid ""
 "Enter the text that you want to use as the advertised starting time frame "
-"for the course, such as \"Winter 2018\". If you enter null for this value, "
+"for the course, such as "Winter 2018". If you enter null for this value, "
 "the start date that you have set for this course is used."
-msgstr ""
+msgstr "Введите текст, который вы хотите использовать в качестве рекламируемого временного интервала начала курса, например, "Зима 2018". Если вы введете null для этого значения, будет использована дата начала, которую вы установили для этого курса."
 
 #: xmodule/course_block.py:369
 msgid "Pre-Requisite Courses"
-msgstr ""
+msgstr "Предварительные курсы"
 
 #: xmodule/course_block.py:370
 msgid "Pre-Requisite Course key if this course has a pre-requisite course"
-msgstr ""
+msgstr "Ключ предварительного курса, если у этого курса есть предварительный курс"
 
 #: xmodule/course_block.py:374
 msgid "Grading policy definition for this class"
-msgstr ""
+msgstr "Определение политики оценки для этого класса"
 
 #: xmodule/course_block.py:379
 msgid "Show Calculator"
-msgstr ""
+msgstr "Показать калькулятор"
 
 #: xmodule/course_block.py:380
 msgid ""
 "Enter true or false. When true, students can see the calculator in the "
 "course."
-msgstr ""
+msgstr "Введите true или false. Если true, студенты могут видеть калькулятор в курсе."
 
 #: xmodule/course_block.py:385
 msgid "Enter the name of the course as it should appear in the course list."
-msgstr ""
+msgstr "Введите название курса, как оно должно отображаться в списке курсов."
 
 #: xmodule/course_block.py:387
 msgid "Course Display Name"
-msgstr ""
+msgstr "Отображаемое имя курса"
 
 #: xmodule/course_block.py:391 xmodule/modulestore/inheritance.py:63
 msgid "Course Editor"
-msgstr ""
+msgstr "Редактор курса"
 
 #: xmodule/course_block.py:392 xmodule/modulestore/inheritance.py:64
 msgid ""
-"Enter the method by which this course is edited (\"XML\" or \"Studio\")."
-msgstr ""
+"Enter the method by which this course is edited ("XML" or "Studio")."
+msgstr "Введите метод, с помощью которого редактируется этот курс ("XML" или "Studio")."
 
 #: xmodule/course_block.py:399
 msgid "Course Survey URL"
-msgstr ""
+msgstr "URL опроса курса"
 
 #: xmodule/course_block.py:400
 msgid ""
 "Enter the URL for the end-of-course survey. If your course does not have a "
 "survey, enter null."
-msgstr ""
+msgstr "Введите URL для опроса по окончании курса. Если у вашего курса нет опроса, введите null."
 
 #: xmodule/course_block.py:405
 msgid "Discussion Blackout Dates"
-msgstr ""
+msgstr "Даты отключения обсуждений"
 
 #: xmodule/course_block.py:407
 msgid ""
 "Enter pairs of dates between which students cannot post to discussion "
 "forums. Inside the provided brackets, enter an additional set of square "
 "brackets surrounding each pair of dates you add. Format each pair of dates "
-"as [\"YYYY-MM-DD\", \"YYYY-MM-DD\"]. To specify times as well as dates, "
-"format each pair as [\"YYYY-MM-DDTHH:MM\", \"YYYY-MM-DDTHH:MM\"]. Be sure to "
-"include the \"T\" between the date and time. For example, an entry defining "
+"as ["YYYY-MM-DD", "YYYY-MM-DD"]. To specify times as well as dates, "
+"format each pair as ["YYYY-MM-DDTHH:MM", "YYYY-MM-DDTHH:MM"]. Be sure to "
+"include the "T" between the date and time. For example, an entry defining "
 "two blackout periods looks like this, including the outer pair of square "
-"brackets: [[\"2015-09-15\", \"2015-09-21\"], [\"2015-10-01\", "
-"\"2015-10-08\"]] "
+"brackets: [["2015-09-15", "2015-09-21"], ["2015-10-01", "
+""2015-10-08"]] "
 msgstr ""
+"Введите пары дат, в течение которых студенты не могут публиковать сообщения "
+"в форумах обсуждений. Внутри предоставленных скобок введите дополнительный "
+"набор квадратных скобок, окружающий каждую пару добавляемых дат. Форматируйте "
+"каждую пару дат как ["YYYY-MM-DD", "YYYY-MM-DD"]. Чтобы указать время, "
+"форматируйте каждую пару как ["YYYY-MM-DDTHH:MM", "YYYY-MM-DDTHH:MM"]. "
+"Не забудьте включить "T" между датой и временем. Например, запись, определяющая "
+"два периода отключения, выглядит так, включая внешнюю пару квадратных скобок: "
+"[["2015-09-15", "2015-09-21"], ["2015-10-01", "2015-10-08"]]"
 
 #: xmodule/course_block.py:417
 msgid "Discussion Topic Mapping"
-msgstr ""
+msgstr "Сопоставление тем обсуждений"
 
 #: xmodule/course_block.py:419
 msgid ""
-"Enter discussion categories in the following format: \"CategoryName\": "
-"{\"id\": \"i4x-InstitutionName-CourseNumber-course-CourseRun\"}. For "
-"example, one discussion category may be \"Lydian Mode\": {\"id\": \"i4x-"
-"UniversityX-MUS101-course-2015_T1\"}. The \"id\" value for each category "
-"must be unique. In \"id\" values, the only special characters that are "
+"Enter discussion categories in the following format: "CategoryName": "
+"{"id": "i4x-InstitutionName-CourseNumber-course-CourseRun"}. For "
+"example, one discussion category may be "Lydian Mode": {"id": "i4x-"
+"UniversityX-MUS101-course-2015_T1"}. The "id" value for each category "
+"must be unique. In "id" values, the only special characters that are "
 "supported are underscore, hyphen, and period. You can also specify a "
 "category as the default for new posts in the Discussion page by setting its "
-"\"default\" attribute to true. For example, \"Lydian Mode\": {\"id\": \"i4x-"
-"UniversityX-MUS101-course-2015_T1\", \"default\": true}."
+""default" attribute to true. For example, "Lydian Mode": {"id": "i4x-"
+"UniversityX-MUS101-course-2015_T1", "default": true}."
 msgstr ""
+"Введите категории обсуждений в следующем формате: "CategoryName": "
+"{"id": "i4x-InstitutionName-CourseNumber-course-CourseRun"}. Например, "
+"одна категория обсуждения может быть "Лидийский лад": {"id": "i4x-"
+"UniversityX-MUS101-course-2015_T1"}. Значение "id" для каждой категории "
+"должно быть уникальным. В значениях "id" поддерживаются только специальные "
+"символы подчеркивание, дефис и точка. Вы также можете указать категорию как "
+"умолчание для новых сообщений на странице обсуждения, установив ее атрибут "
+""default" в значение true. Например, "Лидийский лад": {"id": "i4x-"
+"UniversityX-MUS101-course-2015_T1", "default": true}."
 
 #: xmodule/course_block.py:431
 msgid "Discussions Plugin Settings"
-msgstr ""
+msgstr "Настройки плагина обсуждений"
 
 #: xmodule/course_block.py:433
 msgid "Settings for discussions plugins."
-msgstr ""
+msgstr "Настройки для плагинов обсуждений."
 
 #: xmodule/course_block.py:441
 msgid "Course Announcement Date"
-msgstr ""
+msgstr "Дата объявления курса"
 
 #: xmodule/course_block.py:442
 msgid "Enter the date to announce your course."
-msgstr ""
+msgstr "Введите дату объявления вашего курса."
 
 #: xmodule/course_block.py:446
 msgid "Cohort Configuration"
-msgstr ""
+msgstr "Настройка когорт"
 
 #: xmodule/course_block.py:448
 msgid ""
@@ -11423,29 +11462,35 @@ msgid ""
 "student assignment to groups, or identify any course-wide discussion topics "
 "as private to cohort members."
 msgstr ""
+"Введите ключи и значения политики для включения функции когорт, определения "
+"автоматического назначения студентов в группы или обозначения любых тем "
+"обсуждений по курсу как частных для членов когорты."
 
 #: xmodule/course_block.py:454
 msgid "Course Is New"
-msgstr ""
+msgstr "Курс новый"
 
 #: xmodule/course_block.py:456
 msgid ""
 "Enter true or false. If true, the course appears in the list of new courses, "
 "and a New! badge temporarily appears next to the course image."
 msgstr ""
+"Введите true или false. Если true, курс появляется в списке новых курсов, "
+"и рядом с изображением курса временно появляется значок 'Новый!'."
 
 #: xmodule/course_block.py:462
 msgid "Mobile Course Available"
-msgstr ""
+msgstr "Курс доступен на мобильных устройствах"
 
 #: xmodule/course_block.py:463
 msgid ""
 "Enter true or false. If true, the course will be available to mobile devices."
 msgstr ""
+"Введите true или false. Если true, курс будет доступен на мобильных устройствах."
 
 #: xmodule/course_block.py:468
 msgid "Video Upload Credentials"
-msgstr ""
+msgstr "Учетные данные для загрузки видео"
 
 #: xmodule/course_block.py:470
 #, python-brace-format
@@ -11453,34 +11498,36 @@ msgid ""
 "Enter the unique identifier for your course's video files provided by "
 "{platform_name}."
 msgstr ""
+"Введите уникальный идентификатор для видеофайлов вашего курса, предоставленный "
+"{platform_name}."
 
 #: xmodule/course_block.py:475
 msgid "Course Not Graded"
-msgstr ""
+msgstr "Курс не оценен"
 
 #: xmodule/course_block.py:476
 msgid "Enter true or false. If true, the course will not be graded."
-msgstr ""
+msgstr "Введите true или false. Если true, курс не будет оцениваться."
 
 #: xmodule/course_block.py:481
 msgid "Disable Progress Graph"
-msgstr ""
+msgstr "Отключить график прогресса"
 
 #: xmodule/course_block.py:482
 msgid "Enter true or false. If true, students cannot view the progress graph."
-msgstr ""
+msgstr "Введите true или false. Если true, студенты не смогут видеть график прогресса."
 
 #: xmodule/course_block.py:487
 msgid "PDF Textbooks"
-msgstr ""
+msgstr "PDF учебники"
 
 #: xmodule/course_block.py:488
 msgid "List of dictionaries containing pdf_textbook configuration"
-msgstr ""
+msgstr "Список словарей, содержащих конфигурацию pdf учебников"
 
 #: xmodule/course_block.py:491
 msgid "HTML Textbooks"
-msgstr ""
+msgstr "HTML учебники"
 
 #: xmodule/course_block.py:493
 msgid ""
@@ -11488,16 +11535,21 @@ msgid ""
 "name of the tab (usually the title of the book) as well as the URLs and "
 "titles of each chapter in the book."
 msgstr ""
+"Для HTML учебников, которые отображаются как отдельные вкладки в курсе, "
+"введите название вкладки (обычно это название книги), а также URL и "
+"названия каждой главы в книге."
 
 #: xmodule/course_block.py:499
 msgid "Remote Gradebook"
-msgstr ""
+msgstr "Удаленный журнал оценок"
 
 #: xmodule/course_block.py:501
 msgid ""
 "Enter the remote gradebook mapping. Only use this setting when "
 "REMOTE_GRADEBOOK_URL has been specified."
 msgstr ""
+"Введите отображение удаленного журнала оценок. Используйте эту настройку "
+"только если указано REMOTE_GRADEBOOK_URL."
 
 #. Translators: Custom Courses for edX (CCX) is an edX feature for re-using
 #. course content. CCX Coach is
@@ -11506,7 +11558,7 @@ msgstr ""
 #. his students.
 #: xmodule/course_block.py:510
 msgid "Enable CCX"
-msgstr ""
+msgstr "Включить CCX"
 
 #. Translators: Custom Courses for edX (CCX) is an edX feature for re-using
 #. course content. CCX Coach is
@@ -11520,32 +11572,40 @@ msgid ""
 "manage Custom Courses on {platform_name}. When false, Custom Courses cannot "
 "be created, but existing Custom Courses will be preserved."
 msgstr ""
+"Разрешить преподавателям курсов назначать роли CCX Coach и позволить "
+"коучам управлять пользовательскими курсами на {platform_name}. Если "
+"значение false, пользовательские курсы не могут быть созданы, но "
+"существующие пользовательские курсы будут сохранены."
 
 #. Translators: Custom Courses for edX (CCX) is an edX feature for re-using
 #. course content.
 #: xmodule/course_block.py:524
 msgid "CCX Connector URL"
-msgstr ""
+msgstr "URL-адрес CCX Connector"
 
 #: xmodule/course_block.py:527
 msgid ""
 "URL for CCX Connector application for managing creation of CCXs. (optional). "
 "Ignored unless 'Enable CCX' is set to 'true'."
 msgstr ""
+"URL-адрес приложения CCX Connector для управления созданием CCX. (необязательно). "
+"Игнорируется, если 'Включить CCX' не установлено в 'true'."
 
 #: xmodule/course_block.py:533
 msgid "Allow Anonymous Discussion Posts"
-msgstr ""
+msgstr "Разрешить анонимные сообщения в обсуждениях"
 
 #: xmodule/course_block.py:534
 msgid ""
 "Enter true or false. If true, students can create discussion posts that are "
 "anonymous to all users."
 msgstr ""
+"Введите true или false. Если true, студенты могут создавать сообщения в "
+"обсуждениях, которые будут анонимными для всех пользователей."
 
 #: xmodule/course_block.py:538
 msgid "Allow Anonymous Discussion Posts to Peers"
-msgstr ""
+msgstr "Разрешить анонимные сообщения в обсуждениях для сверстников"
 
 #: xmodule/course_block.py:540
 msgid ""
@@ -11553,63 +11613,75 @@ msgid ""
 "anonymous to other students. This setting does not make posts anonymous to "
 "course staff."
 msgstr ""
+"Введите true или false. Если true, студенты могут создавать сообщения в "
+"обсуждениях, которые будут анонимными для других студентов. Эта настройка "
+"не делает сообщения анонимными для сотрудников курса."
 
 #: xmodule/course_block.py:546 xmodule/library_root_xblock.py:36
 msgid "Advanced Module List"
-msgstr ""
+msgstr "Список продвинутых модулей"
 
 #: xmodule/course_block.py:547
 msgid "Enter the names of the advanced modules to use in your course."
-msgstr ""
+msgstr "Введите названия продвинутых модулей, которые будут использоваться в вашем курсе."
 
 #: xmodule/course_block.py:553
 msgid ""
 "True if timezones should be shown on dates in the course. Deprecated in "
 "favor of due_date_display_format."
 msgstr ""
+"True, если временные зоны должны отображаться на датах в курсе. Устарело в "
+"пользу due_date_display_format."
 
 #: xmodule/course_block.py:559
 msgid "Due Date Display Format"
-msgstr ""
+msgstr "Формат отображения даты сдачи"
 
 #: xmodule/course_block.py:561
 msgid ""
-"Enter the format for due dates. The default is Mon DD, YYYY. Enter \"%m-%d-"
-"%Y\" for MM-DD-YYYY, \"%d-%m-%Y\" for DD-MM-YYYY, \"%Y-%m-%d\" for YYYY-MM-"
-"DD, or \"%Y-%d-%m\" for YYYY-DD-MM."
+"Enter the format for due dates. The default is Mon DD, YYYY. Enter "%m-%d-"
+"%Y" for MM-DD-YYYY, "%d-%m-%Y" for DD-MM-YYYY, "%Y-%m-%d" for YYYY-MM-"
+"DD, or "%Y-%d-%m" for YYYY-DD-MM."
 msgstr ""
+"Введите формат для дат сдачи. По умолчанию используется Mon DD, YYYY. Введите "
+""%m-%d-%Y" для MM-DD-YYYY, "%d-%m-%Y" для DD-MM-YYYY, "%Y-%m-%d" для "
+"YYYY-MM-DD или "%Y-%d-%m" для YYYY-DD-MM."
 
 #: xmodule/course_block.py:567
 msgid "External Login Domain"
-msgstr ""
+msgstr "Домен внешней авторизации"
 
 #: xmodule/course_block.py:568
 msgid "Enter the external login method students can use for the course."
-msgstr ""
+msgstr "Введите метод внешней авторизации, который студенты могут использовать для курса."
 
 #: xmodule/course_block.py:572
 msgid "Certificates Downloadable Before End"
-msgstr ""
+msgstr "Сертификаты доступны для скачивания до окончания"
 
 #: xmodule/course_block.py:574
 msgid ""
 "Enter true or false. If true, students can download certificates before the "
 "course ends, if they've met certificate requirements."
 msgstr ""
+"Введите true или false. Если true, студенты могут скачивать сертификаты до "
+"окончания курса, если они выполнили требования для получения сертификата."
 
 #: xmodule/course_block.py:583 cms/templates/settings.html:261
 msgid "Certificates Display Behavior"
-msgstr ""
+msgstr "Поведение отображения сертификатов"
 
 #: xmodule/course_block.py:585
 msgid ""
 "This field, together with certificate_available_date will determine when a "
-"user can see their certificate for the course"
+"user can see their certificate for the course."
 msgstr ""
+"Это поле вместе с certificate_available_date определит, когда пользователь "
+"может увидеть свой сертификат за курс."
 
 #: xmodule/course_block.py:592
 msgid "Course About Page Image"
-msgstr ""
+msgstr "Изображение страницы «О курсе»"
 
 #: xmodule/course_block.py:594
 msgid ""
@@ -11617,63 +11689,76 @@ msgid ""
 "Files & Uploads page. You can also set the course image on the Settings & "
 "Details page."
 msgstr ""
+"Измените имя файла изображения курса. Вы должны загрузить этот файл на "
+"странице «Файлы и загрузки». Вы также можете установить изображение курса на "
+"странице «Настройки и детали»."
 
 #: xmodule/course_block.py:603 cms/templates/settings.html:504
 #: cms/templates/settings.html:508 cms/templates/settings.html:520
 msgid "Course Banner Image"
-msgstr ""
+msgstr "Изображение баннера курса"
 
 #: xmodule/course_block.py:605
 msgid ""
 "Edit the name of the banner image file. You can set the banner image on the "
 "Settings & Details page."
 msgstr ""
+"Измените имя файла изображения баннера. Вы можете установить изображение "
+"баннера на странице «Настройки и детали»."
 
 #: xmodule/course_block.py:613 cms/templates/settings.html:537
 msgid "Course Video Thumbnail Image"
-msgstr ""
+msgstr "Изображение миниатюры видео курса"
 
 #: xmodule/course_block.py:615
 msgid ""
 "Edit the name of the video thumbnail image file. You can set the video "
 "thumbnail image on the Settings & Details page."
 msgstr ""
+"Измените имя файла изображения миниатюры видео. Вы можете установить "
+"изображение миниатюры видео на странице «Настройки и детали»."
 
 #: xmodule/course_block.py:625
 msgid ""
 "Use this setting only when generating PDF certificates. Between quotation "
 "marks, enter the short name of the type of certificate that students receive "
-"when they complete the course. For instance, \"Certificate\"."
+"when they complete the course. For instance, "Certificate"."
 msgstr ""
+"Используйте эту настройку только при генерации PDF-сертификатов. В кавычках "
+"введите короткое название типа сертификата, который получают студенты после "
+"завершения курса. Например, "Сертификат"."
 
 #: xmodule/course_block.py:629
 msgid "Certificate Name (Short)"
-msgstr ""
+msgstr "Название сертификата (короткое)"
 
 #: xmodule/course_block.py:635
 msgid ""
 "Use this setting only when generating PDF certificates. Between quotation "
 "marks, enter the long name of the type of certificate that students receive "
-"when they complete the course. For instance, \"Certificate of Achievement\"."
+"when they complete the course. For instance, "Certificate of Achievement"."
 msgstr ""
+"Используйте эту настройку только при генерации PDF-сертификатов. В кавычках "
+"введите полное название типа сертификата, который получают студенты после "
+"завершения курса. Например, "Сертификат об окончании"."
 
 #: xmodule/course_block.py:639
 msgid "Certificate Name (Long)"
-msgstr ""
+msgstr "Название сертификата (длинное)"
 
 #: xmodule/course_block.py:644
 msgid "Certificate Web/HTML View Enabled"
-msgstr ""
+msgstr "Включен веб/HTML просмотр сертификата"
 
 #: xmodule/course_block.py:645
 msgid "If true, certificate Web/HTML views are enabled for the course."
-msgstr ""
+msgstr "Если да, то веб/HTML просмотры сертификатов включены для курса."
 
 #. Translators: This field is the container for course-specific certificate
 #. configuration values
 #: xmodule/course_block.py:652
 msgid "Certificate Web/HTML View Overrides"
-msgstr ""
+msgstr "Переопределения веб/HTML просмотра сертификата"
 
 #. Translators: These overrides allow for an alternative configuration of the
 #. certificate web view
@@ -11682,48 +11767,51 @@ msgid ""
 "Enter course-specific overrides for the Web/HTML template parameters here "
 "(JSON format)"
 msgstr ""
+"Введите специфические для курса переопределения параметров шаблона веб/HTML "
+"здесь (формат JSON)"
 
 #. Translators: This field is the container for course-specific certificate
 #. configuration values
 #: xmodule/course_block.py:661
 msgid "Certificate Configuration"
-msgstr ""
+msgstr "Конфигурация сертификата"
 
 #. Translators: These overrides allow for an alternative configuration of the
 #. certificate web view
 #: xmodule/course_block.py:663
 msgid "Enter course-specific configuration information here (JSON format)"
-msgstr ""
+msgstr "Введите специфическую для курса информацию конфигурации здесь (формат JSON)"
 
 #: xmodule/course_block.py:677
 msgid "CSS Class for Course Reruns"
-msgstr ""
+msgstr "CSS класс для повторных курсов"
 
 #: xmodule/course_block.py:678
 msgid ""
 "Allows courses to share the same css class across runs even if they have "
 "different numbers."
 msgstr ""
+"Позволяет курсам использовать один и тот же CSS класс в разных запусках, даже если у них разные номера."
 
 #: xmodule/course_block.py:689
 msgid "Discussion Forum External Link"
-msgstr ""
+msgstr "Внешняя ссылка на форум обсуждений"
 
 #: xmodule/course_block.py:690
 msgid "Allows specification of an external link to replace discussion forums."
-msgstr ""
+msgstr "Позволяет указать внешнюю ссылку для замены форумов обсуждений."
 
 #: xmodule/course_block.py:699
 msgid "Hide Progress Tab"
-msgstr ""
+msgstr "Скрыть вкладку прогресса"
 
 #: xmodule/course_block.py:700
 msgid "Allows hiding of the progress tab."
-msgstr ""
+msgstr "Позволяет скрыть вкладку прогресса."
 
 #: xmodule/course_block.py:706
 msgid "Course Organization Display String"
-msgstr ""
+msgstr "Строка отображения организации курса"
 
 #: xmodule/course_block.py:708
 msgid ""
@@ -11732,6 +11820,9 @@ msgid ""
 "course. To use the organization that you entered when you created the "
 "course, enter null."
 msgstr ""
+"Введите организацию курса, которую вы хотите отобразить в курсе. Эта "
+"настройка переопределяет организацию, которую вы ввели при создании курса. "
+"Чтобы использовать организацию, которую вы ввели при создании курса, введите null."
 
 #: xmodule/course_block.py:716
 msgid "Course Number Display String"
@@ -11744,46 +11835,53 @@ msgid ""
 "use the course number that you entered when you created the course, enter "
 "null."
 msgstr ""
+"Введите номер курса, который вы хотите отобразить в курсе. Эта настройка "
+"переопределяет номер курса, который вы ввели при создании курса. Чтобы "
+"использовать номер курса, который вы ввели при создании курса, введите null."
 
 #: xmodule/course_block.py:727
 msgid "Course Maximum Student Enrollment"
-msgstr ""
+msgstr "Максимальное количество студентов на курсе"
 
 #: xmodule/course_block.py:729
 msgid ""
 "Enter the maximum number of students that can enroll in the course. To allow "
 "an unlimited number of students, enter null."
 msgstr ""
+"Введите максимальное количество студентов, которые могут записаться на курс. "
+"Чтобы разрешить неограниченное количество студентов, введите null."
 
 #: xmodule/course_block.py:736
 msgid "Allow Public Wiki Access"
-msgstr ""
+msgstr "Разрешить доступ к публичной вики"
 
 #: xmodule/course_block.py:738
 msgid ""
 "Enter true or false. If true, students can view the course wiki even if "
 "they're not enrolled in the course."
 msgstr ""
+"Введите true или false. Если true, студенты могут просматривать вики-курс, даже если "
+"они не записаны на курс."
 
 #: xmodule/course_block.py:746
 msgid "Invitation Only"
-msgstr ""
+msgstr "Только по приглашению"
 
 #: xmodule/course_block.py:747
 msgid "Whether to restrict enrollment to invitation by the course staff."
-msgstr ""
+msgstr "Ограничивать ли запись на курс только по приглашению от преподавателей курса."
 
 #: xmodule/course_block.py:753
 msgid "Pre-Course Survey Name"
-msgstr ""
+msgstr "Название предварительного опроса"
 
 #: xmodule/course_block.py:754
 msgid "Name of SurveyForm to display as a pre-course survey to the user."
-msgstr ""
+msgstr "Название формы опроса, которая будет отображаться как предварительный опрос для пользователя."
 
 #: xmodule/course_block.py:761
 msgid "Pre-Course Survey Required"
-msgstr ""
+msgstr "Обязательный предварительный опрос"
 
 #: xmodule/course_block.py:763
 msgid ""
@@ -11791,10 +11889,13 @@ msgid ""
 "course content. If you set this value to true, you must add a name for the "
 "survey to the Course Survey Name setting above."
 msgstr ""
+"Укажите, должны ли студенты пройти опрос перед тем, как они смогут просмотреть "
+"содержимое вашего курса. Если вы установите это значение в true, вам необходимо "
+"добавить название опроса в настройку Название опроса курса выше."
 
 #: xmodule/course_block.py:772
 msgid "Course Visibility In Catalog"
-msgstr ""
+msgstr "Видимость курса в каталоге"
 
 #. Translators: the quoted words 'both', 'about', and 'none' must be
 #. left untranslated.  Leave them as English words.
@@ -11805,10 +11906,14 @@ msgid ""
 "access to about page), 'about' (only allow access to about page), 'none' (do "
 "not show in catalog and do not allow access to an about page)."
 msgstr ""
+"Определяет разрешения доступа для отображения курса в каталоге курсов. Это может быть "
+"установлено на одно из трех значений: 'both' (показать в каталоге и разрешить доступ "
+"к странице о курсе), 'about' (только разрешить доступ к странице о курсе), 'none' (не "
+"показывать в каталоге и не разрешать доступ к странице о курсе)."
 
 #: xmodule/course_block.py:790
 msgid "Entrance Exam Enabled"
-msgstr ""
+msgstr "Включен вступительный экзамен"
 
 #: xmodule/course_block.py:792
 msgid ""
@@ -11816,10 +11921,13 @@ msgid ""
 "your course content. Note, you must enable Entrance Exams for this course "
 "setting to take effect."
 msgstr ""
+"Укажите, должны ли студенты пройти вступительный экзамен перед тем, как они смогут "
+"просмотреть содержимое вашего курса. Обратите внимание, что вы должны включить "
+"вступительные экзамены, чтобы эта настройка курса вступила в силу."
 
 #: xmodule/course_block.py:803
 msgid "Entrance Exam Minimum Score (%)"
-msgstr ""
+msgstr "Минимальный балл вступительного экзамена (%)"
 
 #: xmodule/course_block.py:805
 msgid ""
@@ -11827,18 +11935,21 @@ msgid ""
 "view your course content. Note, you must enable Entrance Exams for this "
 "course setting to take effect."
 msgstr ""
+"Укажите минимальный процентный балл для вступительного экзамена, чтобы студенты "
+"могли просмотреть содержимое вашего курса. Обратите внимание, что вы должны "
+"включить вступительные экзамены, чтобы эта настройка курса вступила в силу."
 
 #: xmodule/course_block.py:813
 msgid "Entrance Exam ID"
-msgstr ""
+msgstr "Идентификатор вступительного экзамена"
 
 #: xmodule/course_block.py:814
 msgid "Content block identifier (location) of entrance exam."
-msgstr ""
+msgstr "Идентификатор блока содержимого (местоположение) вступительного экзамена."
 
 #: xmodule/course_block.py:820
 msgid "Social Media Sharing URL"
-msgstr ""
+msgstr "URL для совместного использования в социальных сетях"
 
 #: xmodule/course_block.py:822
 msgid ""
@@ -11847,41 +11958,53 @@ msgid ""
 "sites can link to. URLs must be fully qualified. For example: http://www.edx."
 "org/course/Introduction-to-MOOCs-ITM001"
 msgstr ""
+"Если совместное использование в социальных сетях на панели управления и "
+"настраиваемые URL курсов включены, вы можете предоставить URL (например, URL "
+"страницы о курсе), на который могут ссылаться сайты социальных сетей. URL должны "
+"быть полностью квалифицированными. Например: http://www.edx.org/course/Introduction-to-MOOCs-ITM001"
 
 #: xmodule/course_block.py:830 cms/templates/settings.html:384
 msgid "Course Language"
-msgstr ""
+msgstr "Язык курса"
 
 #: xmodule/course_block.py:831
 msgid "Specify the language of your course."
-msgstr ""
+msgstr "Укажите язык вашего курса."
 
 #: xmodule/course_block.py:837
 msgid "Teams Configuration"
-msgstr ""
+msgstr "Настройка команд"
 
 #: xmodule/course_block.py:840
 msgid ""
 "Configure team sets, limit team sizes, and set visibility settings using "
-"JSON. See <a target=\"&#95;blank\" href=\"https://edx.readthedocs.io/"
+"JSON. See <a target="&#95;blank" href="https://edx.readthedocs.io/"
 "projects/edx-partner-course-staff/en/latest/course_features/teams/"
-"teams_setup.html#enable-and-configure-teams\">teams configuration "
+"teams_setup.html#enable-and-configure-teams">teams configuration "
 "documentation</a> for help and examples."
 msgstr ""
+"Настройте наборы команд, ограничьте размеры команд и установите параметры видимости, "
+"используя JSON. Смотрите <a target="&#95;blank" href="https://edx.readthedocs.io/"
+"projects/edx-partner-course-staff/en/latest/course_features/teams/"
+"teams_setup.html#enable-and-configure-teams">документацию по настройке команд</a> "
+"для получения помощи и примеров."
 
 #: xmodule/course_block.py:849
 msgid "Enable Proctored Exams"
-msgstr ""
+msgstr "Включить контролируемые экзамены"
 
 #: xmodule/course_block.py:851
 msgid ""
 "Enter true or false. If this value is true, proctored exams are enabled in "
 "your course. Note that enabling proctored exams will also enable timed exams."
 msgstr ""
+"Введите true или false. Если это значение равно true, контролируемые экзамены "
+"включены в вашем курсе. Обратите внимание, что включение контролируемых экзаменов "
+"также включит экзамены с ограничением по времени."
 
 #: xmodule/course_block.py:860
 msgid "Proctoring Provider"
-msgstr ""
+msgstr "Провайдер прокторинга"
 
 #: xmodule/course_block.py:862
 #, python-brace-format
@@ -11889,10 +12012,12 @@ msgid ""
 "Enter the proctoring provider you want to use for this course run. Choose "
 "from the following options: {available_providers}."
 msgstr ""
+"Введите провайдера прокторинга, которого вы хотите использовать для этого запуска курса. "
+"Выберите из следующих вариантов: {available_providers}."
 
 #: xmodule/course_block.py:876
 msgid "Proctortrack Exam Escalation Contact"
-msgstr ""
+msgstr "Контакт для эскалации экзамена Proctortrack"
 
 #: xmodule/course_block.py:878
 msgid ""
@@ -11900,10 +12025,13 @@ msgid ""
 "email address to be contacted by the support team whenever there are "
 "escalations (e.g. appeals, delayed reviews, etc.)."
 msgstr ""
+"Обязательно, если в качестве провайдера прокторинга выбран 'proctortrack'. "
+"Введите адрес электронной почты, по которому с вами свяжется команда поддержки "
+"в случае эскалаций (например, апелляции, задержки в оценке и т.д.)."
 
 #: xmodule/course_block.py:888
 msgid "Allow Opting Out of Proctored Exams"
-msgstr ""
+msgstr "Разрешить отказ от контролируемых экзаменов"
 
 #: xmodule/course_block.py:890
 msgid ""
@@ -11912,20 +12040,26 @@ msgid ""
 "must take the exam with proctoring. This setting only applies if proctored "
 "exams are enabled for the course."
 msgstr ""
+"Введите true или false. Если это значение равно true, учащиеся могут выбрать, "
+"чтобы пройти контролируемые экзамены без прокторинга. Если это значение равно false, "
+"все учащиеся должны проходить экзамен с прокторингом. Эта настройка применяется "
+"только если контролируемые экзамены включены для курса."
 
 #: xmodule/course_block.py:900
 msgid "Create Zendesk Tickets For Suspicious Proctored Exam Attempts"
-msgstr ""
+msgstr "Создавать заявки Zendesk для подозрительных попыток контролируемых экзаменов"
 
 #: xmodule/course_block.py:902
 msgid ""
 "Enter true or false. If this value is true, a Zendesk ticket will be created "
 "for suspicious attempts."
 msgstr ""
+"Введите true или false. Если это значение равно true, будет создана заявка Zendesk "
+"для подозрительных попыток."
 
 #: xmodule/course_block.py:910
 msgid "Enable Timed Exams"
-msgstr ""
+msgstr "Включить экзамены с ограничением по времени"
 
 #: xmodule/course_block.py:912
 msgid ""
@@ -11933,52 +12067,60 @@ msgid ""
 "course. Regardless of this setting, timed exams are enabled if Enable "
 "Proctored Exams is set to true."
 msgstr ""
+"Введите true или false. Если это значение равно true, экзамены с ограничением по времени "
+"включены в вашем курсе. Независимо от этой настройки, экзамены с ограничением по времени "
+"включаются, если включены контролируемые экзамены."
 
 #: xmodule/course_block.py:921
 msgid "Minimum Grade for Credit"
-msgstr ""
+msgstr "Минимальная оценка для получения кредита"
 
 #: xmodule/course_block.py:923
 msgid ""
 "The minimum grade that a learner must earn to receive credit in the course, "
 "as a decimal between 0.0 and 1.0. For example, for 75%, enter 0.75."
 msgstr ""
+"Минимальная оценка, которую учащийся должен получить для получения кредита "
+"в курсе, в виде десятичного числа от 0.0 до 1.0. Например, для 75% введите 0.75."
 
 #: xmodule/course_block.py:931 xmodule/modulestore/inheritance.py:233
 msgid "Self Paced"
-msgstr ""
+msgstr "Самостоятельное обучение"
 
 #: xmodule/course_block.py:933 xmodule/modulestore/inheritance.py:235
 msgid ""
-"Set this to \"true\" to mark this course as self-paced. Self-paced courses "
+"Set this to "true" to mark this course as self-paced. Self-paced courses "
 "do not have due dates for assignments, and students can progress through the "
 "course at any rate before the course ends."
 msgstr ""
+"Установите это значение на "true", чтобы отметить курс как самостоятельное обучение. "
+"Курсы с самостоятельным обучением не имеют сроков сдачи заданий, и студенты могут "
+"продвигаться по курсу в любом темпе до его завершения."
 
 #: xmodule/course_block.py:942
 msgid "Enable Subsection Prerequisites"
-msgstr ""
+msgstr "Включить предварительные условия для подсекций"
 
 #: xmodule/course_block.py:944
 msgid ""
 "Enter true or false. If this value is true, you can hide a subsection until "
 "learners earn a minimum score in another, prerequisite subsection."
 msgstr ""
+"Введите true или false. Если это значение равно true, вы можете скрыть подсекцию "
+"до тех пор, пока учащиеся не наберут минимальный балл в другой, предварительной подсекции."
 
 #: xmodule/course_block.py:953
 msgid "Course Learning Information"
-msgstr ""
+msgstr "Информация о обучении в курсе"
 
 #: xmodule/course_block.py:954
 msgid "Specify what student can learn from the course."
-msgstr ""
+msgstr "Укажите, чему студент может научиться на курсе."
 
 #: xmodule/course_block.py:960
 msgid "Course Visibility For Unenrolled Learners"
-msgstr ""
+msgstr "Видимость курса для незачисленных учащихся"
 
-#. Translators: the quoted words 'private', 'public_outline', and 'public'
-#. must be left untranslated.  Leave them as English words.
 #: xmodule/course_block.py:964
 msgid ""
 "Defines the access permissions for unenrolled learners. This can be set to "
@@ -11986,10 +12128,13 @@ msgid ""
 "enrolled students), 'public_outline' (allow access to course outline) and "
 "'public' (allow access to both outline and course content)."
 msgstr ""
+"Определяет разрешения на доступ для незачисленных учащихся. Это можно установить на "
+"одно из трех значений: 'private' (по умолчанию, видимость только для зачисленных студентов), "
+"'public_outline' (разрешить доступ к плану курса) и 'public' (разрешить доступ как к плану, так и к содержимому курса)."
 
 #: xmodule/course_block.py:978
 msgid "Video Sharing Options"
-msgstr ""
+msgstr "Настройки совместного использования видео"
 
 #: xmodule/course_block.py:980
 msgid ""
@@ -11997,28 +12142,31 @@ msgid ""
 "three values: 'all-on', 'all-off' and 'per-video'. with 'per-video' as the "
 "default."
 msgstr ""
+"Укажите параметры совместного использования видео для курса. Это можно установить на одно из "
+"трех значений: 'all-on', 'all-off' и 'per-video', при этом 'per-video' является значением по умолчанию."
 
 #: xmodule/course_block.py:994
 msgid "Force Flexible Grading for Peer ORAs"
-msgstr ""
+msgstr "Принудительное использование гибкой оценки для ORA от сверстников"
 
 #: xmodule/course_block.py:995
 msgid ""
 "Setting this flag will force on the flexible grading option for all peer-"
 "graded ORAs in this course."
 msgstr ""
+"Установка этого флага включит опцию гибкой оценки для всех ORA, оцененных сверстниками, в этом курсе."
 
 #: xmodule/course_block.py:1015
 msgid "Course Instructor"
-msgstr ""
+msgstr "Преподаватель курса"
 
 #: xmodule/course_block.py:1016
 msgid "Enter the details for Course Instructor"
-msgstr ""
+msgstr "Введите данные для преподавателя курса"
 
 #: xmodule/course_block.py:1023
 msgid "Add Unsupported Problems and Tools"
-msgstr ""
+msgstr "Добавить неподдерживаемые задачи и инструменты"
 
 #: xmodule/course_block.py:1025
 msgid ""
@@ -12028,36 +12176,44 @@ msgid ""
 "requirements, such as testing, accessibility, internationalization, and "
 "documentation."
 msgstr ""
+"Введите true или false. Если true, вы можете добавить неподдерживаемые задачи и инструменты в "
+"ваш курс в Studio. Неподдерживаемые задачи и инструменты не рекомендуются к использованию в курсах из-за "
+"несоответствия одному или нескольким основным требованиям, таким как тестирование, доступность, "
+"интернационализация и документация."
 
 #: xmodule/course_block.py:1032
 msgid "Highlights Enabled for Messaging"
-msgstr ""
+msgstr "Включены выделения для сообщений"
 
 #: xmodule/course_block.py:1034
 msgid ""
 "Enter true or false. If true, any highlights associated with content in the "
 "course will be messaged to learners at their scheduled time."
 msgstr ""
+"Введите true или false. Если true, любые выделения, связанные с содержимым курса, будут "
+"отправлены учащимся в запланированное время."
 
 #: xmodule/course_block.py:1041
 msgid "Course-wide Custom JS"
-msgstr ""
+msgstr "Пользовательский JS для всего курса"
 
 #: xmodule/course_block.py:1042
 msgid ""
 "Enter Javascript resource URLs you want to be loaded globally throughout the "
 "course pages."
 msgstr ""
+"Введите URL-адреса ресурсов Javascript, которые вы хотите загрузить глобально на всех страницах курса."
 
 #: xmodule/course_block.py:1047
 msgid "Course-wide Custom CSS"
-msgstr ""
+msgstr "Пользовательский CSS для всего курса"
 
 #: xmodule/course_block.py:1048
 msgid ""
 "Enter CSS resource URLs you want to be loaded globally throughout the course "
 "pages."
 msgstr ""
+"Введите URL-адреса ресурсов CSS, которые вы хотите загрузить глобально на всех страницах курса."
 
 #: xmodule/course_block.py:1053 cms/templates/certificates.html:112
 #: cms/templates/certificates.html:113
@@ -12068,43 +12224,47 @@ msgstr ""
 #: cms/templates/settings_graders.html:165
 #: cms/templates/settings_graders.html:166
 msgid "Other Course Settings"
-msgstr ""
+msgstr "Другие настройки курса"
 
 #: xmodule/course_block.py:1055
 msgid ""
 "Any additional information about the course that the platform needs or that "
 "allows integration with external systems such as CRM software. Enter a "
-"dictionary of values in JSON format, such as { \"my_custom_setting\": "
-"\"value\", \"other_setting\": \"value\" }"
+"dictionary of values in JSON format, such as { "my_custom_setting": "
+""value", "other_setting": "value" }"
 msgstr ""
+"Любая дополнительная информация о курсе, которая необходима платформе или "
+"которая позволяет интеграцию с внешними системами, такими как CRM-программное обеспечение. "
+"Введите словарь значений в формате JSON, например { "my_custom_setting": "
+""value", "other_setting": "value" }"
 
 #: xmodule/course_block.py:1107
 msgid "General"
-msgstr ""
+msgstr "Общие"
 
 #: xmodule/discussion_block.py:53
 msgid "Category"
-msgstr ""
+msgstr "Категория"
 
 #: xmodule/discussion_block.py:54
 msgid "Week 1"
-msgstr ""
+msgstr "Неделя 1"
 
 #: xmodule/discussion_block.py:56
 msgid ""
 "A category name for the discussion. This name appears in the left pane of "
 "the discussion forum for the course."
 msgstr ""
-
-#: xmodule/discussion_block.py:62
-msgid "Subcategory"
-msgstr ""
+"Название категории для обсуждения. Это имя отображается в левой панели "
+"форумов обсуждений курса."
 
 #: xmodule/discussion_block.py:65
 msgid ""
 "A subcategory name for the discussion. This name appears in the left pane of "
 "the discussion forum for the course."
 msgstr ""
+"Название подкатегории для обсуждения. Это имя отображается в левой панели "
+"форумов обсуждений курса."
 
 #: xmodule/discussion_block.py:182
 #, python-brace-format
@@ -12112,22 +12272,24 @@ msgid ""
 "You are not signed in. To view the discussion content, {sign_in_link} or "
 "{register_link}, and enroll in this course."
 msgstr ""
+"Вы не вошли в систему. Чтобы просмотреть содержимое обсуждения, {sign_in_link} или "
+"{register_link}, и запишитесь на этот курс."
 
 #: xmodule/graders.py:276
 #, python-brace-format
 msgid "{assignment_type} = {weighted_percent:.2%} of a possible {weight:.2%}"
-msgstr ""
+msgstr "{assignment_type} = {weighted_percent:.2%} от возможного {weight:.2%}"
 
 #: xmodule/graders.py:382
 msgid "Generated"
-msgstr ""
+msgstr "Сгенерировано"
 
 #. Translators: "Homework 1 - Unreleased - 0% (?/?)" The section has not been
 #. released for viewing.
 #: xmodule/graders.py:402
 #, python-brace-format
 msgid "{section_type} {index} Unreleased - 0% (?/?)"
-msgstr ""
+msgstr "{section_type} {index} Не опубликовано - 0% (?/?)"
 
 #: xmodule/graders.py:415
 #, python-brace-format
@@ -12138,28 +12300,30 @@ msgstr "Самые низкие баллы {drop_count} {section_type} выбы�
 #: xmodule/graders.py:433
 #, python-brace-format
 msgid "{section_type} Average = {percent:.0%}"
-msgstr ""
+msgstr "{section_type} Среднее = {percent:.0%}"
 
 #. Translators: Avg is short for Average
 #: xmodule/graders.py:438
 #, python-brace-format
 msgid "{short_label} Avg"
-msgstr ""
+msgstr "{short_label} Ср."  # "Ср." is short for "Среднее"
 
 #: xmodule/hidden_block.py:38
 #, python-brace-format
 msgid ""
-"ERROR: \"{block_type}\" is an unknown component type. This component will be "
+"ERROR: "{block_type}" is an unknown component type. This component will be "
 "hidden in LMS."
 msgstr ""
+"ОШИБКА: "{block_type}" — это неизвестный тип компонента. Этот компонент будет "
+"скрыт в LMS."
 
 #: xmodule/html_block.py:61 xmodule/html_block.py:370 xmodule/html_block.py:430
 msgid "Html contents to display for this block"
-msgstr ""
+msgstr "HTML-содержимое для отображения в этом блоке"
 
 #: xmodule/html_block.py:63
 msgid "Source code for LaTeX documents. This feature is not well-supported."
-msgstr ""
+msgstr "Исходный код для документов LaTeX. Эта функция не поддерживается хорошо."
 
 #: xmodule/html_block.py:73
 msgid ""
@@ -12167,198 +12331,217 @@ msgid ""
 "HTML. Select Raw to edit HTML directly. If you change this setting, you must "
 "save the component and then re-open it for editing."
 msgstr ""
+"Выберите Визуальный режим, чтобы ввести содержимое и позволить редактору "
+"автоматически создать HTML. Выберите Исходный код, чтобы редактировать HTML напрямую. "
+"Если вы измените эту настройку, вам нужно сохранить компонент, а затем снова открыть его для редактирования."
 
 #: xmodule/html_block.py:76
 msgid "Editor"
-msgstr ""
+msgstr "Редактор"
 
 #: xmodule/html_block.py:79
 msgid "Visual"
-msgstr ""
+msgstr "Визуальный"
 
 #: xmodule/html_block.py:80
 msgid "Raw"
-msgstr ""
+msgstr "Исходный код"
 
 #: xmodule/html_block.py:396
 msgid "Hide Page From Learners"
-msgstr ""
+msgstr "Скрыть страницу от учащихся"
 
 #: xmodule/html_block.py:397
 msgid ""
 "If you select this option, only course team members with the Staff or Admin "
 "role see this page."
 msgstr ""
+"Если вы выберете эту опцию, только члены команды курса с ролью Персонал или Администратор "
+"увидят эту страницу."
 
 #: xmodule/html_block.py:407
 msgid "HTML for the additional pages"
-msgstr ""
+msgstr "HTML для дополнительных страниц"
 
 #: xmodule/html_block.py:425
 msgid "List of course update items"
-msgstr ""
+msgstr "Список элементов обновления курса"
 
 #: xmodule/library_content_block.py:63
 msgid "Any Type"
-msgstr ""
+msgstr "Любой тип"
 
 #: xmodule/library_content_block.py:128 cms/templates/widgets/header.html:285
 msgid "Library"
-msgstr ""
+msgstr "Библиотека"
 
 #: xmodule/library_content_block.py:129
 msgid "Select the library from which you want to draw content."
-msgstr ""
+msgstr "Выберите библиотеку, из которой вы хотите извлечь содержимое."
 
 #: xmodule/library_content_block.py:135
 msgid "Library Version"
-msgstr ""
+msgstr "Версия библиотеки"
 
 #: xmodule/library_content_block.py:140
 msgid "Determines how content is drawn from the library"
-msgstr ""
+msgstr "Определяет, как содержимое извлекается из библиотеки"
 
 #: xmodule/library_content_block.py:143
 msgid "Choose n at random"
-msgstr ""
+msgstr "Выбрать n случайным образом"
 
 #: xmodule/library_content_block.py:150
 msgid "Count"
-msgstr ""
+msgstr "Количество"
 
 #: xmodule/library_content_block.py:151
 msgid ""
 "Enter the number of components to display to each student. Set it to -1 to "
 "display all components."
 msgstr ""
+"Введите количество компонентов, которые будут отображаться каждому студенту. Установите значение -1, чтобы "
+"отобразить все компоненты."
 
 #: xmodule/library_content_block.py:156
 msgid "Problem Type"
-msgstr ""
+msgstr "Тип задачи"
 
 #: xmodule/library_content_block.py:157
 msgid ""
-"Choose a problem type to fetch from the library. If \"Any Type\" is selected "
+"Choose a problem type to fetch from the library. If "Any Type" is selected "
 "no filtering is applied."
 msgstr ""
+"Выберите тип задачи для извлечения из библиотеки. Если выбран "Любой тип", "
+"фильтрация не применяется."
 
 #: xmodule/library_content_block.py:171
 msgid ""
 "Determines whether a 'Reset Problems' button is shown, so users may reset "
 "their answers and reshuffle selected items."
 msgstr ""
+"Определяет, будет ли отображаться кнопка 'Сбросить задачи', чтобы пользователи могли сбросить "
+"свои ответы и перетасовать выбранные элементы."
 
 #: xmodule/library_content_block.py:539
 msgid "Source content library has not been specified."
-msgstr ""
+msgstr "Исходная библиотека содержимого не была указана."
 
 #: xmodule/library_content_block.py:543
 msgid "Content libraries are not available in the current runtime."
-msgstr ""
+msgstr "Библиотеки содержимого недоступны в текущем окружении выполнения."
 
 #: xmodule/library_content_block.py:546
 #, python-brace-format
 msgid "Source content library does not exist: {source_library_id}"
-msgstr ""
+msgstr "Исходная библиотека содержимого не существует: {source_library_id}"
 
 #: xmodule/library_content_block.py:628
 msgid "This component is out of date. The library has new content."
-msgstr ""
+msgstr "Этот компонент устарел. В библиотеке есть новое содержимое."
 
 #. Translators: {refresh_icon} placeholder is substituted to "↻" (without
 #. double quotes)
 #: xmodule/library_content_block.py:633
 #, python-brace-format
 msgid "{refresh_icon} Update now."
-msgstr ""
+msgstr "↻ Обновить сейчас."
 
 #: xmodule/library_content_block.py:641
 msgid "Library is invalid, corrupt, or has been deleted."
-msgstr ""
+msgstr "Библиотека недействительна, повреждена или была удалена."
 
 #: xmodule/library_content_block.py:643
 msgid "Edit Library List."
-msgstr ""
+msgstr "Редактировать список библиотек."
 
 #: xmodule/library_content_block.py:670
 msgid ""
 "This course does not support content libraries. Contact your system "
 "administrator for more information."
 msgstr ""
+"Этот курс не поддерживает библиотеки содержимого. Свяжитесь с вашим системным "
+"администратором для получения дополнительной информации."
 
 #: xmodule/library_content_block.py:680
 msgid "A library has not yet been selected."
-msgstr ""
+msgstr "Библиотека еще не выбрана."
 
 #: xmodule/library_content_block.py:682
 msgid "Select a Library."
-msgstr ""
+msgstr "Выберите библиотеку."
 
 #: xmodule/library_content_block.py:696
 #, python-brace-format
 msgid "There are no problems in the specified library of type {capa_type}."
-msgstr ""
+msgstr "В указанной библиотеке типа {capa_type} нет задач."
 
 #: xmodule/library_content_block.py:699
 msgid "Select another problem type."
-msgstr ""
+msgstr "Выберите другой тип задачи."
 
 #: xmodule/library_content_block.py:710
 #, python-brace-format
 msgid "The specified library is configured to fetch {count} problem, "
 msgid_plural "The specified library is configured to fetch {count} problems, "
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Указанная библиотека настроена на получение {count} задачи, "
+msgstr[1] "Указанная библиотека настроена на получение {count} задач, "
 
 #: xmodule/library_content_block.py:715
 #, python-brace-format
 msgid "but there is only {actual} matching problem."
 msgid_plural "but there are only {actual} matching problems."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "но есть только {actual} совпадающая задача."
+msgstr[1] "но есть только {actual} совпадающих задач."
 
 #: xmodule/library_content_block.py:721
 msgid "Edit the library configuration."
-msgstr ""
+msgstr "Редактировать конфигурацию библиотеки."
 
 #: xmodule/library_content_block.py:739
 msgid "Invalid Library"
-msgstr ""
+msgstr "Неверная библиотека"
 
 #: xmodule/library_content_block.py:740
 msgid "No Library Selected"
-msgstr ""
+msgstr "Библиотека не выбрана"
 
 #: xmodule/library_root_xblock.py:32
 msgid "Library Display Name"
-msgstr ""
+msgstr "Отображаемое имя библиотеки"
 
 #: xmodule/library_root_xblock.py:37
 msgid "Enter the names of the advanced components to use in your library."
-msgstr ""
+msgstr "Введите названия расширенных компонентов, которые будут использоваться в вашей библиотеке."
 
 #: xmodule/lti_block.py:133
 msgid ""
 "The display name for this component. Analytics reports may also use the "
 "display name to identify this component."
 msgstr ""
+"Отображаемое имя для этого компонента. Отчеты аналитики также могут использовать "
+"это имя для идентификации компонента."
 
 #: xmodule/lti_block.py:140
 msgid "LTI ID"
-msgstr ""
+msgstr "LTI ID"
 
 #: xmodule/lti_block.py:142
 #, python-brace-format
 msgid ""
-"Enter the LTI ID for the external LTI provider.  This value must be the same "
+"Enter the LTI ID for the external LTI provider. This value must be the same "
 "LTI ID that you entered in the LTI Passports setting on the Advanced "
 "Settings page.{break_tag}See {docs_anchor_open}the edX LTI "
 "documentation{anchor_close} for more details on this setting."
 msgstr ""
+"Введите LTI ID для внешнего LTI-поставщика. Это значение должно совпадать с "
+"LTI ID, который вы ввели в настройках LTI Passports на странице Расширенные "
+"настройки.{break_tag}Смотрите {docs_anchor_open}документацию edX по LTI{anchor_close} "
+"для получения дополнительной информации об этой настройке."
 
 #: xmodule/lti_block.py:155
 msgid "LTI URL"
-msgstr ""
+msgstr "LTI URL"
 
 #: xmodule/lti_block.py:157
 #, python-brace-format
@@ -12368,10 +12551,14 @@ msgid ""
 "{docs_anchor_open}the edX LTI documentation{anchor_close} for more details "
 "on this setting."
 msgstr ""
+"Введите URL внешнего инструмента, который запускает этот компонент. Эта "
+"настройка используется только в том случае, если параметр Скрыть внешний инструмент "
+"установлен на False.{break_tag}Смотрите {docs_anchor_open}документацию edX по LTI{anchor_close} "
+"для получения дополнительной информации об этой настройке."
 
 #: xmodule/lti_block.py:168
 msgid "Custom Parameters"
-msgstr ""
+msgstr "Пользовательские параметры"
 
 #: xmodule/lti_block.py:170
 #, python-brace-format
@@ -12381,83 +12568,101 @@ msgid ""
 "See {docs_anchor_open}the edX LTI documentation{anchor_close} for more "
 "details on this setting."
 msgstr ""
+"Добавьте пару ключ/значение для любых пользовательских параметров, таких как страница, "
+"на которую должно открываться ваше электронное издание, или цвет фона для этого компонента.{break_tag}"
+"Смотрите {docs_anchor_open}документацию edX по LTI{anchor_close} для получения дополнительной информации об этой настройке."
 
 #: xmodule/lti_block.py:180
 msgid "Open in New Page"
-msgstr ""
+msgstr "Открыть в новом окне"
 
 #: xmodule/lti_block.py:182
 msgid ""
 "Select True if you want students to click a link that opens the LTI tool in "
 "a new window. Select False if you want the LTI content to open in an IFrame "
 "in the current page. This setting is only used when Hide External Tool is "
-"set to False.  "
+"set to False."
 msgstr ""
+"Выберите True, если вы хотите, чтобы студенты нажимали на ссылку, которая "
+"открывает LTI инструмент в новом окне. Выберите False, если вы хотите, чтобы "
+"LTI контент открывался в IFrame на текущей странице. Эта настройка используется "
+"только в том случае, если параметр Скрыть внешний инструмент установлен на False."
 
 #: xmodule/lti_block.py:190
 msgid "Scored"
-msgstr ""
+msgstr "Оценено"
 
 #: xmodule/lti_block.py:192
 msgid ""
 "Select True if this component will receive a numerical score from the "
 "external LTI system."
 msgstr ""
+"Выберите True, если этот компонент будет получать числовую оценку от "
+"внешней LTI системы."
 
 #: xmodule/lti_block.py:198
 msgid "Weight"
-msgstr ""
+msgstr "Вес"
 
 #: xmodule/lti_block.py:200
 msgid ""
-"Enter the number of points possible for this component.  The default value "
-"is 1.0.  This setting is only used when Scored is set to True."
+"Enter the number of points possible for this component. The default value "
+"is 1.0. This setting is only used when Scored is set to True."
 msgstr ""
+"Введите количество возможных баллов для этого компонента. Значение по умолчанию "
+"равно 1.0. Эта настройка используется только в том случае, если параметр Оценено "
+"установлен на True."
 
 #: xmodule/lti_block.py:209
 msgid ""
 "The score kept in the xblock KVS -- duplicate of the published score in "
 "django DB"
 msgstr ""
+"Оценка, хранящаяся в KVS xblock — дубликат опубликованной оценки в "
+"базе данных django."
 
 #: xmodule/lti_block.py:214
 msgid "Comment as returned from grader, LTI2.0 spec"
-msgstr ""
+msgstr "Комментарий, возвращаемый оценщиком, спецификация LTI2.0"
 
 #: xmodule/lti_block.py:219
 msgid "Hide External Tool"
-msgstr ""
+msgstr "Скрыть внешний инструмент"
 
 #: xmodule/lti_block.py:221
 msgid ""
 "Select True if you want to use this component as a placeholder for syncing "
-"with an external grading  system rather than launch an external tool.  This "
+"with an external grading system rather than launch an external tool. This "
 "setting hides the Launch button and any IFrames for this component."
 msgstr ""
+"Выберите True, если вы хотите использовать этот компонент в качестве "
+"заполнителя для синхронизации с внешней системой оценивания, а не для "
+"запуска внешнего инструмента. Эта настройка скрывает кнопку Запустить и "
+"любые IFrame для этого компонента."
 
 #: xmodule/lti_block.py:232
 msgid "Request user's username"
-msgstr ""
+msgstr "Запросить имя пользователя"
 
 #. Translators: This is used to request the user's username for a third party
 #. service.
 #: xmodule/lti_block.py:234
 msgid "Select True to request the user's username."
-msgstr ""
+msgstr "Выберите True, чтобы запросить имя пользователя."
 
 #: xmodule/lti_block.py:239
 msgid "Request user's email"
-msgstr ""
+msgstr "Запросить электронную почту пользователя"
 
 #. Translators: This is used to request the user's email for a third party
 #. service.
 #: xmodule/lti_block.py:241
 msgid "Select True to request the user's email address."
-msgstr ""
+msgstr "Выберите True, чтобы запросить адрес электронной почты пользователя."
 
 #: xmodule/lti_block.py:247
 msgid "LTI Application Information"
-msgstr ""
+msgstr "Информация о приложении LTI"
 
 #: xmodule/lti_block.py:249
 msgid ""
@@ -12465,10 +12670,14 @@ msgid ""
 "and/or email, use this text box to inform users why their username and/or "
 "email will be forwarded to a third party application."
 msgstr ""
+"Введите описание стороннего приложения. Если запрашиваете имя пользователя "
+"и/или электронную почту, используйте это текстовое поле, чтобы сообщить "
+"пользователям, почему их имя пользователя и/или электронная почта будут "
+"пересланы стороннему приложению."
 
 #: xmodule/lti_block.py:257
 msgid "Button Text"
-msgstr ""
+msgstr "Текст кнопки"
 
 #: xmodule/lti_block.py:259
 msgid ""
