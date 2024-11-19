@@ -23043,6 +23043,8 @@ msgid ""
 "For smaller courses, click to list                 profile information for "
 "enrolled students directly on this page:"
 msgstr ""
+"Для небольших курсов нажмите, чтобы посмотреть                 информацию из профиля "
+"всех зачисленных студентов прямо на этой странице:"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2/reports.html:91
 msgid ""
@@ -23050,36 +23052,49 @@ msgid ""
 "this course, along with profile information such as email address "
 "and                 username:"
 msgstr ""
+"Нажмите, чтобы создать CSV файл                 всех студентов, зачисленных "
+"на этот курс, вместе с информацией из учетной записи, такой как адрес "
+"электронной почты и                     имя пользователя:"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2/reports.html:95
 msgid ""
 "Click to generate a CSV file                 that lists learners who can "
 "enroll in the course but have not yet done so."
 msgstr ""
+"Нажмите, чтобы создать CSV файл,                  который содержит список"
+"слушателей, которые могут зачислиться на курс, но еще этого не сделали."
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2/reports.html:98
 msgid ""
 "Click to generate a CSV file                 of all proctored exam results "
 "in this course."
 msgstr ""
+"Нажмите, чтобы создать файл в формате CSV                 результатов всех "
+"экзаменов, требующих прокторинга, по этому курсу."
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2/reports.html:101
 msgid ""
 "Click to generate a CSV file of                 survey results for this "
 "course."
 msgstr ""
+"Нажмите, чтобы создать файл в формате CSV                 о результатах опроса "
+"для этого курса."
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2/reports.html:103
 msgid ""
 "Click to generate a CSV                 ORA grade report for all currently "
 "enrolled students."
 msgstr ""
+"Нажмите, чтобы создать отчет в формате CSV                 об автоматической "
+"оценке заданий для всех зачисленных в настоящее время студентов."
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2/reports.html:105
 msgid ""
 "Click to generate a CSV                 problem grade report for all "
 "currently enrolled students."
 msgstr ""
+"Нажмите, чтобы создать отчет в формате CSV                 об оценке заданий "
+"для всех зачисленных в настоящее время студентов."
 
 #: lms/templates/learner_dashboard/_dashboard_navigation_courses.html:7
 msgid "My Courses"
@@ -23087,48 +23102,54 @@ msgstr "Мои курсы"
 
 #: lms/templates/lti_provider/user-auth-error.html:11
 msgid "There was an error when loading this module!"
-msgstr ""
+msgstr "При загрузке этого модуля произошла ошибка!"
 
 #: lms/templates/lti_provider/user-auth-error.html:14
 msgid ""
 "This module is available only for users who are signed into {platform}. "
 "Kindly sign in and refresh this page to load the content."
 msgstr ""
+"Этот модуль доступен только для пользователей, вошедших в {platform}. "
+"Пожалуйста, войдите в систему и обновите эту страницу, чтобы загрузить контент."
 
 #: lms/templates/lti_provider/user-auth-error.html:21
 msgid "NOTE:"
-msgstr ""
+msgstr "ПРИМЕЧАНИЕ:"
 
 #: lms/templates/lti_provider/user-auth-error.html:22
 msgid ""
 "The email used to sign into this platform and {platform} should be the same."
-msgstr ""
+msgstr "" 
+"Адрес электронной почты, используемый для входа на эту платформу и "
+"на {platform}, должен совпадать."
 
 #: lms/templates/modal/_modal-settings-language.html:21
 msgid "Change Preferred Language"
-msgstr ""
+msgstr "Изменить предпочтительный язык"
 
 #: lms/templates/modal/_modal-settings-language.html:34
 msgid "Please choose your preferred language"
-msgstr ""
+msgstr "Пожалуйста, выберите предпочитаемый язык"
 
 #: lms/templates/modal/_modal-settings-language.html:52
 msgid "Save Language Settings"
-msgstr ""
+msgstr "Сохранить настройки языка"
 
 #: lms/templates/modal/_modal-settings-language.html:58
 msgid ""
 "Don't see your preferred language? {link_start}Volunteer to become a "
 "translator!{link_end}"
 msgstr ""
+"Не нашли предпочитаемый язык? {link_start} Помогите нам "
+"с переводом!{link_end}"
 
 #: lms/templates/navigation/navbar-not-authenticated.html:33
 msgid "Explore Courses"
-msgstr ""
+msgstr "Узнайте о курсах"
 
 #: lms/templates/navigation/navigation.html:44
 msgid "Global"
-msgstr ""
+msgstr "Общий"
 
 #: lms/templates/peer_grading/peer_grading.html:6
 msgid ""
@@ -23145,121 +23166,142 @@ msgid ""
 "{end_ul_tag}\n"
 "{end_p_tag}\n"
 msgstr ""
+"\n"
+"{p_tag}В настоящий момент Вам не нужно проводить оценку однокурсника. Чтобы провести "
+"оценку однокурсника:\n"
+"{ul_tag}\n"
+"{li_tag}Вам необходимо отправить ответ на проблему с оценкой."
+"{end_li_tag}\n"
+"{li_tag}Сотрудники из команды курса должны оценить эссе, которые помогут Вам "
+"лучше понять систему оценивания\n"
+"и критерии.{end_li_tag}\n"
+"{li_tag}Должны быть загружены работы, ожидающие оценки.{end_li_tag}\n"
+"{end_ul_tag}\n"
+"{end_p_tag}\n"
 
 #: lms/templates/peer_grading/peer_grading.html:24
 #: lms/templates/peer_grading/peer_grading_closed.html:4
 #: lms/templates/peer_grading/peer_grading_problem.html:13
 msgid "Peer Grading"
-msgstr ""
+msgstr "Оценка коллег"
 
 #: lms/templates/peer_grading/peer_grading.html:26
 msgid "Here is a list of problems that need to be peer graded for this course."
-msgstr ""
+msgstr "Вот список задач, которые должны быть оценены коллегами для этого курса."
 
 #: lms/templates/peer_grading/peer_grading.html:36
 msgid "Problem Name"
-msgstr ""
+msgstr "Наименование проблемы"
 
 #: lms/templates/peer_grading/peer_grading.html:37
 msgid "Due date"
-msgstr ""
+msgstr "Контрольный срок"
 
 #: lms/templates/peer_grading/peer_grading.html:38
 msgid "Graded"
-msgstr ""
+msgstr "Оценен"
 
 #: lms/templates/peer_grading/peer_grading.html:39
 msgid "Available"
-msgstr ""
+msgstr "Доступно"
 
 #: lms/templates/peer_grading/peer_grading.html:40
 msgid "Required"
-msgstr ""
+msgstr "Обязательно"
 
 #: lms/templates/peer_grading/peer_grading.html:56
 msgid "No due date"
-msgstr ""
+msgstr "Нет контрольного срока"
 
 #: lms/templates/peer_grading/peer_grading_closed.html:6
 msgid ""
 "The due date has passed, and peer grading for this problem is closed at this "
 "time."
 msgstr ""
+"Срок сдачи работы прошел, оценка данной проблемы в настоящее время закрыта."
 
 #: lms/templates/peer_grading/peer_grading_closed.html:8
 msgid "The due date has passed, and peer grading is closed at this time."
-msgstr ""
+msgstr "Срок сдачи работы прошел, оценка в настоящее время закрыта."
 
 #: lms/templates/peer_grading/peer_grading_problem.html:10
 msgid "Learning to Grade"
-msgstr ""
+msgstr "Учимся выставлять оценки"
 
 #: lms/templates/peer_grading/peer_grading_problem.html:21
 msgid "Hide Question"
-msgstr ""
+msgstr "Скрыть вопрос"
 
 #: lms/templates/peer_grading/peer_grading_problem.html:33
 msgid "Student Response"
-msgstr ""
+msgstr "Ответ студента"
 
 #: lms/templates/peer_grading/peer_grading_problem.html:47
 msgid "Written Feedback"
-msgstr ""
+msgstr "Письменная обратная связь"
 
 #: lms/templates/peer_grading/peer_grading_problem.html:48
 msgid "Please include some written feedback as well."
-msgstr ""
+msgstr "Пожалуйста, приложите также письменный отзыв."
 
 #: lms/templates/peer_grading/peer_grading_problem.html:53
 msgid ""
 "This submission has explicit, offensive, or (I suspect) plagiarized content. "
 msgstr ""
+"Этот материал содержит откровенный, оскорбительный или (предположительно) заимствованный "
+"контент."
 
 #: lms/templates/peer_grading/peer_grading_problem.html:65
 msgid "How did I do?"
-msgstr ""
+msgstr "Как я справился?"
 
 #: lms/templates/peer_grading/peer_grading_problem.html:73
 msgid "Ready to grade!"
-msgstr ""
+msgstr "Готов к оценке"
 
 #: lms/templates/peer_grading/peer_grading_problem.html:74
 msgid ""
 "You have finished learning to grade, which means that you are now ready to "
 "start grading."
 msgstr ""
+"Вы закончили учиться выставлять оценки, а это значит, что теперь вы готовы "
+"приступить к выставлению оценок."
 
 #: lms/templates/peer_grading/peer_grading_problem.html:75
 msgid "Start Grading!"
-msgstr ""
+msgstr "Начните оценивать"
 
 #: lms/templates/peer_grading/peer_grading_problem.html:80
 msgid "Learning to grade"
-msgstr ""
+msgstr "Учимся ставить оценки"
 
 #: lms/templates/peer_grading/peer_grading_problem.html:81
 msgid "You have not yet finished learning to grade this problem."
-msgstr ""
+msgstr "Вы еще не закончили учиться, чтобы оценивать эту проблему."
 
 #: lms/templates/peer_grading/peer_grading_problem.html:82
 msgid ""
 "You will now be shown a series of instructor-scored essays, and will be "
 "asked to score them yourself."
 msgstr ""
+"Теперь вам будет показана серия эссе, оцененных преподавателем, "
+"и вас попросят оценить их самостоятельно."
 
 #: lms/templates/peer_grading/peer_grading_problem.html:83
 msgid ""
 "Once you can score the essays similarly to an instructor, you will be ready "
 "to grade your peers."
 msgstr ""
+"Как только Вы сможете оценивать эссе так же, как преподаватель, "
+"Вы будете готовы оценивать своих коллег."
 
 #: lms/templates/peer_grading/peer_grading_problem.html:84
 msgid "Start learning to grade"
-msgstr ""
+msgstr "Начни учиться, чтобы оценить"
 
 #: lms/templates/peer_grading/peer_grading_problem.html:89
 msgid "Are you sure that you want to flag this submission?"
-msgstr ""
+msgstr "Вы уверены, что хотите пожаловаться?"
 
 #: lms/templates/peer_grading/peer_grading_problem.html:91
 msgid ""
@@ -23268,22 +23310,27 @@ msgid ""
 "submission is not addressed to the question or is incorrect, you should give "
 "it a score of zero and accompanying feedback instead of flagging it."
 msgstr ""
+"Вы собираетесь пожаловаться на материал. Вы можете пожаловаться только те "
+"материалы, которые содержат откровенный, оскорбительный или (предположительно) "
+"заимствованный контент. Если материал не содержит данных признаков "
+"или содержит ошибку, поставьте ему нулевую оценку и заполните форму обратной связи, "
+"а не отправляйте жалобу."
 
 #: lms/templates/peer_grading/peer_grading_problem.html:94
 msgid "Remove Flag"
-msgstr ""
+msgstr "Снять отметку"
 
 #: lms/templates/peer_grading/peer_grading_problem.html:95
 msgid "Keep Flag"
-msgstr ""
+msgstr "Отметить"
 
 #: lms/templates/peer_grading/peer_grading_problem.html:99
 msgid "Go Back"
-msgstr ""
+msgstr "Вернуться"
 
 #: lms/templates/registration/account_activation_sidebar_notice.html:8
 msgid "Account Activation Info"
-msgstr ""
+msgstr "Информация об активации учетной записи"
 
 #: lms/templates/registration/password_reset_complete.html:13
 msgid "Your Password Reset is Complete"
@@ -23291,20 +23338,21 @@ msgstr ""
 
 #: lms/templates/registration/password_reset_complete.html:33
 msgid "Password Reset Complete"
-msgstr ""
+msgstr "Сброс пароля завершен"
 
 #: lms/templates/registration/password_reset_complete.html:35
 msgid ""
 "Your password has been reset. {start_link}Sign-in to your account.{end_link}"
 msgstr ""
+"Ваш пароль был сброшен. {start_link}Войдите в свой аккаунт.{end_link}"
 
 #: lms/templates/registration/password_reset_confirm.html:15
 msgid "Reset Your {platform_name} Password"
-msgstr ""
+msgstr "Сбросьте пароль {platform_name}"
 
 #: lms/templates/registration/password_reset_confirm.html:37
 msgid "Invalid Password Reset Link"
-msgstr ""
+msgstr "Неверная ссылка для сброса пароля"
 
 #: lms/templates/registration/password_reset_confirm.html:40
 msgid ""
@@ -23312,16 +23360,21 @@ msgid ""
 "your password, go to the {start_link}sign-in{end_link} page and select "
 "{start_strong}Forgot password{end_strong}."
 msgstr ""
+"Эта ссылка для сброса пароля недействительна. Возможно, она уже использовалась. "
+"Чтобы сбросить пароль, перейдите на страницу {start_link}входа{end_link} и выберите "
+"{start_strong}Забыли пароль{end_strong}."
 
 #: lms/templates/registration/password_reset_done.html:3
 msgid "Password reset successful"
-msgstr ""
+msgstr "Сброс пароля успешен"
 
 #: lms/templates/registration/password_reset_done.html:8
 msgid ""
 "We've e-mailed you instructions for setting your password to the e-mail "
 "address you submitted. You should be receiving it shortly."
 msgstr ""
+"Мы отправили инструкцию по установке пароля на указанный Вами адрес электронной "
+"почты. Вы должны получить ее в ближайшее время."
 
 #: lms/templates/static_templates/404.html:21
 msgid ""
@@ -23334,11 +23387,11 @@ msgstr ""
 #: lms/templates/static_templates/429.html:9
 #: lms/templates/static_templates/429.html:14
 msgid "Too Many Requests"
-msgstr ""
+msgstr "Слишком много запросов"
 
 #: lms/templates/static_templates/429.html:21
 msgid "Your request has been rate-limited. Please try again later."
-msgstr ""
+msgstr "Ваш запрос ограничен по скорости. Пожалуйста, повторите попытку позже."
 
 #: lms/templates/static_templates/about.html:13
 #: lms/templates/static_templates/blog.html:13
@@ -23354,7 +23407,7 @@ msgstr ""
 #: lms/templates/static_templates/privacy.html:14
 #: lms/templates/static_templates/tos.html:13
 msgid "This page left intentionally blank. Feel free to add your own content."
-msgstr ""
+msgstr "Эта страница специально оставлена ​​пустой. Не стесняйтесь добавлять свой собственный контент."
 
 #: lms/templates/static_templates/embargo.html:18
 msgid ""
@@ -23363,119 +23416,127 @@ msgid ""
 "sanctions. Unfortunately, because {platform_name} is required to comply with "
 "export controls, we cannot allow you to access this course at this time."
 msgstr ""
+"Наша система показывает, что Вы пытаетесь получить доступ к этому курсу {platform_name} "
+"из страны или региона, на который в настоящее время распространяются ограничения. "
+"К сожалению, поскольку {platform_name} обязана соблюдать экспортный контроль, "
+"мы не можем предоставить Вам в настоящее время доступ к этому курсу."
 
 #: lms/templates/static_templates/faq.html:5
 #: lms/templates/static_templates/faq.html:10
 #: themes/red-theme/lms/templates/footer.html:43
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: lms/templates/static_templates/jobs.html:5
 #: lms/templates/static_templates/jobs.html:10
 #: themes/red-theme/lms/templates/footer.html:30
 msgid "Jobs"
-msgstr ""
+msgstr "Вакансии"
 
 #: lms/templates/static_templates/news.html:6
 #: lms/templates/static_templates/news.html:11
 #: lms/templates/static_templates/press.html:6
 #: lms/templates/static_templates/press.html:11
 msgid "In the Press"
-msgstr ""
+msgstr "В прессе"
 
 #: lms/templates/static_templates/server-down.html:16
 msgid "Currently the {platform_name} servers are down"
-msgstr ""
+msgstr "В настоящее время серверы {platform_name} не работают."
 
 #: lms/templates/static_templates/server-down.html:27
 #: lms/templates/static_templates/server-overloaded.html:27
 msgid ""
 "Our staff is currently working to get the site back up as soon as possible. "
 msgstr ""
+"Наши сотрудники в настоящее время работают над тем, чтобы восстановить "
+"сайт как можно скорее."
 
 #: lms/templates/static_templates/server-error.html:16
 msgid "There has been a 500 error on the {platform_name} servers"
-msgstr ""
+msgstr "На серверах {platform_name} произошла ошибка 500."
 
 #: lms/templates/static_templates/server-error.html:27
 msgid "Please wait a few seconds and then reload the page."
-msgstr ""
+msgstr "Пожалуйста, подождите несколько секунд и перезагрузите страницу."
 
 #: lms/templates/static_templates/server-overloaded.html:16
 msgid "Currently the {platform_name} servers are overloaded"
-msgstr ""
+msgstr "В настоящее время серверы {platform_name} перегружены."
 
 #: lms/templates/student_account/account_settings.html:20
 msgid "Account Settings"
-msgstr ""
+msgstr "Настройки учетной записи"
 
 #: lms/templates/student_account/account_settings.html:82
 msgid ""
 " and access to private sites offered by MIT Open Learning, Wharton Executive "
 "Education, and Harvard Medical School"
 msgstr ""
+" и доступ к частным сайтам, предлагаемым MIT Open Learning, Wharton Executive "
+"Education и Гарвардской медицинской школой"
 
 #: lms/templates/student_account/finish_auth.html:6
 msgid "Please Wait"
-msgstr ""
+msgstr "Пожалуйста, подождите"
 
 #: lms/templates/student_account/login_and_register.html:12
 msgid "Sign in or Register"
-msgstr ""
+msgstr "Войдите или зарегистрируйтесь"
 
 #: lms/templates/support/certificates.html:21
 #: lms/templates/support/index.html:12 lms/templates/support/index.html:17
 msgid "Student Support"
-msgstr ""
+msgstr "Поддержка студентов"
 
 #: lms/templates/support/certificates.html:26
 msgid "Student Support: Certificates"
-msgstr ""
+msgstr "Поддержка студентов: Сертификаты"
 
 #: lms/templates/support/contact_us.html:16
 msgid "Contact {platform_name} Support"
-msgstr ""
+msgstr "Свяжитесь со службой поддержки {platform_name}"
 
 #: lms/templates/support/enrollment.html:27
 msgid "Student Support: Enrollment"
-msgstr ""
+msgstr "Поддержка студентов: Зачисление"
 
 #: lms/templates/support/feature_based_enrollments.html:16
 msgid "Student Support: Feature Based Enrollments"
-msgstr ""
+msgstr "Поддержка студентов: Характеристика зачислений"
 
 #: lms/templates/support/feature_based_enrollments.html:33
 msgid "Content Type Gating"
-msgstr ""
+msgstr "Тип контента"
 
 #: lms/templates/support/feature_based_enrollments.html:34
 msgid "Course Duration Limits"
-msgstr ""
+msgstr "Ограничения продолжительности курса"
 
 #: lms/templates/support/feature_based_enrollments.html:39
 #: lms/templates/support/feature_based_enrollments.html:42
 msgid "Is Enabled"
-msgstr ""
+msgstr "Включено"
 
 #: lms/templates/support/feature_based_enrollments.html:67
 msgid "No results found"
-msgstr ""
+msgstr "Результаты не найдены"
 
 #: lms/templates/support/manage_user.html:28
 msgid "Student Support: Manage User"
-msgstr ""
+msgstr "Поддержка студентов: управление пользователем"
 
 #: lms/templates/support/program_enrollments_inspector.html:19
 msgid "Program Enrollments Inspector"
-msgstr ""
+msgstr "Инспектор зачисления на программу"
 
 #: lms/templates/survey/survey.html:11
 msgid "User Survey"
-msgstr ""
+msgstr "Опрос пользователей"
 
 #: lms/templates/survey/survey.html:33
 msgid "Pre-Course Survey"
-msgstr ""
+msgstr "Предварительный опрос"
 
 #: lms/templates/survey/survey.html:37
 msgid ""
@@ -23484,18 +23545,22 @@ msgid ""
 "use of {platform_name} only. It will not be linked to your public profile in "
 "any way."
 msgstr ""
+"Вы сможете начать курс, как только заполните следующую форму."
+"Обязательные поля отмечены звездочкой (*). Эта информация предназначена только для "
+"использования {platform_name}. Она никоим образом не будет связана с вашим "
+"общедоступным профилем. "
 
 #: lms/templates/survey/survey.html:42
 msgid "You are missing the following required fields:"
-msgstr ""
+msgstr "Вы пропустили следующие обязательные поля:"
 
 #: lms/templates/survey/survey.html:50
 msgid "Cancel and Return to Dashboard"
-msgstr ""
+msgstr "Отменить и вернуться на Панель управления"
 
 #: lms/templates/survey/survey.html:58
 msgid "Why do I need to complete this information?"
-msgstr ""
+msgstr "Почему мне нужно заполнить эту информацию?"
 
 #: lms/templates/survey/survey.html:60
 msgid ""
@@ -23503,77 +23568,87 @@ msgid ""
 "and future students. The more we know about your specific needs, the better "
 "we can make your course experience."
 msgstr ""
+"Мы используем предоставленную Вами информацию, чтобы улучшить наш курс как "
+"для нынешних, так и для будущих студентов. Чем больше мы знаем о ваших "
+"конкретных потребностях, тем лучше мы сможем адаптировать курс под них."
 
 #: lms/templates/survey/survey.html:65
 msgid "Who can I contact if I have questions?"
-msgstr ""
+msgstr "К кому я могу обратиться, если у меня возникнут вопросы?"
 
 #: lms/templates/survey/survey.html:67
 msgid ""
 "If you have any questions about this course or this form, you can contact "
 "{link_start}{mail_to_link}{link_end}."
 msgstr ""
+"Если у Вас есть какие-либо вопросы по поводу этого курса или этой формы, "
+"Вы можете связаться {link_start}{mail_to_link}{link_end}."
 
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html:39
 msgid "Skeleton Page"
-msgstr ""
+msgstr "Страница скелета"
 
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html:45
 msgid "Search the course"
-msgstr ""
+msgstr "Найти курс"
 
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html:51
 msgid "Start Course"
-msgstr ""
+msgstr "Начать курс"
 
 #: lms/templates/verify_student/_verification_help.html:9
 msgid "Have questions?"
-msgstr ""
+msgstr "Есть вопросы?"
 
 #: lms/templates/verify_student/_verification_help.html:11
 msgid ""
 "Please read {a_start}our FAQs to view common questions about our "
 "certificates{a_end}."
 msgstr ""
+"Пожалуйста, прочитайте {a_start}наши FAQs, чтобы узнать ответы на  "
+"распространенные вопросы о наших сертификатах{a_end}."
 
 #: lms/templates/verify_student/incourse_reverify.html:11
 msgid "Re-Verify for {course_name}"
-msgstr ""
+msgstr "Повторно подтвердите для курса {course_name}"
 
 #: lms/templates/verify_student/missed_deadline.html:12
 msgid "Verification Deadline Has Passed"
-msgstr ""
+msgstr "Срок проверки истек"
 
 #: lms/templates/verify_student/missed_deadline.html:14
 msgid "Upgrade Deadline Has Passed"
-msgstr ""
+msgstr "Срок обновления истек"
 
 #: lms/templates/verify_student/missed_deadline.html:27
 msgid ""
 "The verification deadline for {course_name} was {{date}}. Verification is no "
 "longer available."
 msgstr ""
+"Срок проверки для {course_name} был {{date}}. Проверка больше "
+"не доступна."
 
 #: lms/templates/verify_student/missed_deadline.html:34
 msgid ""
 "The deadline to upgrade to a verified certificate for this course has passed."
 msgstr ""
+"Крайний срок для получения подтвержденного сертификата по этому курсу истек."
 
 #: lms/templates/verify_student/pay_and_verify.html:16
 msgid "Upgrade Your Enrollment For {course_name}."
-msgstr ""
+msgstr "Обновите свою регистрацию на {course_name}."
 
 #: lms/templates/verify_student/pay_and_verify.html:18
 msgid "Verify For {course_name}"
-msgstr ""
+msgstr "Подтвердите для {course_name}"
 
 #: lms/templates/verify_student/pay_and_verify.html:20
 msgid "Enroll In {course_name}"
-msgstr ""
+msgstr "Запишитесь на {course_name}"
 
 #: lms/templates/verify_student/pay_and_verify.html:106
 msgid "Technical Requirements"
-msgstr ""
+msgstr "Технические требования"
 
 #: lms/templates/verify_student/pay_and_verify.html:108
 msgid ""
@@ -23582,15 +23657,19 @@ msgid ""
 "{strong_start}webcam is plugged in, turned on, and allowed to function in "
 "your web browser (commonly adjustable in your browser settings).{strong_end}"
 msgstr ""
+"Пожалуйста, убедитесь, что ваш браузер обновлен до {strong_start}{a_start}самой "
+"последней версии{a_end}{strong_end}. Также убедитесь, что ваша "
+"{strong_start}веб-камера подключена, включена и ей разрешено работать на "
+"вашем браузере (обычно это можно изменить в настройках браузера).{strong_end}"
 
 #: lms/templates/verify_student/reverify.html:10
 msgid "Re-Verification"
-msgstr ""
+msgstr "Повторная проверка"
 
 #: lms/templates/verify_student/reverify_not_allowed.html:8
 #: lms/templates/verify_student/reverify_not_allowed.html:12
 msgid "Identity Verification"
-msgstr ""
+msgstr "Проверка личности"
 
 #: lms/templates/verify_student/reverify_not_allowed.html:17
 msgid ""
@@ -23598,14 +23677,17 @@ msgid ""
 "message on your dashboard when the verification process is complete (usually "
 "within 5-7 days)."
 msgstr ""
+"Вы уже отправили свою подтверждающую информацию.Вы увидите "
+"сообщение на своей панели управления, когда процесс проверки завершится(обычно "
+"в течение 5–7 дней)."
 
 #: lms/templates/verify_student/reverify_not_allowed.html:19
 msgid "You cannot verify your identity at this time."
-msgstr ""
+msgstr "В настоящее время вы не можете подтвердить свою личность."
 
 #: lms/templates/verify_student/reverify_not_allowed.html:25
 msgid "Return to Your Dashboard"
-msgstr ""
+msgstr "Вернуться на Панель управления"
 
 #: lms/templates/widgets/cookie-consent.html:20
 msgid ""
@@ -23613,134 +23695,139 @@ msgid ""
 "website. If you continue browsing this site, we understand that you accept "
 "the use of cookies."
 msgstr ""
+"Этот сайт использует файлы cookie, чтобы обеспечить Вам максимальную эффективность от "
+"его использования. Если Вы продолжите просматривать этот сайт, мы понимаем, что Вы "
+"принимаете использование файлов cookie."
 
 #: lms/templates/widgets/cookie-consent.html:21
 msgid "Got it!"
-msgstr ""
+msgstr "Понятно!"
 
 #: lms/templates/widgets/cookie-consent.html:22
 msgid "Learn more"
-msgstr ""
+msgstr "Узнать больше"
 
 #: lms/templates/wiki/includes/article_menu.html:14
 #: lms/templates/wiki/includes/article_menu.html:23
 #: lms/templates/wiki/includes/article_menu.html:32
 #: lms/templates/wiki/includes/article_menu.html:42
 msgid "{span_start}(active){span_end}"
-msgstr ""
+msgstr "{span_start}(active){span_end}"
 
 #: lms/templates/wiki/includes/article_menu.html:58
 msgid "{span_start}active{span_end}"
-msgstr ""
+msgstr "{span_start}активен{span_end}"
 
 #: lms/templates/wiki/includes/breadcrumbs.html:10
 msgid "Course Wiki"
-msgstr ""
+msgstr "Курс Wiki"
 
 #: openedx/core/djangoapps/dark_lang/templates/dark_lang/preview-language-fragment.html:16
 msgid "Preview Language Setting"
-msgstr ""
+msgstr "Предварительный просмотр Настройки языка"
 
 #: openedx/core/djangoapps/dark_lang/templates/dark_lang/preview-language-fragment.html:25
 msgid "Language Code"
-msgstr ""
+msgstr "Код языка"
 
 #: openedx/core/djangoapps/dark_lang/templates/dark_lang/preview-language-fragment.html:27
 msgid "e.g. en for English"
-msgstr ""
+msgstr "например, en для Английского"
 
 #: openedx/core/djangoapps/theming/templates/theming/theming-admin-fragment.html:25
 msgid "Preview Theme"
-msgstr ""
+msgstr "Предварительный просмотр темы"
 
 #: openedx/core/lib/license/templates/license.html:28
 msgid "All Rights Reserved"
-msgstr ""
+msgstr "Все права защищены"
 
 #: openedx/core/lib/license/templates/license.html:33
 msgid "Attribution"
-msgstr ""
+msgstr "Атрибуция"
 
 #: openedx/core/lib/license/templates/license.html:33
 msgid "Noncommercial"
-msgstr ""
+msgstr "Некоммерческий"
 
 #: openedx/core/lib/license/templates/license.html:34
 msgid "No Derivatives"
-msgstr ""
+msgstr "Никаких производных"
 
 #: openedx/core/lib/license/templates/license.html:34
 msgid "Share Alike"
-msgstr ""
+msgstr "Поделитесь на тех же условиях"
 
 #: openedx/core/lib/license/templates/license.html:51
 msgid "Creative Commons licensed content, with terms as follow:"
-msgstr ""
+msgstr "Контент, лицензированный Творческим сообществом, со следующими условиями:"
 
 #: openedx/core/lib/license/templates/license.html:55
 msgid "Some Rights Reserved"
-msgstr ""
+msgstr "Некоторые права защищены"
 
 #: openedx/features/course_experience/templates/course_experience/course-dates-fragment.html:11
 msgid "Upcoming Dates"
-msgstr ""
+msgstr "Предстоящие события"
 
 #: openedx/features/course_experience/templates/course_experience/course-dates-fragment.html:18
 msgid "View all course dates"
-msgstr ""
+msgstr "Посмотреть все даты курса"
 
 #: openedx/features/course_experience/templates/course_experience/course-sock-fragment.html:20
 msgid "Learn About Verified Certificates"
-msgstr ""
+msgstr "Узнайте о проверенных Сертификатах"
 
 #: openedx/features/course_experience/templates/course_experience/course-sock-fragment.html:24
 msgid "{platform_name} Verified Certificate"
-msgstr ""
+msgstr "{platform_name} проверенный Сертификат"
 
 #: openedx/features/course_experience/templates/course_experience/course-sock-fragment.html:25
 msgid "Why upgrade?"
-msgstr ""
+msgstr "Зачем обновляться?"
 
 #: openedx/features/course_experience/templates/course_experience/course-sock-fragment.html:27
 msgid "Official proof of completion"
-msgstr ""
+msgstr "Официальное подтверждение завершения"
 
 #: openedx/features/course_experience/templates/course_experience/course-sock-fragment.html:28
 msgid "Easily shareable certificate"
-msgstr ""
+msgstr "Сертификат, которым легко поделиться"
 
 #: openedx/features/course_experience/templates/course_experience/course-sock-fragment.html:29
 msgid "Proven motivator to complete the course"
-msgstr ""
+msgstr "Проверенный способ мотивации для завершения курса"
 
 #: openedx/features/course_experience/templates/course_experience/course-sock-fragment.html:30
 msgid ""
 "Certificate purchases help {platform_name} continue to offer free courses"
 msgstr ""
+"Приобретение Сертификатов помогает платформе {platform_name} продолжать предлагать бесплатные курсы"
 
 #: openedx/features/course_experience/templates/course_experience/course-sock-fragment.html:32
 msgid "How it works"
-msgstr ""
+msgstr "Как это работает"
 
 #: openedx/features/course_experience/templates/course_experience/course-sock-fragment.html:34
 msgid "Pay the Verified Certificate upgrade fee"
-msgstr ""
+msgstr "Оплатите сбор за обновление проверенного Сертификата"
 
 #: openedx/features/course_experience/templates/course_experience/course-sock-fragment.html:35
 msgid "Verify your identity with a webcam and government-issued ID"
-msgstr ""
+msgstr "Подтвердите свою личность с помощью веб-камеры и удостоверения личности государственного" 
+"образца."
 
 #: openedx/features/course_experience/templates/course_experience/course-sock-fragment.html:36
 msgid "Study hard and pass the course"
-msgstr ""
+msgstr "Учись усердно и пройди курс"
 
 #: openedx/features/course_experience/templates/course_experience/course-sock-fragment.html:37
 msgid "Share your certificate with friends, employers, and others"
-msgstr ""
+msgstr "Поделитесь своим сертификатом с друзьями, работодателями и другими людьми"
 
 #: openedx/features/course_experience/templates/course_experience/course-sock-fragment.html:40
 msgid "edX Learner Stories"
-msgstr ""
+msgstr "Истории обучающихся на edX"
 
 #: openedx/features/course_experience/templates/course_experience/course-sock-fragment.html:44
 msgid ""
@@ -23748,11 +23835,14 @@ msgid ""
 "my                             resumé - I feel like this certificate could "
 "really help me land                             my dream job!"
 msgstr ""
+"Мой сертификат помог мне продемонстрировать свои знания в "
+"моем                             резюме. Я чувствую, что этот сертификат действительно "
+"может помочь мне получить                             работу моей мечты!"
 
 #: openedx/features/course_experience/templates/course_experience/course-sock-fragment.html:47
 #: openedx/features/course_experience/templates/course_experience/course-sock-fragment.html:56
 msgid "{learner_name}, edX Learner"
-msgstr ""
+msgstr "{learner_name}, обучающийся edX"
 
 #: openedx/features/course_experience/templates/course_experience/course-sock-fragment.html:53
 msgid ""
@@ -23761,98 +23851,104 @@ msgid ""
 "goal I have and that I have                             achieved something "
 "while I was unemployed."
 msgstr ""
+"Я хотел включить подтвержденный сертификат в свое резюме и свой профиль, "
+"чтобы                              продемонстрировать, что я работаю над достижением "
+"своей цели и что я                             чего-то достиг, "
+"пока был безработным."
 
 #: openedx/features/course_experience/templates/course_experience/course-sock-fragment.html:63
 msgid "Upgrade ({course_price})"
-msgstr ""
+msgstr "Повышение класса обслуживания ({course_price})"
 
 #: openedx/features/course_experience/templates/course_experience/course-updates-fragment.html:49
 msgid "This course does not have any updates."
-msgstr ""
+msgstr "Этот курс не имеет обновлений."
 
 #. Translators: this section lists all the third-party authentication providers
 #. (for example, Google and LinkedIn) the user can link with or unlink from
 #. their edX account.
 #: openedx/features/learner_profile/static/learner_profile/templates/third_party_auth.html:10
 msgid "Connected Accounts"
-msgstr ""
+msgstr "Связанные аккаунты"
 
 #: openedx/features/learner_profile/static/learner_profile/templates/third_party_auth.html:18
 msgid "Linked"
-msgstr ""
+msgstr "Привязан"
 
 #: openedx/features/learner_profile/static/learner_profile/templates/third_party_auth.html:20
 msgid "Not Linked"
-msgstr ""
+msgstr "Отвязан"
 
 #. Translators: clicking on this removes the link between a user's edX account
 #. and their account with an external authentication provider (like Google or
 #. LinkedIn).
 #: openedx/features/learner_profile/static/learner_profile/templates/third_party_auth.html:34
 msgid "Unlink"
-msgstr ""
+msgstr "Отвязать"
 
 #. Translators: clicking on this creates a link between a user's edX account
 #. and their account with an external authentication provider (like Google or
 #. LinkedIn).
 #: openedx/features/learner_profile/static/learner_profile/templates/third_party_auth.html:39
 msgid "Link"
-msgstr ""
+msgstr "Привязать"
 
 #: openedx/features/learner_profile/templates/learner_profile/learner-achievements-fragment.html:20
 msgid "Completed {completion_date_html}"
-msgstr ""
+msgstr "Завершено {completion_date_html}"
 
 #: openedx/features/learner_profile/templates/learner_profile/learner-achievements-fragment.html:39
 msgid "{course_mode} certificate"
-msgstr ""
+msgstr "Сертификат {course_mode}"
 
 #: openedx/features/learner_profile/templates/learner_profile/learner-achievements-fragment.html:53
 msgid "You haven't earned any certificates yet."
-msgstr ""
+msgstr "Вы еще не получили ни одного сертификата."
 
 #: openedx/features/learner_profile/templates/learner_profile/learner-achievements-fragment.html:58
 msgid "Explore New Courses"
-msgstr ""
+msgstr "Изучите новые курсы"
 
 #: openedx/features/learner_profile/templates/learner_profile/learner_profile.html:16
 msgid "Learner Profile"
-msgstr ""
+msgstr "Профиль обучающегося"
 
 #: openedx/features/learner_profile/templates/learner_profile/learner_profile.html:32
 msgid "View My Records"
-msgstr ""
+msgstr "Посмотреть мои записи"
 
 #: openedx/features/learner_profile/templates/learner_profile/learner_profile.html:39
 msgid "My Profile"
-msgstr ""
+msgstr "Мой Профиль"
 
 #: openedx/features/learner_profile/templates/learner_profile/learner_profile.html:41
 msgid "Build out your profile to personalize your identity on {platform_name}."
-msgstr ""
+msgstr "Заполните свой профиль, чтобы персонализировать свою личность на {platform_name}."
 
 #: openedx/features/learner_profile/templates/learner_profile/learner_profile.html:60
 msgid "An error occurred. Try loading the page again."
-msgstr ""
+msgstr "Произошла ошибка. Попробуйте загрузить страницу еще раз."
 
 #: themes/red-theme/lms/templates/footer.html:87
 msgid ""
 "{tos_link_start}Terms of Service{tos_link_end} and {honor_link_start}Honor "
 "Code{honor_link_end}"
 msgstr ""
+"{tos_link_start}Условия использования{tos_link_end} и {honor_link_start}Кодекс "
+"чести{honor_link_end}"
 
 #: themes/stanford-style/lms/templates/footer.html:21
 #: themes/stanford-style/lms/templates/static_templates/tos.html:23
 msgid "Copyright"
-msgstr ""
+msgstr "Авторские права"
 
 #: themes/stanford-style/lms/templates/footer.html:36
 msgid "Copyright {year}. All rights reserved."
-msgstr ""
+msgstr "Copyright {year}. Все права защищены."
 
 #: themes/stanford-style/lms/templates/index.html:16
 msgid "For anyone, anywhere, anytime"
-msgstr ""
+msgstr "Для кого угодно, где угодно и когда угодно"
 
 #: themes/stanford-style/lms/templates/register-form.html:14
 #: themes/stanford-style/lms/templates/register-shib.html:100
@@ -23860,19 +23956,21 @@ msgid ""
 "We're sorry, but this version of your browser is not supported. Try again "
 "using a different browser or a newer version of your browser."
 msgstr ""
+"Сожалеем, но данная версия Вашего браузера не поддерживается. Попробуйте еще раз, "
+"используя другой браузер или более новую версию Вашего браузера."
 
 #: themes/stanford-style/lms/templates/register-form.html:18
 #: themes/stanford-style/lms/templates/register-shib.html:104
 msgid "The following errors occurred while processing your registration:"
-msgstr ""
+msgstr "При обработке вашей заявки на регистрацию произошли следующие ошибки:"
 
 #: themes/stanford-style/lms/templates/register-form.html:36
 msgid "Sign up with {provider_name}"
-msgstr ""
+msgstr "Зарегистрируйтесь с помощью {provider_name}"
 
 #: themes/stanford-style/lms/templates/register-form.html:49
 msgid "Create your own {platform_name} account below"
-msgstr ""
+msgstr "Создайте свою собственную учетную запись {platform_name} ниже"
 
 #: themes/stanford-style/lms/templates/register-form.html:51
 #: themes/stanford-style/lms/templates/register-form.html:71
@@ -23880,121 +23978,127 @@ msgid ""
 "Required fields are noted by <strong class=\"indicator\">bold text and an "
 "asterisk (*)</strong>."
 msgstr ""
+"Обязательные поля отмечены <strong class=\"indicator\">жирным текстом и знаком"
+"звездочка (*)</strong>."
 
 #: themes/stanford-style/lms/templates/register-form.html:60
 msgid "You've successfully signed in with {selected_provider}."
-msgstr ""
+msgstr "Вы успешно вошли в систему через {selected_provider}."
 
 #: themes/stanford-style/lms/templates/register-form.html:61
 msgid ""
 "We just need a little more information before you start learning with "
 "{platform_name}."
 msgstr ""
+"Нам просто нужно немного больше информации, прежде чем вы начнете учиться с "
+"{platform_name}."
 
 #: themes/stanford-style/lms/templates/register-form.html:69
 msgid "Please complete the following fields to register for an account. "
-msgstr ""
+msgstr "Пожалуйста, заполните следующие поля, чтобы зарегистрировать учетную запись."
 
 #: themes/stanford-style/lms/templates/register-form.html:89
 msgid "example: Jane Doe"
-msgstr ""
+msgstr "пример: Мария Иванова"
 
 #: themes/stanford-style/lms/templates/register-form.html:90
 #: themes/stanford-style/lms/templates/register-form.html:144
 msgid "Your legal name, used for any certificates you earn."
-msgstr ""
+msgstr "Ваше официальное имя, используемое для всех Ваших сертификатов."
 
 #: themes/stanford-style/lms/templates/register-form.html:94
 #: themes/stanford-style/lms/templates/register-form.html:135
 #: themes/stanford-style/lms/templates/register-shib.html:127
 msgid "example: JaneDoe"
-msgstr ""
+msgstr "пример: МарияИванова"
 
 #: themes/stanford-style/lms/templates/register-form.html:95
 #: themes/stanford-style/lms/templates/register-form.html:136
 #: themes/stanford-style/lms/templates/register-shib.html:128
 msgid "Will be shown in any discussions or forums you participate in"
-msgstr ""
+msgstr "Будет отображаться во всех обсуждениях или форумах, в которых Вы участвуете"
 
 #: themes/stanford-style/lms/templates/register-form.html:95
 #: themes/stanford-style/lms/templates/register-form.html:136
 msgid "cannot be changed later"
-msgstr ""
+msgstr "нельзя изменить позже"
 
 #: themes/stanford-style/lms/templates/register-form.html:118
 msgid "Welcome {username}"
-msgstr ""
+msgstr "Добро пожаловать, {username}"
 
 #: themes/stanford-style/lms/templates/register-form.html:119
 msgid "Enter a Public Display Name:"
-msgstr ""
+msgstr "Введите публично отображаемое имя:"
 
 #: themes/stanford-style/lms/templates/register-form.html:134
 msgid "Public Display Name"
-msgstr ""
+msgstr "Публично отображаемое имя"
 
 #: themes/stanford-style/lms/templates/register-form.html:155
 msgid "Additional Personal Information"
-msgstr ""
+msgstr "Дополнительная информация о себе"
 
 #: themes/stanford-style/lms/templates/register-form.html:161
 msgid "example: New York"
-msgstr ""
+msgstr "пример: Нью-Йорк"
 
 #: themes/stanford-style/lms/templates/register-form.html:180
 msgid "Highest Level of Education Completed"
-msgstr ""
+msgstr "Высший уровень завершенного образования"
 
 #: themes/stanford-style/lms/templates/register-form.html:206
 msgid "Year of Birth"
-msgstr ""
+msgstr "Год рождения"
 
 #: themes/stanford-style/lms/templates/register-form.html:230
 msgid "Please share with us your reasons for registering with {platform_name}"
-msgstr ""
+msgstr "Пожалуйста, поделитесь с нами причинами регистрации на {platform_name}."
 
 #: themes/stanford-style/lms/templates/register-form.html:238
 #: themes/stanford-style/lms/templates/register-shib.html:155
 msgid "Account Acknowledgements"
-msgstr ""
+msgstr "Подтверждения учетной записи"
 
 #: themes/stanford-style/lms/templates/register-shib.html:10
 msgid "Preferences for {platform_name}"
-msgstr ""
+msgstr "Настройки для {platform_name}"
 
 #: themes/stanford-style/lms/templates/register-shib.html:73
 msgid "Update my {platform_name} Account"
-msgstr ""
+msgstr "Обновить мою учетную запись {platform_name}"
 
 #: themes/stanford-style/lms/templates/register-shib.html:80
 msgid "Processing your account information"
-msgstr ""
+msgstr "Обработка информации вашей учетной записи"
 
 #: themes/stanford-style/lms/templates/register-shib.html:88
 msgid "Welcome {username}!  Please set your preferences below"
-msgstr ""
+msgstr "Добро пожаловать, {username}!  Пожалуйста, установите свои предпочтения ниже"
 
 #: themes/stanford-style/lms/templates/register-shib.html:109
 msgid ""
 "Required fields are noted by {strong_indicator}bold text and an asterisk (*)."
 "{strong_close}"
 msgstr ""
+"Обязательные поля отмечены {strong_indicator}жирным шрифтом и звездочкой (*)."
+"{strong_close}"
 
 #: themes/stanford-style/lms/templates/register-shib.html:190
 msgid "Update My Account"
-msgstr ""
+msgstr "Обновить мою учетную запись"
 
 #: themes/stanford-style/lms/templates/register-sidebar.html:9
 msgid "Registration Help"
-msgstr ""
+msgstr "Помощь при регистрации"
 
 #: themes/stanford-style/lms/templates/register-sidebar.html:15
 msgid "Already registered?"
-msgstr ""
+msgstr "Уже зарегистрированы?"
 
 #: themes/stanford-style/lms/templates/register-sidebar.html:26
 msgid "Next Steps"
-msgstr ""
+msgstr "Следующие шаги"
 
 #: themes/stanford-style/lms/templates/register-sidebar.html:27
 msgid ""
@@ -24003,28 +24107,34 @@ msgid ""
 "mark emails from class.stanford.edu as 'not spam', since you'll want to be "
 "able to receive email from your courses."
 msgstr ""
+"Вы получите электронной письмо с активацией. Вам необходимо нажать на ссылку активации, "
+"чтобы завершить процесс.  Не видите письмо во Входящих? Проверьте папку со спамом и "
+"отметьте электронные письма от class.stanford.edu как 'не спам', чтобы иметь "
+"возможность получать письма с информацией о Ваших курсах."
 
 #: themes/stanford-style/lms/templates/register-sidebar.html:32
 msgid "Need Help?"
-msgstr ""
+msgstr "Нужна помощь?"
 
 #: themes/stanford-style/lms/templates/register-sidebar.html:33
 msgid "Need help in registering with {platform_name}?"
-msgstr ""
+msgstr "Нужна помощь в регистрации на {platform_name}?"
 
 #: themes/stanford-style/lms/templates/register-sidebar.html:35
 msgid "View our FAQs for answers to commonly asked questions."
-msgstr ""
+msgstr "Посмотрите раздел FAQs, чтобы получить ответы на часто задаваемые вопросы."
 
 #: themes/stanford-style/lms/templates/register-sidebar.html:37
 msgid ""
 "Once registered, most questions can be answered in the course specific "
 "discussion forums or through the FAQs."
 msgstr ""
+"После регистрации на большинство вопросов можно будет получить ответы в разделе Обсуждения"
+"конкретного курса или через часто задаваемые вопросы."
 
 #: themes/stanford-style/lms/templates/emails/activation_email.txt:2
 msgid "Thank you for signing up for {platform_name}."
-msgstr ""
+msgstr "Благодарим Вас за регистрацию на платформе {platform_name}."
 
 #: themes/stanford-style/lms/templates/emails/activation_email.txt:4
 msgid ""
@@ -24032,6 +24142,9 @@ msgid ""
 "account. Click on the link below or copy and paste it into your browser's "
 "address bar."
 msgstr ""
+"Измените свою жизнь и начните учиться уже сейчас, активировав свою {platform_name} "
+"учетную запись. Перейдите по ссылке ниже или скопируйте ссылку и вставьте ее в поисковую строку "
+"Вашего браузера."
 
 #: themes/stanford-style/lms/templates/emails/activation_email.txt:16
 #: themes/stanford-style/lms/templates/emails/email_change.txt:13
@@ -24040,6 +24153,9 @@ msgid ""
 "any more email from us. Please do not reply to this e-mail; if you require "
 "assistance, check the about section of the {platform_name} Courses web site."
 msgstr ""
+"Если Вы не совершали данный запрос, ничего не делайте; Вы не получите "
+"больше писем от нас. Пожалуйста, не отвечайте на это письмо; если Вам необходима "
+"помощь, проверьте раздел О программе на сайте курсов {platform_name}."
 
 #: themes/stanford-style/lms/templates/emails/confirm_email_change.txt:2
 msgid ""
@@ -24047,6 +24163,9 @@ msgid ""
 "{platform_name} from {old_email} to {new_email}. If you did not make this "
 "request, please contact us at"
 msgstr ""
+"Это необходимо, чтобы подтвердить, что вы изменили адрес электронной почты, связанный с"
+"{platform_name} с {old_email} на {new_email}. Если Вы не отправляли данный"
+"запрос, пожалуйста, свяжитесь с нами"
 
 #: themes/stanford-style/lms/templates/emails/email_change.txt:2
 msgid ""
@@ -24054,6 +24173,9 @@ msgid ""
 "{platform_name} account from {old_email} to {new_email}. If this is correct, "
 "please confirm your new e-mail address by visiting:"
 msgstr ""
+"Мы получили запрос на изменение адреса электронной почты, связанной с Вашей "
+"учетной записью на {platform_name} с {old_email} на {new_email}. Если все правильно, "
+"пожалуйста, подтвердите Ваш новый адрес электронной почты, перейдя по ссылке:"
 
 #: themes/stanford-style/lms/templates/emails/reject_name_change.txt:5
 msgid ""
@@ -24061,23 +24183,26 @@ msgid ""
 "name from {old_name} to {new_name}. If you need further assistance, please e-"
 "mail the tech support at {email}"
 msgstr ""
+"Приносим извинения. Сотрудники нашего курса не одобрили Ваш запрос на изменение Вашего"
+"имени с {old_name} на {new_name}. Если Вам требуется дополнительная помощь, пожалуйста, напишите"
+"в службу технической поддержки по адресу {email}"
 
 #: themes/stanford-style/lms/templates/static_templates/tos.html:13
 msgid "Put your Terms of Service here!"
-msgstr ""
+msgstr "Разместите здесь свои Условия использования"
 
 #: themes/stanford-style/lms/templates/static_templates/tos.html:17
 msgid "Put your Privacy Policy here!"
-msgstr ""
+msgstr "Разместите информацию о Политике конфиденциальности здесь"
 
 #: themes/stanford-style/lms/templates/static_templates/tos.html:21
 msgid "Put your Honor Code here!"
-msgstr ""
+msgstr "Разместите здесь свой Кодекс чести"
 
 #: themes/stanford-style/lms/templates/static_templates/tos.html:25
 msgid "Put your Copyright Text here!"
-msgstr ""
+msgstr "Разместите информацию об авторских правах здесь"
 
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"
-msgstr ""
+msgstr "Редактор кода"
