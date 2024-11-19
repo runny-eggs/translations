@@ -8882,7 +8882,7 @@ msgstr ""
 msgid ""
 "Upgrade by {start_strong}%(user_schedule_upgrade_deadline_time)s{end_strong}."
 msgstr ""
-"Обновите до {start_strong}%(user_schedule_upgrade_deadline_time)с{end_strong}."
+"Обновить {start_strong}%(user_schedule_upgrade_deadline_time)s{end_strong}."
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:63
 msgid "You are eligible to upgrade in these courses:"
@@ -9185,7 +9185,7 @@ msgstr "Почтовый адрес"
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:806
 #, python-brace-format
 msgid "Tell us why you're interested in {platform_name}"
-msgstr "Расскажите нам, почему вас интересует {имя_платформы}"
+msgstr "Расскажите нам, почему вас интересует {platform_name}"
 
 #. Translators: This label appears above a dropdown menu to select
 #. the user's profession
