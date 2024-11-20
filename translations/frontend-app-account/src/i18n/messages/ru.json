@@ -348,7 +348,7 @@
   "account.settings.sso.account.connected": "Привязано",
   "account.settings.sso.account.disconnect.error": "Возникла проблема с отключением этой учетной записи. Обратитесь в службу поддержки, если проблема сохраняется.",
   "account.settings.sso.unlink.account": "Отвязать учетную запись {name}",
-  "account.settings.sso.no.providers": "В настоящее время никакие счета не могут быть связаны.",
+  "account.settings.sso.no.providers": "В настоящее время никакие учётные записи не могут быть связаны.",
   "id.verification.request.camera.access.instructions": "Чтобы сделать снимок с помощью веб-камеры, вы можете получить в браузере запрос на доступ к вашей камере. {clickAllow}",
   "id.verification.requirements.account.managed.alert": "Настройки вашей учетной записи управляются {managerTitle} . Если имя в вашем удостоверении личности с фотографией не совпадает с именем в вашей учетной записи, обратитесь за помощью к своему администратору {profileDataManager} или {support} , прежде чем завершать процесс проверки фотографии.",
   "id.verification.requirements.card.device.text": "Вам нужно устройство с камерой. Если вы получили запрос браузера на доступ к вашей камере, обязательно нажмите {allow} .",
