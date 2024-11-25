@@ -32,5 +32,6 @@
   "header.menu.signOut.label": "Выйти",
   "header.user.menu.studio": "Studio Дом",
   "header.user.menu.maintenance": "Техническое обслуживание",
-  "header.label.courseOutline": "Вернуться к плану курса в Студии"
+  "header.label.courseOutline": "Вернуться к плану курса в Студии",
+  "header.label.search.nav": "Поиск содержимого"
 }

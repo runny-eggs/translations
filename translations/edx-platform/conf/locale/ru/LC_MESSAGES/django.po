@@ -12599,7 +12599,7 @@ msgstr "{section_type} {index} Не опубликовано - 0% (?/?)"
 #: xmodule/graders.py:415
 #, python-brace-format
 msgid "The lowest {drop_count} {section_type} scores are dropped."
-msgstr "Самые низкие баллы {drop_count} {section_type} выбывают."
+msgstr "Самые низкие баллы {drop_count} {section_type} не учитываются."
 
 #. Translators: "Homework Average = 0%"
 #: xmodule/graders.py:433
