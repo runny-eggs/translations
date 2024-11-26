@@ -90,7 +90,7 @@
   "account.settings.field.gender.options.empty": "Выбрать пол",
   "account.settings.field.gender.options.f": "Женский",
   "account.settings.field.gender.options.m": "Мужской",
-  "account.settings.field.gender.options.o": "Другое",
+  "account.settings.field.gender.options.o": "Не указывать",
   "account.settings.field.language.proficiencies": "Разговорный язык",
   "account.settings.field.language.proficiencies.empty": "Добавить язык",
   "account.settings.field.language_proficiencies.options.empty": "Выберите язык",
