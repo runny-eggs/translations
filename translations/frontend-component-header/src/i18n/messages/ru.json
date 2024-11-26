@@ -18,8 +18,8 @@
   "header.label.main.nav": "Главный",
   "header.label.main.menu": "Главное меню",
   "header.label.main.header": "Главный",
-  "header.label.secondary.nav": "Среднее образование",
-  "header.label.skip.nav": "Перейти к основному содержимому",
+  "header.label.secondary.nav": "Второстепенный",
+  "header.label.skip.nav": "Перейти к основному материалу",
   "header.label.app.nav": "Приложение",
   "general.register.sentenceCase": "Регистрация",
   "general.signIn.sentenceCase": "Вход",
@@ -28,10 +28,10 @@
   "header.menu.profile.label": "Профиль",
   "header.menu.account.label": "Учётная запись",
   "header.menu.orderHistory.label": "История заказов",
-  "header.navigation.skipNavLink": "Перейти к контенту",
+  "header.navigation.skipNavLink": "Перейти к основному материалу.",
   "header.menu.signOut.label": "Выйти",
   "header.user.menu.studio": "Studio Дом",
   "header.user.menu.maintenance": "Техническое обслуживание",
   "header.label.courseOutline": "Вернуться к плану курса в Студии",
-  "header.label.search.nav": "Поиск содержимого"
+  "header.label.search.nav": "Поиск по материалу"
 }

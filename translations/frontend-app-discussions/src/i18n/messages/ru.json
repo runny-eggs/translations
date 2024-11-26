@@ -40,6 +40,7 @@
   "discussions.content.unavailable.title": "Контент недоступен",
   "discussions.content.unavailable.subTitle": "Возможно, вы не сможете увидеть этот контент, потому что вы не вошли в систему, не зарегистрированы на курс или срок действия вашего доступа к аудиту истек.",
   "discussions.content.unavailable.action": "Зарегистрироваться",
+  "discussions.page.title": "Обсуждения | {siteName}",
   "navigation.course.tabs.label": "Материалы курса",
   "discussions.topics.backAlt": "Вернуться к списку тем",
   "discussions.topics.discussions": "{count, множественное число, =0 {Обсуждение} one {# Обсуждение} Other {# Обсуждений} }",

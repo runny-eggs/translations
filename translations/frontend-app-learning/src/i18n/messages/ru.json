@@ -80,6 +80,8 @@
   "learning.outline.collapseAll": "Свернуть все",
   "learning.outline.completedAssignment": "Завершено",
   "learning.outline.completedSection": "Завершенный раздел",
+  "learning.outline.hiddenSection": "Скрыто в структуре курса, доступно по ссылке",
+  "learning.outline.hiddenSequenceLink": "Подразделы не перемещаются между собой, к ним можно перейти только по их ссылке.",
   "learning.outline.dates": "Важные даты",
   "learning.outline.editGoal": "Изменить цель",
   "learning.outline.expandAll": "Развернуть все",
@@ -296,7 +298,7 @@
   "progress.courseGrade.label.passingGrade": "Проходной балл",
   "progress.detailedGrades.problemScore.label": "Оценка проблем:",
   "progress.detailedGrades.problemScore.toggleButton": "Переключить оценку отдельных задач для {subsectionTitle}",
-  "progress.detailedGrades.overridden": "Section grade has been overridden.",
+  "progress.detailedGrades.overridden": "Оценка за раздел была переписана.",
   "progress.score": "Балл",
   "progress.weight": "Вес",
   "progress.weightedGrade": "Взвешенная оценка",
@@ -467,5 +469,10 @@
   "learn.sequence.navigation.next.button": "Вперёд",
   "learn.sequence.navigation.next.up.button": "Следующий: {title}",
   "learn.sequence.navigation.previous.button": "Назад",
+  "courseOutline.loading": "Загрузка...",
+  "courseOutline.toggle.button": "Переключить структуру курса",
+  "courseOutline.tray.title": "Структура курса",
+  "courseOutline.completedUnit": "Завершенный блок",
+  "courseOutline.incompleteUnit": "Незавершенный блок",
   "discussions.sidebar.open.button": "Показать панель обсуждений"
 }
