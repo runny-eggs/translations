@@ -23,7 +23,7 @@
   "ora-grading.ReviewModal.demoHeading": "Демонстрационный режим",
   "ora-grading.ReviewModal.demoMessage": "Вы демонстрируете новый опыт оценки персонала ORA. Вы не сможете выставлять оценки, пока не активируете эту функцию. С 9 мая (09 мая 2022 г.) этот метод станет стандартным. Чтобы принять участие раньше или отказаться от участия, обратитесь в службу поддержки партнеров.",
   "ora-grading.ListView.ListViewBreadcrumbs.backToResponses": "Вернуться ко всем открытым ответам",
-  "ora-grading.ListView.noResultsFoundTitle": "Здесь пока ничего",
+  "ora-grading.ListView.noResultsFoundTitle": "Здесь пока ничего нет",
   "ora-grading.ListView.noResultsFoundBody": "Когда учащиеся отправят ответы, они появятся здесь.",
   "ora-grading.ListView.viewAllResponses": "Посмотреть все ответы",
   "ora-grading.ListView.viewSelectedResponses": "Просмотреть выбранные ответы ( {value} )",

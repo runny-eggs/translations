@@ -19,7 +19,7 @@
   "discussions.empty.allPosts": "Здесь будут отображаться все обсуждения вашего курса.",
   "discussions.empty.myPosts": "Здесь будут отображаться публикации, с которыми вы взаимодействовали.",
   "discussions.empty.topic": "Здесь будут отображаться все обсуждения этой темы.",
-  "discussions.empty.title": "Здесь пока ничего",
+  "discussions.empty.title": "Здесь пока ничего нет",
   "discussions.empty.noPostSelected": "Публикация не выбрана",
   "discussions.empty.noTopicSelected": "Тема не выбрана",
   "discussions.sidebar.noResultsFound": "результаты не найдены",
@@ -53,7 +53,7 @@
   "discussions.subtopics.unnamed.topic.label": "Безымянная тема",
   "discussions.topics.title": "Ни одна тема не существует",
   "discussions.topics.createTopic": "Свяжитесь с администратором для создания темы.",
-  "discussions.topics.nothing": "Здесь пока ничего",
+  "discussions.topics.nothing": "Здесь пока ничего нет",
   "discussions.topics.archived.label": "Архивировано",
   "discussions.learner.reported": "{reported} сообщил",
   "discussions.learner.previouslyReported": "{previouslyReported} сообщалось ранее",
@@ -210,5 +210,5 @@
   "discussions.posts.sort.lastActivity": "Недавняя активность",
   "discussions.posts.sort.commentCount": "Большая активность",
   "discussions.posts.sort.voteCount": "Больше всего лайков",
-  "discussions.posts.sort-filter.sortFilterStatus": "{own, select, false {All} true {Own} Other { {own} } } {status, select, statusAll {} statusUnread {непрочитано} statusFollowing {followed} statusReported {reported} statusUn Answered {без ответа} statusUnresponded {не ответил} Other { {status} } } {type, select, обсуждение {дискуссии} вопрос {вопросы} все {сообщения} другое { {type} } } {cohortType, select, all {} группа {in {cohort} } другое { {cohortType} } } отсортировано по {sort, select, LastActivityAt { недавняя активность} commentCount {наибольшая активность} voiceCount {наибольшее количество лайков} Other { {sort} } }"
+  "discussions.posts.sort-filter.sortFilterStatus": "{own, select, false {Все} true {Own} other {{own}} } {status, select, statusAll {} statusUnread {непрочитанные} statusFollowing {отслеживаемые} statusReported {заявленные} statusUnanswered {без ответа} statusUnresponded {без ответа} other {{status}} } {type, select, discussion {обсуждения} question {вопросы} all {публикации} other {{type}} } {cohortType, select, all {} group {in {cohort}} other {{cohortType}} } отсортированы по {sort, select, lastActivityAt {недавняя активность} commentCount {наибольшая активность} voteCount {больше всего лайков} other {{sort}} }"
 }
