@@ -33,5 +33,8 @@
   "header.user.menu.studio": "Studio Home",
   "header.user.menu.maintenance": "Maintenance",
   "header.label.courseOutline": "Back to course outline in Studio",
-  "header.label.search.nav": "Search content"
+  "header.label.search.nav": "Search content",
+  "header.menu.mycourses.label": "My Courses",
+  "header.menu.discover.label": "Discover"
+
 }

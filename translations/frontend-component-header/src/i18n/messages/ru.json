@@ -33,5 +33,7 @@
   "header.user.menu.studio": "Studio Дом",
   "header.user.menu.maintenance": "Техническое обслуживание",
   "header.label.courseOutline": "Вернуться к плану курса в Студии",
-  "header.label.search.nav": "Поиск по материалу"
+  "header.label.search.nav": "Поиск по материалу",
+  "header.menu.mycourses.label": "Мои Курсы",
+  "header.menu.discover.label": "Познакомиться с курсами"
 }
