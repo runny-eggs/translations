@@ -3,6 +3,10 @@
   "profile.age.details": "Чтобы поделиться своим профилем с другими учащимися {siteName}, вы должны подтвердить, что вам исполнилось 13 лет.",
   "profile.age.set.date": "Установите дату своего рождения",
   "profile.datejoined.member.since": "Участник с {year}",
+  "profile.notfound.message": "Страница, которую вы ищете, недоступна или произошла ошибка в URL-адресе. Пожалуйста, проверьте URL-адрес и повторите попытку.",
+  "profile.viewMyRecords": "Просмотреть мои записи",
+  "profile.loading": "Загрузка профиля ...",
+  "profile.username.description": "Информация вашего профиля видна только вам. Другим пользователям на {siteName} видно только ваше имя пользователя.",
   "profile.bio.empty": "Добавьте короткую биографию",
   "profile.bio.about.me": "Обо мне",
   "profile.certificate.organization.label": "От",
@@ -49,9 +53,5 @@
   "profile.image.alt.attribute": "аватар профиля",
   "profile.profileavatar.change-button": "Изменение",
   "profile.sociallinks.add": "Добавить {network}",
-  "profile.sociallinks.social.links": "Социальные связи",
-  "profile.notfound.message": "Страница, которую вы ищете, недоступна или произошла ошибка в URL-адресе. Пожалуйста, проверьте URL-адрес и повторите попытку.",
-  "profile.viewMyRecords": "Просмотреть мои записи",
-  "profile.loading": "Загрузка профиля ...",
-  "profile.username.description": "Информация вашего профиля видна только вам. Другим пользователям на {siteName} видно только ваше имя пользователя."
+  "profile.sociallinks.social.links": "Ссылки на соц. сети"
 }
