@@ -71,7 +71,7 @@
   "discussions.comments.comment.addResponse": "Add a response",
   "discussions.comments.comment.abuseFlaggedMessage": "Content reported for staff to review",
   "discussions.actions.back.alt": "Back to list",
-  "discussions.comments.comment.responseCount": "{num, plural, =0 {No responses} one {Showing # response} other {Showing # responses} }",
+  "discussions.comments.comment.responseCount": "{num, plural, =0 {No responses} one {Showing # response} other {Показать # ответы} }",
   "discussions.comments.comment.endorsedResponseCount": "{num, plural, =0 {No endorsed responses} one {Showing # endorsed response} other {Showing # endorsed responses} }",
   "discussions.comments.comment.loadMoreComments": "Load more comments",
   "discussions.comments.comment.loadMoreResponses": "Load more responses",
