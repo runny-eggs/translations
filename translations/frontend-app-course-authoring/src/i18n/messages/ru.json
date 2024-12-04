@@ -464,7 +464,7 @@
   "course-authoring.course-outline.status-bar.video-sharing.allOn.text": "Все видео",
   "course-authoring.course-outline.subsection.button.new-unit": "Вставить блок",
   "course-authoring.course-outline.xblock-status.unscheduled.label": "Дата выпуска не задана",
-  "course-authoring.course-outline.xblock-status.released.label": "Выпущено:",
+  "course-authoring.course-outline.xblock-status.released.label": "Выпущено: ",
   "course-authoring.course-outline.xblock-status.scheduled.label": "Планируется выпустить:",
   "course-authoring.course-outline.xblock-status.onboardingExam.value": "Вступительный экзамен",
   "course-authoring.course-outline.xblock-status.practiceProctoredExam.value": "Пробное наблюдаемое испытание",
